@@ -1,0 +1,14 @@
+# Obsidian workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary/export files
+*.tmp
+*.temp
+
+# Optional local backups
+Mimir-Publish-Backup-*/
