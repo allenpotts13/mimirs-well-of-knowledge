@@ -1,5 +1,5 @@
 /*
-Mímir's Well of Knowledge — Obsidian Publish Theme v1
+Mímir's Well of Knowledge — Obsidian Publish Theme v1.1
 Author: Allen Potts / OpenAI-assisted
 Purpose: Professional technical knowledge-base styling with restrained Norse / deep-well influence.
 
@@ -604,5 +604,141 @@ input[type="checkbox"] {
   .markdown-preview-view .markdown-preview-sizer {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+
+/* =========================================================
+   18. LAYOUT GEOMETRY — v1.1
+   Fixes wide-screen overlap between article content and TOC.
+   ========================================================= */
+
+/* Give the three-column layout explicit breathing room. */
+.site-body {
+  --mimir-left-column-width: 270px;
+  --mimir-right-column-width: 280px;
+}
+
+/* Keep the navigation comfortably narrow without crushing labels. */
+.site-body-left-column {
+  width: var(--mimir-left-column-width);
+  min-width: var(--mimir-left-column-width);
+  flex: 0 0 var(--mimir-left-column-width);
+}
+
+/* Reserve real space for the table of contents instead of letting it
+   visually sit on top of the article. */
+.site-body-right-column {
+  width: var(--mimir-right-column-width);
+  min-width: var(--mimir-right-column-width);
+  flex: 0 0 var(--mimir-right-column-width);
+  overflow-x: hidden;
+}
+
+/* The middle pane must be allowed to shrink inside the remaining width.
+   min-width: 0 is especially important in flex layouts. */
+.site-body-center-column {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+/* Constrain prose to the available center pane, not the full viewport. */
+.site-body-center-column .markdown-preview-sizer,
+.site-body-center-column .markdown-preview-view .markdown-preview-sizer {
+  box-sizing: border-box;
+  width: min(100%, var(--mimir-content-width));
+  max-width: min(100%, var(--mimir-content-width));
+  margin-inline: auto;
+}
+
+/* Long headings, links, code-like text, and TOC items should wrap instead
+   of extending beneath adjacent columns. */
+.site-body-center-column .markdown-preview-view h1,
+.site-body-center-column .markdown-preview-view h2,
+.site-body-center-column .markdown-preview-view h3,
+.site-body-center-column .markdown-preview-view h4,
+.site-body-center-column .markdown-preview-view p,
+.site-body-center-column .markdown-preview-view li,
+.site-body-center-column .markdown-preview-view a,
+.site-body-right-column .outline-tree-item-self,
+.site-body-right-column .outline-tree-item-inner {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* Keep preformatted content inside the article pane. */
+.site-body-center-column pre,
+.site-body-center-column table {
+  max-width: 100%;
+}
+
+.site-body-center-column pre {
+  overflow-x: auto;
+}
+
+.site-body-center-column .markdown-preview-view table {
+  display: block;
+  overflow-x: auto;
+}
+
+/* TOC spacing and readability */
+.site-body-right-column .outline-view-outer {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.site-body-right-column .outline-tree-item-self {
+  line-height: 1.35;
+}
+
+/* Slightly reduce desktop content width when both sidebars are visible.
+   This keeps the article visually centered in its own pane. */
+@media (min-width: 1200px) {
+  :root {
+    --mimir-content-width: 820px;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --mimir-content-width: 900px;
+  }
+
+  .site-body {
+    --mimir-left-column-width: 285px;
+    --mimir-right-column-width: 300px;
+  }
+}
+
+/* On medium-width screens, collapse the visual footprint of the TOC before
+   the article becomes cramped. Obsidian Publish may also hide this natively. */
+@media (max-width: 1180px) {
+  .site-body-right-column {
+    display: none;
+  }
+
+  .site-body-center-column .markdown-preview-sizer,
+  .site-body-center-column .markdown-preview-view .markdown-preview-sizer {
+    max-width: min(100%, 860px);
+  }
+}
+
+/* Mobile/tablet: let Obsidian's native drawer behavior take over. */
+@media (max-width: 750px) {
+  .site-body {
+    --mimir-left-column-width: auto;
+    --mimir-right-column-width: auto;
+  }
+
+  .site-body-left-column {
+    width: auto;
+    min-width: 0;
+    flex: initial;
+  }
+
+  .site-body-center-column {
+    width: 100%;
   }
 }
