@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Storage Modes - Import vs DirectQuery vs Live Connection
+# <span class="rune">ᛟ</span> Storage Modes - Import vs DirectQuery vs Live Connection
 
 > How a dataset actually gets its data determines everything about performance, freshness, and what DAX features are even available.
 

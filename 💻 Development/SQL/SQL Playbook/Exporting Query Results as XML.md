@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Exporting Query Results as XML
+# <span class="rune">ᚲ</span> Exporting Query Results as XML
 
 > *Shape a result set directly into XML using SQL Server's FOR XML clause.*
 

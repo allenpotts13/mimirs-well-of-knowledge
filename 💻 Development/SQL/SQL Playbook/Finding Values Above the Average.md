@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Values Above the Average
+# <span class="rune">ᚲ</span> Finding Values Above the Average
 
 > *Return rows whose value is greater than the average calculated across a dataset.*
 

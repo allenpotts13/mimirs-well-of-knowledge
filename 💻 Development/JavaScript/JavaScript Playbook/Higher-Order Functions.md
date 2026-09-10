@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Higher-Order Functions
+# <span class="rune">ᛟ</span> Higher-Order Functions
 
 > *A higher-order function is a function that treats other functions as data — it takes a function in as an argument, hands one back out as a return value, or both.*
 

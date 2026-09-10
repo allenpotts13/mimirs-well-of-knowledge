@@ -21,7 +21,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Undoing Changes: checkout, restore, and reset
+# <span class="rune">ᛟ</span> Undoing Changes: checkout, restore, and reset
 
 > *Undoing something in Git is never one operation — it's always a question of which of the three trees (working directory, staging area, repository) you actually want to rewind, and `restore` and `reset` exist precisely to let you answer that question precisely.*
 

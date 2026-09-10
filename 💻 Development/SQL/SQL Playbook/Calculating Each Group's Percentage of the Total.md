@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Calculating Each Group's Percentage of the Total
+# <span class="rune">ᚲ</span> Calculating Each Group's Percentage of the Total
 
 > *Divide each group's count (or sum) by the grand total, multiplied by 100, to express each group as a share of the whole.*
 

@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Data Factory vs Stream Analytics vs Synapse
+# <span class="rune">ᚲ</span> Data Factory vs Stream Analytics vs Synapse
 
 > *Three services that all touch "analytics" but each own a distinct piece of the pipeline.*
 

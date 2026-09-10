@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding the Second Highest Value
+# <span class="rune">ᚲ</span> Finding the Second Highest Value
 
 >*Retrieve the second highest distinct value from a dataset without using sorting.*
 

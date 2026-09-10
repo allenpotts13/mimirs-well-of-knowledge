@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Form Submission: GET vs POST
+# <span class="rune">ᛟ</span> Form Submission: GET vs POST
 
 > *`method="get"` puts your form data in the URL for the world (and the browser history) to see; `method="post"` puts it in the request body where it belongs for anything sensitive or state-changing.*
 

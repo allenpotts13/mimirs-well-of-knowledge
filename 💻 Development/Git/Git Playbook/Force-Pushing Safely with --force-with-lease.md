@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Force-Pushing Safely with --force-with-lease
+# <span class="rune">ᛟ</span> Force-Pushing Safely with --force-with-lease
 
 > *`--force-with-lease` force-pushes only if the remote branch still looks the way it did the last time you fetched it — turning a blind overwrite into a checked one.*
 

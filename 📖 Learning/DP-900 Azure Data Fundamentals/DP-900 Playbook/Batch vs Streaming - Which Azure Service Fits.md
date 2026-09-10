@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Batch vs Streaming - Which Azure Service Fits
+# <span class="rune">ᚲ</span> Batch vs Streaming - Which Azure Service Fits
 
 > *Latency requirement in the scenario tells you which family of services to reach for.*
 

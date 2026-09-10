@@ -3,7 +3,7 @@ publish: false
 status: private
 ---
 
-# 🧠 Mimir
+# <span class="rune">ᛗ</span> Mimir
 
 "Don't collect information. Build knowledge."
 

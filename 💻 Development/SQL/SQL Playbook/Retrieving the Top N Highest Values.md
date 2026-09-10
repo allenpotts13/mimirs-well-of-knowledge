@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Retrieving the Top N Highest Values
+# <span class="rune">ᚲ</span> Retrieving the Top N Highest Values
 
 > *Sort records from highest to lowest by a target value and return only the first N rows.*
 

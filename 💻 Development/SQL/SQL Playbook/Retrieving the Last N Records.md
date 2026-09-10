@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Retrieving the Last N Records
+# <span class="rune">ᚲ</span> Retrieving the Last N Records
 
 > *Sort records by a column that defines sequence or recency and limit the result to the desired number of rows.*
 

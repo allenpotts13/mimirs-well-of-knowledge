@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Comments in HTML
+# <span class="rune">ᛟ</span> Comments in HTML
 
 > *`<!-- -->` hides text from the rendered page, but not from anyone who views the source — comments are for notes to fellow developers, never for secrets.*
 

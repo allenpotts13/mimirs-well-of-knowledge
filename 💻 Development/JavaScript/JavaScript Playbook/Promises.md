@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Promises
+# <span class="rune">ᛟ</span> Promises
 
 > *A promise is a placeholder for a value that doesn't exist yet — a receipt for work that's still happening, which will eventually resolve to either a result or a reason it failed.*
 

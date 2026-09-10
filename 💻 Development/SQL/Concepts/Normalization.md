@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Normalization
+# <span class="rune">ᛟ</span> Normalization
 
 > Organizing tables so each piece of data lives in exactly one place, eliminating redundancy and the update bugs it causes.
 

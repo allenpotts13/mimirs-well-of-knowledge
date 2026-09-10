@@ -13,7 +13,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Choosing the Right Azure Compute Service
+# <span class="rune">ᚲ</span> Choosing the Right Azure Compute Service
 
 > *Six compute services, one spectrum: how much of the stack do you want to manage versus hand off?*
 

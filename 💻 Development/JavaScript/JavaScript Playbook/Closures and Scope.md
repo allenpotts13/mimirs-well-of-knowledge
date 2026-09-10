@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Closures and Scope
+# <span class="rune">ᛟ</span> Closures and Scope
 
 > *A closure is a function that remembers the variables from the place it was defined, even after that outer place has finished running.*
 

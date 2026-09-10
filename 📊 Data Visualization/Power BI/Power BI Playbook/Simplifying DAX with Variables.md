@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Simplifying DAX with Variables
+# <span class="rune">ᚲ</span> Simplifying DAX with Variables
 
 > Name intermediate results instead of repeating the same subexpression — the single easiest habit to make complex DAX readable and faster.
 

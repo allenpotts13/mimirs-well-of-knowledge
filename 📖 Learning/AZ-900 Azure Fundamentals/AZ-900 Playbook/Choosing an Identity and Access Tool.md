@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Choosing an Identity and Access Tool
+# <span class="rune">ᚲ</span> Choosing an Identity and Access Tool
 
 > *Entra ID is the platform; MFA, Conditional Access, and External Identities are the features layered on top of it for specific jobs.*
 

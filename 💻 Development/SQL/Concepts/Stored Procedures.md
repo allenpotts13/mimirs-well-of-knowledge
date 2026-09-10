@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Stored Procedures
+# <span class="rune">ᛟ</span> Stored Procedures
 
 > A named, precompiled block of SQL saved in the database and executed by calling its name — logic that lives with the data instead of in application code.
 

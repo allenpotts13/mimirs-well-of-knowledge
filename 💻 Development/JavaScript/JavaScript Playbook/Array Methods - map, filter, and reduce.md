@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Array Methods: map, filter, and reduce
+# <span class="rune">ᛟ</span> Array Methods: map, filter, and reduce
 
 > *`map` transforms, `filter` selects, `reduce` combines — and none of the three ever touches the array you started with.*
 

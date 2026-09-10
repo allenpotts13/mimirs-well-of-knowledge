@@ -13,7 +13,7 @@ aliases:
 publish: true
 ---
 
-# 📚 DAX Fundamentals
+# <span class="rune">ᛟ</span> DAX Fundamentals
 
 > The formula language behind every measure and calculated column in Power BI — closer to Excel formulas than to SQL, but with its own distinct rules.
 

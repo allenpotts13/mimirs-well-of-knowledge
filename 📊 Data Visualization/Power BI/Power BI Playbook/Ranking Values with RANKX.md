@@ -13,7 +13,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Ranking Values with RANKX
+# <span class="rune">ᚲ</span> Ranking Values with RANKX
 
 > Assign each row a rank relative to the rest of the table — the DAX equivalent of a SQL window function ranking.
 

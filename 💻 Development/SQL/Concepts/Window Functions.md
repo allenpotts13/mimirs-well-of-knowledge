@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Window Functions
+# <span class="rune">ᛟ</span> Window Functions
 
 > Calculate across a set of related rows without collapsing them into one row — unlike GROUP BY, every original row survives.
 

@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Values Within a Range
+# <span class="rune">ᚲ</span> Finding Values Within a Range
 
 > *Use `BETWEEN` to filter values that fall within an inclusive lower and upper boundary.*
 

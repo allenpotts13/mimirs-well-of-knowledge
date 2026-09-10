@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Aggregating Values Within a Date Range
+# <span class="rune">ᚲ</span> Aggregating Values Within a Date Range
 
 > *Combine a `WHERE`-clause date filter with a `GROUP BY` aggregate to summarize activity within a specific window of time, such as year-to-date.*
 

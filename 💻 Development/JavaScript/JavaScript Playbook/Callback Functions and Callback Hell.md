@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Callback Functions and Callback Hell
+# <span class="rune">ᛟ</span> Callback Functions and Callback Hell
 
 > *A callback is simply a function passed as an argument to another function, to be called later — but nesting too many of them to handle sequential async steps produces the notorious "callback hell" pyramid.*
 

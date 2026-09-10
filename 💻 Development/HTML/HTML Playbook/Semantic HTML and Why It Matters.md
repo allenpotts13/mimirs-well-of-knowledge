@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Semantic HTML and Why It Matters
+# <span class="rune">ᛟ</span> Semantic HTML and Why It Matters
 
 > *Choosing an element for what it means, not just how it looks, is what lets browsers, screen readers, and search engines understand your page instead of just rendering it.*
 

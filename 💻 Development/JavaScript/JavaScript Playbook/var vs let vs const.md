@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 var vs let vs const
+# <span class="rune">ᛟ</span> var vs let vs const
 
 > *`var` is function-scoped and forgiving to a fault; `let` and `const` are block-scoped and will actually stop you from using a variable before it exists.*
 

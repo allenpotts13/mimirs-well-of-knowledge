@@ -13,7 +13,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Calculating Year-to-Date Totals
+# <span class="rune">ᚲ</span> Calculating Year-to-Date Totals
 
 > Sum everything from the start of the current year up to the latest date in view — without hand-writing date range math.
 

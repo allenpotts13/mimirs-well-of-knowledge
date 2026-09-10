@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Responsive Design with Media Queries
+# <span class="rune">ᛟ</span> Responsive Design with Media Queries
 
 > *Media queries let you apply CSS conditionally based on the viewport (or device) — the mechanism that makes one codebase adapt from a phone screen to a widescreen monitor instead of needing separate sites for each.*
 

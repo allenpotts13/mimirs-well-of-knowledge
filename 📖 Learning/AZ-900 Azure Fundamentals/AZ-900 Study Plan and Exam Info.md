@@ -12,7 +12,7 @@ aliases:
 publish: true
 ---
 
-# 🗓 AZ-900 Study Plan and Exam Info
+# <span class="rune">ᛃ</span> AZ-900 Study Plan and Exam Info
 
 ---
 

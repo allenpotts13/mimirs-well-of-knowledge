@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Understanding HEAD and Detached HEAD State
+# <span class="rune">ᛟ</span> Understanding HEAD and Detached HEAD State
 
 > *HEAD is just a pointer to "where you currently are" in the commit graph — normally it points at a branch name, which points at a commit, but you can also point it straight at a commit, and that one change explains an entire category of "wait, where did my commits go?" panic.*
 

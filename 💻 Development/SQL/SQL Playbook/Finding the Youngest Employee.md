@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding the Youngest Employee
+# <span class="rune">ᚲ</span> Finding the Youngest Employee
 
 > *Sort birth dates from most recent to oldest and return the first record.*
 

@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding the Highest Salary in Each Department
+# <span class="rune">ᚲ</span> Finding the Highest Salary in Each Department
 
 > *Use a correlated subquery to compare each employee's salary against the maximum salary for that employee's department.*
 

@@ -13,7 +13,7 @@ aliases:
 publish: true
 ---
 
-# 📚 The CALCULATE Function
+# <span class="rune">ᛟ</span> The CALCULATE Function
 
 > The single most powerful — and most important — function in DAX: it changes the filter context an expression is evaluated in.
 

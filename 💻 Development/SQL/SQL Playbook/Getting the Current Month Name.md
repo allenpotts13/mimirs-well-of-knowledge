@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Getting the Current Month Name
+# <span class="rune">ᚲ</span> Getting the Current Month Name
 
 > *Read today's month as a word instead of a number.*
 

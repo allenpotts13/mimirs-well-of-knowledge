@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Identity, Access, and Security
+# <span class="rune">ᛟ</span> Identity, Access, and Security
 
 > *Knowing who someone is (authentication), deciding what they're allowed to touch (authorization), and assuming every request is hostile until proven otherwise (Zero Trust).*
 

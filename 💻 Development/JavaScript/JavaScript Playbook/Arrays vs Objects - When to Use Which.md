@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Arrays vs Objects: When to Use Which
+# <span class="rune">ᛟ</span> Arrays vs Objects: When to Use Which
 
 > *Arrays are ordered, indexed collections built for lists where position matters; objects are keyed collections built for data where named properties matter more than position.*
 

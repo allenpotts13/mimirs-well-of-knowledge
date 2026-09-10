@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 CSS Variables (Custom Properties)
+# <span class="rune">ᛟ</span> CSS Variables (Custom Properties)
 
 > *A CSS custom property (`--name: value;`) is a value stored on an element that cascades and inherits like any other CSS property, and can be read back anywhere below it with `var(--name)` — live, in the browser, at any time.*
 

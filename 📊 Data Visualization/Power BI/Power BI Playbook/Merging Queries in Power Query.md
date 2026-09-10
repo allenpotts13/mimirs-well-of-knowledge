@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Merging Queries in Power Query
+# <span class="rune">ᚲ</span> Merging Queries in Power Query
 
 > Power Query's version of a [[INNER JOIN|join]] — combine columns from two queries based on matching key values, before the data ever reaches the model.
 

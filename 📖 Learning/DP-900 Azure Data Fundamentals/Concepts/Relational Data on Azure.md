@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Relational Data on Azure
+# <span class="rune">ᛟ</span> Relational Data on Azure
 
 > *Relational theory you already know from [[SQL Codex]], mapped onto which Azure product to actually deploy.*
 

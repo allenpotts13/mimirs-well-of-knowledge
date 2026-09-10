@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Data Attributes (data-*)
+# <span class="rune">ᛟ</span> Data Attributes (data-*)
 
 > *`data-*` attributes are the one standards-blessed way to stash custom information on an HTML element — a valid alternative to inventing an attribute HTML never agreed to.*
 

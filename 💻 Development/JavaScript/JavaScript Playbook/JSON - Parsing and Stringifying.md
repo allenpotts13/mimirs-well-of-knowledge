@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 JSON: Parsing and Stringifying
+# <span class="rune">ᛟ</span> JSON: Parsing and Stringifying
 
 > *`JSON.stringify()` turns a JavaScript value into a JSON text string; `JSON.parse()` turns a JSON text string back into a JavaScript value — and the two are not always perfect mirror images of each other.*
 

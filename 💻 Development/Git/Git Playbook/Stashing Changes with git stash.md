@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Stashing Changes with git stash
+# <span class="rune">ᛟ</span> Stashing Changes with git stash
 
 > *A stash is a shelf where you can set down unfinished work mid-thought, walk away to do something else, and come back later to pick it up exactly where you left off.*
 

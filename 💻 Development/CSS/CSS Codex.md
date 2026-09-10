@@ -3,7 +3,7 @@ publish: true
 status: published
 ---
 
-# 🎨 CSS
+# <span class="rune">ᚹ</span> CSS
 
 > "Layout fights are almost always specificity fights in disguise."
 

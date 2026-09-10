@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 CSS Grid Layout Fundamentals
+# <span class="rune">ᛟ</span> CSS Grid Layout Fundamentals
 
 > *CSS Grid is a two-dimensional layout system that lets you define rows and columns at the same time and place items precisely into that structure — the tool flexbox was never designed to be.*
 

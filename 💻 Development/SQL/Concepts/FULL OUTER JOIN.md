@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 FULL OUTER JOIN
+# <span class="rune">ᛟ</span> FULL OUTER JOIN
 
 > Returns every row from both tables, matching where possible and filling in NULL wherever one side has nothing to match.
 

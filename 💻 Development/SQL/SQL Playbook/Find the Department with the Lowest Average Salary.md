@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Find the Department with the Lowest Average Salary
+# <span class="rune">ᚲ</span> Find the Department with the Lowest Average Salary
 
 > *A reusable SQL solution for finding the department with the lowest average salary.*
 

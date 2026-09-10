@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Checking Whether a Table Is Empty
+# <span class="rune">ᚲ</span> Checking Whether a Table Is Empty
 
 > *Use `EXISTS` to ask "is there at least one row?" instead of counting every row to find out.*
 

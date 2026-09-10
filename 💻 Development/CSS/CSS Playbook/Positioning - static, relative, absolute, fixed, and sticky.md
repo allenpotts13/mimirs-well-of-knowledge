@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Positioning: static, relative, absolute, fixed, and sticky
+# <span class="rune">ᛟ</span> Positioning: static, relative, absolute, fixed, and sticky
 
 > *The `position` property decides how an element is placed relative to the normal document flow — and each of its five values answers "relative to what?" differently, which is exactly where most positioning bugs come from.*
 

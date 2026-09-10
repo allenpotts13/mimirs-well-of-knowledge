@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Understanding the Three Trees
+# <span class="rune">ᛟ</span> Understanding the Three Trees
 
 > *Every tracked file exists in up to three places at once — the working directory, the staging area, and the repository — and nearly every confusing Git command is really just moving content between them.*
 

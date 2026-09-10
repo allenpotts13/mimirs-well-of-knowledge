@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Lists: Ordered, Unordered, and Description
+# <span class="rune">ᛟ</span> Lists: Ordered, Unordered, and Description
 
 > *Choosing between `<ol>` and `<ul>` is a decision about meaning — whether sequence matters — not about which bullet style you'd prefer to look at.*
 

@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 RIGHT JOIN
+# <span class="rune">ᛟ</span> RIGHT JOIN
 
 > Returns every row from the right table, plus matching rows from the left table — the mirror image of LEFT JOIN.
 

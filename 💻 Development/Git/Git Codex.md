@@ -3,7 +3,7 @@ publish: true
 status: published
 ---
 
-# 🔀 Git
+# <span class="rune">ᚦ</span> Git
 
 > "Version control isn't about tracking files — it's about tracking decisions."
 

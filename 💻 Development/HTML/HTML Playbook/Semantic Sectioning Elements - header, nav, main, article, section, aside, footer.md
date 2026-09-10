@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Semantic Sectioning Elements: header, nav, main, article, section, aside, footer
+# <span class="rune">ᛟ</span> Semantic Sectioning Elements: header, nav, main, article, section, aside, footer
 
 > *These seven elements give a page's major regions real meaning — "this is the navigation," "this is the one unique main content," "this stands alone" — instead of everything being an anonymous `<div>`.*
 

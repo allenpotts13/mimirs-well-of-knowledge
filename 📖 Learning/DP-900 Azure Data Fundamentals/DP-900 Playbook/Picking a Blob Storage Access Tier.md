@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Picking a Blob Storage Access Tier
+# <span class="rune">ᚲ</span> Picking a Blob Storage Access Tier
 
 > *Cost and retrieval speed move in opposite directions — the scenario tells you which one matters more.*
 

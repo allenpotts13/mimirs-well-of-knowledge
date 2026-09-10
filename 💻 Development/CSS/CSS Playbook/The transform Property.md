@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 The transform Property
+# <span class="rune">ᛟ</span> The transform Property
 
 > *`transform` moves, scales, rotates, or skews an element visually without ever touching the document's layout — nothing around it reflows, which is exactly why it's the property animators reach for first.*
 

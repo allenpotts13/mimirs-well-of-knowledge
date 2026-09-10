@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Tagging Releases
+# <span class="rune">ᛟ</span> Tagging Releases
 
 > *A tag is a permanent, human-readable bookmark for one specific commit — usually "this exact snapshot is version 1.2.0" — and Git gives you two flavors, a bare pointer or a full annotated record, depending on how much you need it to remember.*
 

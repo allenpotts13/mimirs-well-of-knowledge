@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 DDL vs DML vs DCL vs TCL
+# <span class="rune">ᛟ</span> DDL vs DML vs DCL vs TCL
 
 > Every SQL statement falls into one of four categories, based on what kind of thing it changes — structure, data, permissions, or transaction state.
 

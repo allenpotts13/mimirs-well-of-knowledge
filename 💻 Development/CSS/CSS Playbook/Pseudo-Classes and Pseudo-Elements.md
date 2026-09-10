@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Pseudo-Classes and Pseudo-Elements
+# <span class="rune">ᛟ</span> Pseudo-Classes and Pseudo-Elements
 
 > *Pseudo-classes (`:hover`) select a real element based on a state it's in; pseudo-elements (`::before`) select a piece of an element that doesn't exist in the DOM at all — one colon vs. two colons marks that difference.*
 

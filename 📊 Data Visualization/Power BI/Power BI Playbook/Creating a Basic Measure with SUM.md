@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Creating a Basic Measure with SUM
+# <span class="rune">ᚲ</span> Creating a Basic Measure with SUM
 
 > The first measure almost everyone writes, and the template every other aggregation measure builds on.
 

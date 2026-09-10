@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Arrow Functions vs Regular Functions
+# <span class="rune">ᛟ</span> Arrow Functions vs Regular Functions
 
 > *Arrow functions are shorter regular functions in every way except one — and that one difference is exactly why you can't use them everywhere.*
 

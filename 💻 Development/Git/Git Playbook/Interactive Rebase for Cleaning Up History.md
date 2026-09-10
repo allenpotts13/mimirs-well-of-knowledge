@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Interactive Rebase for Cleaning Up History
+# <span class="rune">ᛟ</span> Interactive Rebase for Cleaning Up History
 
 > *Interactive rebase is a scripted rewrite of your own recent commits — a chance to edit the story of your work before anyone else has to read it.*
 

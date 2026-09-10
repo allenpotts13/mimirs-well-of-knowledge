@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Meta Tags and Basic SEO
+# <span class="rune">ᛟ</span> Meta Tags and Basic SEO
 
 > *Nothing in `<meta>` tags is visible on the page itself — they're a set of small, invisible instructions telling browsers how to render it, search engines how to describe it, and social platforms how to preview it.*
 

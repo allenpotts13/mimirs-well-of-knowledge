@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Prototypes and Prototypal Inheritance
+# <span class="rune">ᛟ</span> Prototypes and Prototypal Inheritance
 
 > *Every JavaScript object has a hidden link to another object it can delegate to when a property or method isn't found on itself — that chain of links is how JavaScript does inheritance, and `class` is just a friendlier syntax layered on top of it.*
 

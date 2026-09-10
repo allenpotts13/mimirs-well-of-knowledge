@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Values That Start With a Pattern
+# <span class="rune">ᚲ</span> Finding Values That Start With a Pattern
 
 > *Use `LIKE` with the `%` wildcard to return text values that begin with a specified sequence.*
 

@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Filtering Rows Above Their Group's Average
+# <span class="rune">ᚲ</span> Filtering Rows Above Their Group's Average
 
 > *Use a correlated subquery to compare each row against the average of its own group, rather than the average of the entire table.*
 

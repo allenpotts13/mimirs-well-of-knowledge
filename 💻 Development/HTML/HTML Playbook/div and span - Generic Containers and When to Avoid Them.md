@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 div and span: Generic Containers and When to Avoid Them
+# <span class="rune">ᛟ</span> div and span: Generic Containers and When to Avoid Them
 
 > *`<div>` and `<span>` are the only two elements in HTML that mean nothing on purpose — which makes them exactly right for pure styling hooks, and exactly wrong for anything that already has a name.*
 

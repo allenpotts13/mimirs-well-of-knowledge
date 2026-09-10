@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Choosing the Right Cosmos DB API
+# <span class="rune">ᚲ</span> Choosing the Right Cosmos DB API
 
 > *One engine, five faces — the exam wants you to match the data shape in the scenario to the API built for it.*
 

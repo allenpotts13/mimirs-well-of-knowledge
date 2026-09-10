@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Character Encoding and HTML Entities
+# <span class="rune">ᛟ</span> Character Encoding and HTML Entities
 
 > *A browser can only render text correctly if it agrees with the server about which bytes mean which characters — declare `UTF-8` first, and use entities for characters HTML would otherwise misread as markup.*
 

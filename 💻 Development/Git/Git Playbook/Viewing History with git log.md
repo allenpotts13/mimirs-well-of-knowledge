@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Viewing History with git log
+# <span class="rune">ᛟ</span> Viewing History with git log
 
 > *`git log` is Git's window into everything that's ever happened in a repository — and knowing its handful of power flags turns it from a wall of text into a precise, queryable timeline.*
 

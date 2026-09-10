@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Increasing Every Employee's Salary by 10%
+# <span class="rune">ᚲ</span> Increasing Every Employee's Salary by 10%
 
 > *Use an `UPDATE` statement with an arithmetic expression to modify numeric values by a percentage.*
 

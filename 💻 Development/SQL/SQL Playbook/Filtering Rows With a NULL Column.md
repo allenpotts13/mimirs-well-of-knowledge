@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Filtering Rows With a NULL Column
+# <span class="rune">ᚲ</span> Filtering Rows With a NULL Column
 
 > *Test for missing values the only way SQL actually allows: IS NULL.*
 

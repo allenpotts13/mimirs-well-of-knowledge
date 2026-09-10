@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Headings and Document Outline
+# <span class="rune">ᛟ</span> Headings and Document Outline
 
 > *Headings aren't font-size shortcuts — they're a table of contents baked directly into the page that screen reader users navigate by, and search engines read as your content's structure.*
 

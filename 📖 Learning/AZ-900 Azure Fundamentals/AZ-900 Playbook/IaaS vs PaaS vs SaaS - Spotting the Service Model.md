@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 IaaS vs PaaS vs SaaS - Spotting the Service Model
+# <span class="rune">ᚲ</span> IaaS vs PaaS vs SaaS - Spotting the Service Model
 
 > *What are you responsible for managing in this scenario? That's the whole question.*
 

@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Filtering Values That Are a Multiple of a Number
+# <span class="rune">ᚲ</span> Filtering Values That Are a Multiple of a Number
 
 > *Use the modulo operator to test whether a numeric column divides evenly.*
 

@@ -14,7 +14,7 @@ aliases:
 publish: false
 ---
 
-# 🧩 Converting Text to Lowercase
+# <span class="rune">ᚲ</span> Converting Text to Lowercase
 
 > *Normalize a string to all lowercase characters.*
 

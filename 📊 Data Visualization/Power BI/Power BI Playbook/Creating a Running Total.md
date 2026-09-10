@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Creating a Running Total
+# <span class="rune">ᚲ</span> Creating a Running Total
 
 > Accumulate a measure over time — each point on the chart shows everything up to and including that date, not just that date's own value.
 

@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Core Azure Architecture and Services
+# <span class="rune">ᛟ</span> Core Azure Architecture and Services
 
 > *How Azure organizes the planet's datacenters into something you can point resources at, and the core building blocks — compute, networking, storage — you deploy into them.*
 

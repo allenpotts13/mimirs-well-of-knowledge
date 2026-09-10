@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 The label Element and Form Accessibility
+# <span class="rune">ᛟ</span> The label Element and Form Accessibility
 
 > *`<label>` isn't just text next to an input — properly associated, it becomes part of the input's clickable target and the exact words a screen reader announces when that field receives focus.*
 

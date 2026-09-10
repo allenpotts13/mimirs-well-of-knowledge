@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Mobile-First vs Desktop-First Design
+# <span class="rune">ᛟ</span> Mobile-First vs Desktop-First Design
 
 > *Mobile-first means your unqualified CSS is the small-screen layout, and every media query adds complexity as the screen grows — the opposite of starting from desktop and subtracting your way down.*
 

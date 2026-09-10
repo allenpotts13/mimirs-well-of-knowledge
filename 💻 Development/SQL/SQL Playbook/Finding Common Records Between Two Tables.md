@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Common Records Between Two Tables
+# <span class="rune">ᚲ</span> Finding Common Records Between Two Tables
 
 > *Use the `INTERSECT` set operator to return rows that exist in the results of both queries.*
 

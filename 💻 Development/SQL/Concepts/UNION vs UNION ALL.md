@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 UNION vs UNION ALL
+# <span class="rune">ᛟ</span> UNION vs UNION ALL
 
 > Both stack the results of two queries on top of each other — UNION removes duplicates in the process, UNION ALL doesn't.
 

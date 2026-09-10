@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Calculating a Total with SUM()
+# <span class="rune">ᚲ</span> Calculating a Total with SUM()
 
 > *Use `SUM()` to add the numeric values from multiple rows and return a single total.*
 

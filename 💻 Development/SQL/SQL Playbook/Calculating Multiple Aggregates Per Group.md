@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Calculating Multiple Aggregates Per Group
+# <span class="rune">ᚲ</span> Calculating Multiple Aggregates Per Group
 
 > *Compute several aggregate functions together in the same grouped query, instead of running a separate query per metric.*
 

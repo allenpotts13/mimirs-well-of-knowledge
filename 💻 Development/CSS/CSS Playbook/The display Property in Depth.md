@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 The display Property in Depth
+# <span class="rune">ᛟ</span> The display Property in Depth
 
 > *`display` decides not just how much space an element takes up, but whether it participates in layout at all — and the gap between "invisible" (`visibility: hidden`) and "not there" (`display: none`) is where a lot of layout bugs are born.*
 

@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding the Group With the Highest Count
+# <span class="rune">ᚲ</span> Finding the Group With the Highest Count
 
 > *Group rows by a category, count the members of each group, sort the counts from highest to lowest, and return the largest result.*
 

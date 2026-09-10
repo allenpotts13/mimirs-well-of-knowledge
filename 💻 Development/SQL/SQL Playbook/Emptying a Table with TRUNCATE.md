@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Emptying a Table with TRUNCATE
+# <span class="rune">ᚲ</span> Emptying a Table with TRUNCATE
 
 > *Remove every row from a table in one fast, unlogged sweep while keeping the table structure intact.*
 

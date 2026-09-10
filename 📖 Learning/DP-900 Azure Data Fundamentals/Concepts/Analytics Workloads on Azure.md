@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Analytics Workloads on Azure
+# <span class="rune">ᛟ</span> Analytics Workloads on Azure
 
 > *The pipeline that turns raw data into a Power BI dashboard, and every Azure service that lives along the way.*
 

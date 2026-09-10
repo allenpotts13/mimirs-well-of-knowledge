@@ -12,7 +12,7 @@ aliases:
 publish: true
 ---
 
-# 🗓 DP-900 Study Plan and Exam Info
+# <span class="rune">ᛃ</span> DP-900 Study Plan and Exam Info
 
 ---
 

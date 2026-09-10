@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Query Execution Order
+# <span class="rune">ᛟ</span> Query Execution Order
 
 > SQL is written in one order but executed in a completely different one — knowing the real order explains a lot of "why doesn't this work" moments.
 

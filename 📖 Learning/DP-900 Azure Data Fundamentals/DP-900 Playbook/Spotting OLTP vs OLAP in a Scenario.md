@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Spotting OLTP vs OLAP in a Scenario
+# <span class="rune">ᚲ</span> Spotting OLTP vs OLAP in a Scenario
 
 > *The most repeated pattern-match on the exam, dressed up in a dozen different wordings.*
 

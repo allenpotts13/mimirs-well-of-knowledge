@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Images and Responsive Images (srcset and picture)
+# <span class="rune">ᛟ</span> Images and Responsive Images (srcset and picture)
 
 > *A single `<img>` tag can only ever serve one file — `srcset`, `sizes`, and `<picture>` exist to let the browser pick the right file, or the right crop, for the device actually looking at it.*
 

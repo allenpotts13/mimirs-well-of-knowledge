@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Resolving Merge Conflicts
+# <span class="rune">ᛟ</span> Resolving Merge Conflicts
 
 > *A merge conflict isn't Git failing — it's Git honestly admitting that two people changed the same lines and it refuses to guess which version you actually want.*
 

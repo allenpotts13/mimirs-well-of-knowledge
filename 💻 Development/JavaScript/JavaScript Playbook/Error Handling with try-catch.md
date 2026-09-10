@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Error Handling with try/catch
+# <span class="rune">ᛟ</span> Error Handling with try/catch
 
 > *`try`/`catch` lets you attempt a risky piece of code and gracefully handle whatever goes wrong, instead of letting the whole program crash.*
 

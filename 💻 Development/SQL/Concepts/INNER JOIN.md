@@ -14,7 +14,7 @@ publish: true
 ---
 
 ---
-# 📚 INNER JOIN
+# <span class="rune">ᛟ</span> INNER JOIN
 
 > Returns only rows that have matching values in both tables.
 

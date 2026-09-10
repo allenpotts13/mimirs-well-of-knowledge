@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Reverting a Commit vs Resetting
+# <span class="rune">ᛟ</span> Reverting a Commit vs Resetting
 
 > *`git revert` undoes a commit by adding a new one that cancels it out; `git reset` undoes a commit by pretending it never existed — and once history is shared with anyone else, that difference is the whole ballgame.*
 

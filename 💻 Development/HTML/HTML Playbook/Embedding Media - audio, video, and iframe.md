@@ -19,7 +19,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Embedding Media: audio, video, and iframe
+# <span class="rune">ᛟ</span> Embedding Media: audio, video, and iframe
 
 > *`<audio>`, `<video>`, and `<iframe>` all embed something the browser doesn't fully control the internals of — which is exactly why each comes with its own set of attributes for controlling playback, format fallback, and what the embedded content is allowed to do.*
 

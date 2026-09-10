@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Employees With No Subordinates
+# <span class="rune">ᚲ</span> Finding Employees With No Subordinates
 
 > *Use `NOT IN` against the set of all `manager_id` values to find employees nobody reports to.*
 

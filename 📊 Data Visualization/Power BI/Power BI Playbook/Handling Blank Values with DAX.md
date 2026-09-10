@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Handling Blank Values with DAX
+# <span class="rune">ᚲ</span> Handling Blank Values with DAX
 
 > BLANK() is DAX's version of NULL — and DIVIDE() is the safe way to avoid it turning into a visible error.
 

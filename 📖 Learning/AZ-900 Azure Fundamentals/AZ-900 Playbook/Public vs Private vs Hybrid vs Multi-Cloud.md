@@ -13,7 +13,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Public vs Private vs Hybrid vs Multi-Cloud
+# <span class="rune">ᚲ</span> Public vs Private vs Hybrid vs Multi-Cloud
 
 > *The first classification question the exam asks, and the easiest one to overthink.*
 

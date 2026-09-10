@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Filtering a Measure with CALCULATE and FILTER
+# <span class="rune">ᚲ</span> Filtering a Measure with CALCULATE and FILTER
 
 > Override or add to a report's existing filters with a specific, custom condition — the workhorse pattern behind most "compare this segment to that segment" measures.
 

@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Records With a Missing Relationship
+# <span class="rune">ᚲ</span> Finding Records With a Missing Relationship
 
 > *Use `IS NULL` to find rows where an optional relationship or value is missing.*
 

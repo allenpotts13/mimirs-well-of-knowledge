@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Flexbox Layout Fundamentals
+# <span class="rune">ᛟ</span> Flexbox Layout Fundamentals
 
 > *Flexbox is a one-dimensional layout system that lets a container distribute space among its children along a single axis — row or column — solving alignment and spacing problems that used to require float hacks and magic numbers.*
 

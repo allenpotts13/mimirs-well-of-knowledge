@@ -15,7 +15,7 @@ publish: false
 ---
 
 ---
-# 📚 <% tp.file.title %>
+# <span class="rune">ᛟ</span> <% tp.file.title %>
 
 > *One sentence definition.*
 

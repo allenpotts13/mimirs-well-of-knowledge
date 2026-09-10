@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Document Structure: doctype, html, head, and body
+# <span class="rune">ᛟ</span> Document Structure: doctype, html, head, and body
 
 > *Every HTML document is built from four load-bearing pieces — `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` — and skipping or misusing any one of them quietly changes how the page behaves.*
 

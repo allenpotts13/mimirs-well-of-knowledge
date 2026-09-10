@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Dataflows
+# <span class="rune">ᛟ</span> Dataflows
 
 > Power Query transformations, moved out of individual reports and into a shared, reusable, cloud-hosted layer that many datasets can pull from.
 

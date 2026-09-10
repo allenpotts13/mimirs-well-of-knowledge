@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# ☁️ AZ-900: Microsoft Certified Azure Fundamentals
+# <span class="rune">ᚱ</span> AZ-900: Microsoft Certified Azure Fundamentals
 
 > "Before you can reason about any one Azure service, you need the shape of the whole cloud in your head."
 

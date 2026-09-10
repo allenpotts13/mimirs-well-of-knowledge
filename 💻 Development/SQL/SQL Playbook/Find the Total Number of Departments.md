@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Find the Total Number of Departments
+# <span class="rune">ᚲ</span> Find the Total Number of Departments
 
 > *A reusable SQL solution for counting unique departments represented in a table.*
 

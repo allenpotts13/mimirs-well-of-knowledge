@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Combining Columns Into One String with CONCAT
+# <span class="rune">ᚲ</span> Combining Columns Into One String with CONCAT
 
 > *Stitch multiple columns and literal text together into one readable string.*
 

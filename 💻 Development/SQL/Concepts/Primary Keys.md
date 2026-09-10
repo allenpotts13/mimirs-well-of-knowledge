@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Primary Keys
+# <span class="rune">ᛟ</span> Primary Keys
 
 > The column (or columns) that uniquely identifies every row in a table.
 

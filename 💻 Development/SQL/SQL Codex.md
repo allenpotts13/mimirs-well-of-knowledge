@@ -3,7 +3,7 @@ publish: true
 status: published
 ---
 
-# 💾 SQL
+# <span class="rune">ᚢ</span> SQL
 
 > "Data is only as valuable as your ability to retrieve it."
 

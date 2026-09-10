@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 z-index and Stacking Contexts
+# <span class="rune">ᛟ</span> z-index and Stacking Contexts
 
 > *`z-index` only ever competes with sibling elements inside the same stacking context — the reason "`z-index: 999999` isn't working" is almost never a low number, it's an invisible wall an ancestor built that the element can't climb over.*
 

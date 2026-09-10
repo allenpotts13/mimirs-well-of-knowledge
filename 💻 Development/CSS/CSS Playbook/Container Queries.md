@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Container Queries
+# <span class="rune">ᛟ</span> Container Queries
 
 > *`@container` lets a component respond to the size of the box it's actually sitting in, not the size of the browser window — finally letting the same card component look right whether it's in a wide main column or a cramped sidebar.*
 

@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Matching Text Patterns with LIKE
+# <span class="rune">ᚲ</span> Matching Text Patterns with LIKE
 
 > *Match text by shape using LIKE's wildcard characters.*
 

@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Template Literals
+# <span class="rune">ᛟ</span> Template Literals
 
 > *Template literals are strings wrapped in backticks that let you embed real expressions directly inside the text, instead of stitching pieces together with `+`.*
 

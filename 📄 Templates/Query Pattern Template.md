@@ -14,7 +14,7 @@ aliases:
 publish: false
 ---
 
-# 🧩 <% tp.file.title %>
+# <span class="rune">ᚲ</span> <% tp.file.title %>
 
 > *A reusable SQL solution to a common database problem.*
 

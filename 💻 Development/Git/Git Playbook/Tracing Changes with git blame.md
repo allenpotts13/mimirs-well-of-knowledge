@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Tracing Changes with git blame
+# <span class="rune">ᛟ</span> Tracing Changes with git blame
 
 > *`git blame` annotates every line of a file with the commit and author that last touched it — turning "who wrote this weird code and why" into an answerable question.*
 

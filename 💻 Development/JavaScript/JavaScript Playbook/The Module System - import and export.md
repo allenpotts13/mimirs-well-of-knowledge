@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 The Module System: import and export
+# <span class="rune">ᛟ</span> The Module System: import and export
 
 > *A module is a self-contained file that explicitly declares what it shares with the rest of the codebase (`export`) and what it borrows from other files (`import`), instead of dumping everything into one shared global scope.*
 

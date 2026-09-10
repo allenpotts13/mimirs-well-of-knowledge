@@ -3,7 +3,7 @@ publish: true
 status: published
 ---
 
-# ☁️ Azure
+# <span class="rune">ᚱ</span> Azure
 
 > "The cloud is just someone else's well-managed data center — knowing which service to reach for is the actual skill."
 

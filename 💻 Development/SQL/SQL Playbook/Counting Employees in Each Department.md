@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Counting Employees in Each Department
+# <span class="rune">ᚲ</span> Counting Employees in Each Department
 
 > *Use `GROUP BY` with `COUNT()` to determine how many records belong to each category.*
 

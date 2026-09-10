@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Values in a Statistical Percentile
+# <span class="rune">ᚲ</span> Finding Values in a Statistical Percentile
 
 > *Use a percentile calculation to find the cutoff value that separates the top (or bottom) fraction of a dataset, then filter against it.*
 

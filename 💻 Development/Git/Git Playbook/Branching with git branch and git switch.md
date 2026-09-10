@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Branching with git branch and git switch
+# <span class="rune">ᛟ</span> Branching with git branch and git switch
 
 > *A branch is nothing more than a movable sticky note pointing at one commit — creating one is instant and nearly free, because it never copies a single file.*
 

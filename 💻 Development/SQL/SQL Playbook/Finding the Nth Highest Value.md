@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding the Nth Highest Value
+# <span class="rune">ᚲ</span> Finding the Nth Highest Value
 
 > *Retrieve the value occupying a specified position when values are ranked from highest to lowest.*
 

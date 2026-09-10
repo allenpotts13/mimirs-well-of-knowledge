@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Azure RBAC vs Azure Policy vs Resource Locks
+# <span class="rune">ᚲ</span> Azure RBAC vs Azure Policy vs Resource Locks
 
 > *Three governance tools that all sound like "control what happens in Azure," but each controls a different question.*
 

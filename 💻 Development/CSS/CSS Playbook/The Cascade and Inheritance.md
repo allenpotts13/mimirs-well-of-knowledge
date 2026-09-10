@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 The Cascade and Inheritance
+# <span class="rune">ᛟ</span> The Cascade and Inheritance
 
 > *The cascade decides which conflicting rule wins for a given element; inheritance decides whether a property value flows down to that element's children in the first place — two related but distinct mechanisms that give CSS its name.*
 

@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Indexes
+# <span class="rune">ᛟ</span> Indexes
 
 > A lookup structure that lets the database jump straight to matching rows instead of scanning the whole table.
 

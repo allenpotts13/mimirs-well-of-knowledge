@@ -3,7 +3,7 @@ publish: true
 status: published
 ---
 
-# ⚡ SQL Cheat Sheet
+# <span class="rune">ᛊ</span> SQL Cheat Sheet
 
 > Dense reference across standard SQL. Each section links back to the full [[SQL Codex|concept note]] for depth.
 

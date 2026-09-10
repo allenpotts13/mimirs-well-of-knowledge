@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 CROSS JOIN
+# <span class="rune">ᛟ</span> CROSS JOIN
 
 > Pairs every row in one table with every row in another — no matching condition, just every possible combination.
 

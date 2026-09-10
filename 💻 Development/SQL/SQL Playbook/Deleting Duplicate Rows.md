@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Deleting Duplicate Rows
+# <span class="rune">ᚲ</span> Deleting Duplicate Rows
 
 > *Identify duplicate records with `ROW_NUMBER()` and remove the unwanted copies while preserving one record from each duplicate group.*
 

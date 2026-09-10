@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Committing Changes with git commit
+# <span class="rune">ᛟ</span> Committing Changes with git commit
 
 > *A commit is a permanent, named snapshot of whatever is currently in the staging area — the moment your work stops being "in progress" and becomes history.*
 

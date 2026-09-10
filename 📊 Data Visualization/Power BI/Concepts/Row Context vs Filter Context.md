@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Row Context vs Filter Context
+# <span class="rune">ᛟ</span> Row Context vs Filter Context
 
 > The two "current environments" a DAX formula can be evaluated in — mixing them up is the source of nearly every confusing DAX result.
 

@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Power BI Building Blocks
+# <span class="rune">ᛟ</span> Power BI Building Blocks
 
 > Five nested objects — dataset, report, dashboard, workspace, app — that everything else in Power BI is assembled from.
 

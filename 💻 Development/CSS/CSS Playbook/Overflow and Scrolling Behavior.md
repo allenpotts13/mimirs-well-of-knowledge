@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Overflow and Scrolling Behavior
+# <span class="rune">ᛟ</span> Overflow and Scrolling Behavior
 
 > *`overflow` decides what happens when content is too big for its box — spill out, get clipped, or scroll — and picking anything other than `visible` quietly changes how the box behaves toward its contents, not just how it looks.*
 

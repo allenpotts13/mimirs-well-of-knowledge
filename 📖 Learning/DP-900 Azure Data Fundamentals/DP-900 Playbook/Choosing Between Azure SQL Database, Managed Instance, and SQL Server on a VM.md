@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Choosing Between Azure SQL Database, Managed Instance, and SQL Server on a VM
+# <span class="rune">ᚲ</span> Choosing Between Azure SQL Database, Managed Instance, and SQL Server on a VM
 
 > *The single most-tested relational-domain decision on DP-900.*
 

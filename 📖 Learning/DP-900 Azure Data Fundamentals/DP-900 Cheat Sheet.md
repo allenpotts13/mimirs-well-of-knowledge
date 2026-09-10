@@ -12,7 +12,7 @@ aliases:
 publish: true
 ---
 
-# ⚡ DP-900 Cheat Sheet
+# <span class="rune">ᛊ</span> DP-900 Cheat Sheet
 
 > *Last-mile reference. If you can fill in every row of this from memory, you're ready.*
 

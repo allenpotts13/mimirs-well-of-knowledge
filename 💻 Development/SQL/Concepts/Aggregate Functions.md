@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Aggregate Functions
+# <span class="rune">ᛟ</span> Aggregate Functions
 
 > Collapse many rows into a single summary value — the building blocks behind every total, average, and count.
 

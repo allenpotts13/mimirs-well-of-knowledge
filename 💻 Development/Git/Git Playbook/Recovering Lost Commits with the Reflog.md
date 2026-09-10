@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Recovering Lost Commits with the Reflog
+# <span class="rune">ᛟ</span> Recovering Lost Commits with the Reflog
 
 > *The reflog is Git's private, local-only journal of everywhere HEAD has pointed — which means a commit is almost never actually gone, just temporarily out of sight.*
 

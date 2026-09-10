@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Selectors Beyond the Basics: Combinators and Attribute Selectors
+# <span class="rune">ᛟ</span> Selectors Beyond the Basics: Combinators and Attribute Selectors
 
 > *Combinators let you target elements based on their relationship to other elements in the DOM tree, and attribute selectors let you target elements based on the attributes they carry — together they let you write precise selectors without adding a single extra class to your HTML.*
 

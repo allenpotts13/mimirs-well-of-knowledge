@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Time Intelligence in DAX
+# <span class="rune">ᛟ</span> Time Intelligence in DAX
 
 > A family of built-in DAX functions that handle date-based comparisons — year-to-date, prior period, rolling averages — without hand-writing the date math.
 

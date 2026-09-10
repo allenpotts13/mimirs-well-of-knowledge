@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Creating a Percentage of Total Measure
+# <span class="rune">ᚲ</span> Creating a Percentage of Total Measure
 
 > Show what share of the grand total each row represents — one of the most requested measures in any report, and a clean showcase of what `ALL()` is for.
 

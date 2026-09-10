@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Groups With No Recent Activity
+# <span class="rune">ᚲ</span> Finding Groups With No Recent Activity
 
 > *Use `MAX()` on a date column with `HAVING` to find groups whose most recent activity is older than a cutoff.*
 

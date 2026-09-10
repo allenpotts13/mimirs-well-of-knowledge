@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Using !important and When to Avoid It
+# <span class="rune">ᛟ</span> Using !important and When to Avoid It
 
 > *`!important` doesn't win the specificity game — it walks off the board entirely, which is exactly why overusing it turns your stylesheet into an arms race nobody can win.*
 

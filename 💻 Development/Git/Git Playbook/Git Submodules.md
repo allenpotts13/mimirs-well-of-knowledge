@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Git Submodules
+# <span class="rune">ᛟ</span> Git Submodules
 
 > *A submodule embeds another Git repository inside your repository, pinned to one exact commit — not a branch, not "latest" — so your project's history always knows precisely which version of that dependency it was built against.*
 

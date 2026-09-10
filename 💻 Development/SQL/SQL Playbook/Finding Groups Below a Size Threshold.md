@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Groups Below a Size Threshold
+# <span class="rune">ᚲ</span> Finding Groups Below a Size Threshold
 
 > *First identify which groups satisfy a size condition with `GROUP BY ... HAVING`, then pull back every individual row that belongs to those groups.*
 

@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Choosing the Right Visual
+# <span class="rune">ᛟ</span> Choosing the Right Visual
 
 > The question being asked determines the chart — not the other way around. Pick the shape that matches what the data needs to communicate.
 

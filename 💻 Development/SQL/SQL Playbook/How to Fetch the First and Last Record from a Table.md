@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 How to Fetch the First and Last Record from a Table
+# <span class="rune">ᚲ</span> How to Fetch the First and Last Record from a Table
 
 > *A reusable SQL solution to retrieve the first and last records from a table.*
 

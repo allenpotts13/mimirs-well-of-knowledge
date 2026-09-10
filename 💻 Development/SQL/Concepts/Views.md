@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Views
+# <span class="rune">ᛟ</span> Views
 
 > A saved query that behaves like a table — the underlying SQL runs fresh every time it's queried.
 

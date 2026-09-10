@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Records That Match Every Value in a Set
+# <span class="rune">ᚲ</span> Finding Records That Match Every Value in a Set
 
 > *Group by the entity, then use `HAVING COUNT(DISTINCT ...) = N` to keep only groups that touch every one of the N required values.*
 

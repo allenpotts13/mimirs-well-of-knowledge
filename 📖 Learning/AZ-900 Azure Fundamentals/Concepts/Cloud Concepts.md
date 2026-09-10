@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Cloud Concepts
+# <span class="rune">ᛟ</span> Cloud Concepts
 
 > *What "the cloud" actually means, the three ways to buy it, and why businesses migrate in the first place.*
 

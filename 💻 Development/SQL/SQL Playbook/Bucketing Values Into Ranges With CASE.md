@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Bucketing Values Into Ranges With CASE
+# <span class="rune">ᚲ</span> Bucketing Values Into Ranges With CASE
 
 > *Use a `CASE` expression to turn a continuous numeric column into named categories, then `GROUP BY` those categories.*
 

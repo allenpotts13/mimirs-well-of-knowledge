@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Filtering Employees by Length of Tenure
+# <span class="rune">ᚲ</span> Filtering Employees by Length of Tenure
 
 > *Use `DATEDIFF()` to measure the number of days between a stored date and today, then filter on that duration.*
 

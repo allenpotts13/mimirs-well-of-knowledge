@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Local Storage vs Session Storage
+# <span class="rune">ᛟ</span> Local Storage vs Session Storage
 
 > *Both are simple, synchronous, string-only key-value stores built into the browser — the only real difference between them is how long the data sticks around.*
 

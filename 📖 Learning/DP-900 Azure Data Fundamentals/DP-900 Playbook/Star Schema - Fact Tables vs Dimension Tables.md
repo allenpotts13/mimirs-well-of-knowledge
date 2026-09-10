@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Star Schema - Fact Tables vs Dimension Tables
+# <span class="rune">ᚲ</span> Star Schema - Fact Tables vs Dimension Tables
 
 > *Every data warehouse question boils down to: is this column a number to measure, or context to describe it by?*
 

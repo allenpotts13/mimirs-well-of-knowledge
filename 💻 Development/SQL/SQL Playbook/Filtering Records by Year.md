@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Filtering Records by Year
+# <span class="rune">ᚲ</span> Filtering Records by Year
 
 > *Return records whose date falls within a specific calendar year.*
 

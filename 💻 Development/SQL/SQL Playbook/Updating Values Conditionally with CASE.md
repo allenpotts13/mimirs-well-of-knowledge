@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Updating Values Conditionally with CASE
+# <span class="rune">ᚲ</span> Updating Values Conditionally with CASE
 
 > *Use a `CASE` expression inside `UPDATE ... SET` to apply different values to different rows in a single statement.*
 

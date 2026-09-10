@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Filtering Rows by Email Domain
+# <span class="rune">ᚲ</span> Filtering Rows by Email Domain
 
 > *Use LIKE with a leading wildcard to match everyone on a particular email domain.*
 

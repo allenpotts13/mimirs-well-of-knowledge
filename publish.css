@@ -1,5 +1,5 @@
 /*
-Mímir's Well of Knowledge — Obsidian Publish Theme v1.4
+Mímir's Well of Knowledge — Obsidian Publish Theme v1.6
 Author: Allen Potts / OpenAI-assisted
 Purpose: Professional technical knowledge-base styling with restrained Norse / deep-well influence.
 
@@ -8,6 +8,12 @@ Place this file at the ROOT of the Obsidian vault:
 
 Then publish it through Obsidian Publish.
 */
+
+/* Cinzel: carved-inscription feel for H1/H2 only (see section 4).
+   Noto Sans Runic: guarantees the Elder Futhark rune accents (section 19)
+   render as real glyphs everywhere instead of risking a tofu box on
+   systems without a runic-capable font installed. */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+Runic&display=swap');
 
 /* =========================================================
    1. DESIGN TOKENS
@@ -54,6 +60,10 @@ Then publish it through Obsidian Publish.
   --mimir-content-width: 900px;
   --mimir-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
   --mimir-overlay-panel: rgba(17, 21, 20, 0.72);
+  --mimir-ripple-rgb: 210, 183, 124;
+  --mimir-ripple-alpha-1: 0.13;
+  --mimir-ripple-alpha-2: 0.07;
+  --mimir-rune-opacity: 0.09;
 
   /* Obsidian Publish variables */
   --background-primary: var(--mimir-bg);
@@ -127,6 +137,10 @@ body.theme-light {
 
   --mimir-shadow: 0 10px 28px rgba(60, 50, 30, 0.1);
   --mimir-overlay-panel: rgba(248, 245, 238, 0.86);
+  --mimir-ripple-rgb: 120, 90, 40;
+  --mimir-ripple-alpha-1: 0.16;
+  --mimir-ripple-alpha-2: 0.09;
+  --mimir-rune-opacity: 0.07;
 }
 
 /* =========================================================
@@ -135,9 +149,46 @@ body.theme-light {
 
 html,
 body {
+  background: var(--mimir-bg);
+}
+
+/* The ripple lives on a fixed pseudo-layer behind everything, not on
+   body's own background — that's deliberate. It lets us do two things
+   a single `background` shorthand on body couldn't:
+   1. mask-image gives it a real falloff from one point, so it reads as
+      ripples dying out rather than a pattern tiled uniformly forever
+      (the "stamped" look).
+   2. It can sit BEHIND the article's own opaque background (below),
+      so the pattern only shows in the margins/gutters around the
+      reading column — never directly under moving text, which is
+      what made it distracting while scrolling.
+   The linear-gradient tints the rings gold-to-teal instead of a flat
+   single tone. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
   background:
-    radial-gradient(circle at 52% -10%, rgba(93, 143, 145, 0.06), transparent 38%),
-    var(--mimir-bg);
+    linear-gradient(160deg, rgba(93, 143, 145, 0.12), transparent 45%, rgba(184, 154, 98, 0.10) 100%),
+    repeating-radial-gradient(
+      circle at 52% -12%,
+      rgba(var(--mimir-ripple-rgb), var(--mimir-ripple-alpha-1)) 0px,
+      rgba(var(--mimir-ripple-rgb), var(--mimir-ripple-alpha-1)) 1.5px,
+      transparent 1.5px,
+      transparent 42px
+    ),
+    repeating-radial-gradient(
+      circle at 52% -12%,
+      rgba(var(--mimir-ripple-rgb), var(--mimir-ripple-alpha-2)) 0px,
+      rgba(var(--mimir-ripple-rgb), var(--mimir-ripple-alpha-2)) 1px,
+      transparent 1px,
+      transparent 97px
+    );
+  background-blend-mode: soft-light, normal, normal;
+  mask-image: radial-gradient(circle at 52% -10%, black 0%, black 25%, transparent 70%);
+  -webkit-mask-image: radial-gradient(circle at 52% -10%, black 0%, black 25%, transparent 70%);
 }
 
 body {
@@ -165,6 +216,17 @@ body {
   margin-inline: auto;
   padding-left: 2.25rem;
   padding-right: 2.25rem;
+  /* Opaque so the fixed ripple layer behind the page never shows
+     through under actual text — it only reads in the margins/gutters
+     around this column. See body::before in section 2. */
+  background: var(--mimir-bg);
+}
+
+/* The home hero is the one place the atmosphere is meant to be seen,
+   not just felt — let its own background (section 19) show through
+   instead of covering it here. */
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) .markdown-preview-sizer {
+  background: transparent;
 }
 
 /* First visible title */
@@ -189,6 +251,32 @@ body {
   );
 }
 
+/* Ansuz — Odin's rune, tied to wisdom and speech, and the reason he
+   drank from Mímir's well in the first place. Only shown when a page's
+   title doesn't already carry its own category rune (see .rune below,
+   used in ~240 note titles) — otherwise the two would stack. */
+.markdown-preview-view h1:first-of-type:not(:has(.rune))::before {
+  content: "ᚨ";
+  display: inline-block;
+  margin-right: 0.28em;
+  font-family: "Noto Sans Runic", serif;
+  font-size: 0.68em;
+  color: var(--mimir-gold);
+  opacity: 0.75;
+  vertical-align: 0.03em;
+}
+
+/* Category runes swapped in for the emoji that used to lead ~240 note
+   titles (📚 Codex-type notes, 🧩 Concept notes, and a handful of
+   one-offs) — see the vault-wide swap script from this session for
+   the full emoji → rune mapping. */
+.markdown-preview-view h1 .rune {
+  display: inline-block;
+  font-family: "Noto Sans Runic", serif;
+  color: var(--mimir-gold);
+  opacity: 0.85;
+}
+
 /* =========================================================
    4. TYPOGRAPHY / HEADINGS
    ========================================================= */
@@ -201,6 +289,15 @@ body {
 .markdown-preview-view h6 {
   color: var(--mimir-text);
   letter-spacing: -0.015em;
+}
+
+/* Carved-inscription feel on the two headings readers see most often;
+   h3–h6 stay on the body font so dense technical pages don't turn
+   into a wall of display type. */
+.markdown-preview-view h1,
+.markdown-preview-view h2 {
+  font-family: "Cinzel", Georgia, "Times New Roman", serif;
+  letter-spacing: 0.01em;
 }
 
 .markdown-preview-view h1 {
@@ -266,6 +363,7 @@ body {
    ========================================================= */
 
 .markdown-preview-view blockquote {
+  position: relative;
   margin: 1.6rem 0;
   padding: 1rem 1.25rem;
   border-left: 3px solid var(--mimir-gold);
@@ -274,10 +372,26 @@ body {
     linear-gradient(90deg, rgba(184, 154, 98, 0.10), transparent 70%),
     var(--mimir-panel);
   color: var(--mimir-text-soft);
+  overflow: hidden;
 }
 
 .markdown-preview-view blockquote p {
   color: inherit;
+}
+
+/* Othala — heritage and inherited wisdom, watermarked barely above the
+   threshold of noticing. It's meant to be felt on the page, not read. */
+.markdown-preview-view blockquote::before {
+  content: "ᛟ";
+  position: absolute;
+  top: -0.35rem;
+  right: 0.6rem;
+  font-family: "Noto Sans Runic", serif;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--mimir-gold);
+  opacity: var(--mimir-rune-opacity);
+  pointer-events: none;
 }
 
 .callout {
@@ -612,6 +726,18 @@ input[type="checkbox"] {
   margin-top: 0.5rem;
 }
 
+/* The hero image is embedded (![[...]]) purely so Obsidian Publish
+   serves the file as an asset — it's not meant to appear inline in
+   the reading flow. Targets Obsidian's own native embed wrapper
+   directly (no custom div — wrapping the embed in raw HTML with
+   blank lines around it gets split into separate sibling elements by
+   Obsidian's markdown parser, which was the earlier bug here). The
+   real display happens in section 19 via the published URL as a
+   proper background. */
+.internal-embed[src="mimirs-well-background.jpg"] {
+  display: none;
+}
+
 /* Slightly stronger spacing for gateway-style pages */
 .markdown-preview-view h2 + p {
   margin-top: 0.65rem;
@@ -863,4 +989,91 @@ input[type="checkbox"] {
 .site-body-center-column .markdown-preview-view code,
 .site-body-center-column .markdown-preview-view table {
   min-width: 0;
+}
+
+/* =========================================================
+   19. HOME PAGE HERO
+   Scoped via :has(.internal-embed[src="..."]) — the note embeds
+   mimirs-well-background.jpg once, so "the view containing that
+   embed" reliably means "the home page" without needing a separate
+   marker. This replaces an earlier attempt using frontmatter
+   `cssclass: mimir-home`, which turned out not to be supported by
+   Obsidian Publish's renderer at all (confirmed by inspecting the
+   live DOM — the class never appeared anywhere on the page), so
+   every rule scoped to it was silently dead. Everything else on the
+   site stays at the calmer, site-wide intensity so the motif never
+   fights the reading experience on regular content pages.
+   ========================================================= */
+
+/* The hero photo (your own generated art — see conversation) lives on
+   an absolutely positioned ::before band across just the top of the
+   page, not the whole scrolling height, so it reads as a banner
+   rather than a texture tiled behind the "Enter the Well" lists
+   further down. z-index: 0 on the view element gives this its own
+   contained stacking context, so the ::before's z-index: -1 only
+   reaches behind THIS page's own content — it can't interfere with
+   the sitewide ripple layer (body::before) or anything else. The
+   gradient fades the photo into var(--mimir-bg) at the bottom edge
+   so the transition into regular content is seamless, and darkens the
+   top so the title/quote text stays readable over it. */
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) {
+  position: relative;
+  z-index: 0;
+}
+
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"])::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 640px;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(10, 14, 13, 0.32) 0%,
+      rgba(10, 14, 13, 0.62) 60%,
+      var(--mimir-bg) 97%
+    ),
+    url("https://publish-01.obsidian.md/access/92cc5df93e022a6c2f088c90a12ae5ac/_site-assets/mimirs-well-background.jpg");
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 750px) {
+  .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"])::before {
+    height: 380px;
+    background-position: center 22%;
+  }
+}
+
+/* Let the title's accent line span the full measure here instead of
+   the small 78px mark used on regular content pages. */
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) h1:first-of-type::after {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--mimir-gold),
+    var(--mimir-water) 45%,
+    transparent 90%
+  );
+}
+
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) h1:first-of-type::before {
+  font-size: 0.85em;
+  opacity: 0.9;
+}
+
+/* The opening epigraph gets a soft gold halo, like a page an old
+   book naturally falls open to. */
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) blockquote {
+  box-shadow: 0 0 46px 6px rgba(184, 154, 98, 0.12);
+}
+
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) blockquote::before {
+  font-size: 4.2rem;
+  opacity: calc(var(--mimir-rune-opacity) + 0.05);
 }

@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Buttons vs Links: button vs a
+# <span class="rune">ᛟ</span> Buttons vs Links: button vs a
 
 > *`<a href>` takes the user somewhere; `<button>` does something — mixing the two up quietly breaks keyboard navigation, screen readers, and "open in new tab" for everyone who relies on them.*
 

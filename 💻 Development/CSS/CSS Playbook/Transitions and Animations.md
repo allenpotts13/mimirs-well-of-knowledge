@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Transitions and Animations
+# <span class="rune">ᛟ</span> Transitions and Animations
 
 > *`transition` smoothly animates a property change that's already triggered by something else (like `:hover`), while `@keyframes` + `animation` define a self-running, multi-step animation with no trigger needed at all.*
 

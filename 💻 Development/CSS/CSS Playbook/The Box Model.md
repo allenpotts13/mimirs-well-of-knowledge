@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 The Box Model
+# <span class="rune">ᛟ</span> The Box Model
 
 > *Every element on a page is a rectangular box made of four nested layers — content, padding, border, and margin — and almost every layout bug traces back to misunderstanding how those layers add up.*
 

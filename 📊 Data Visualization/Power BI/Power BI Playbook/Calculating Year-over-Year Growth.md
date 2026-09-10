@@ -13,7 +13,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Calculating Year-over-Year Growth
+# <span class="rune">ᚲ</span> Calculating Year-over-Year Growth
 
 > Compare this year's number to last year's same period, and express the difference as a percentage.
 

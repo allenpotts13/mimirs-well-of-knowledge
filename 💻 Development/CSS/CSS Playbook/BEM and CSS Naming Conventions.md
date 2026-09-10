@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 BEM and CSS Naming Conventions
+# <span class="rune">ᛟ</span> BEM and CSS Naming Conventions
 
 > *BEM (Block__Element--Modifier) is a naming pattern that keeps every class at roughly the same, low specificity, trading terser class names for a codebase where nothing ever unexpectedly overrides anything else.*
 

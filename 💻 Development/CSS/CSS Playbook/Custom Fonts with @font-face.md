@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Custom Fonts with @font-face
+# <span class="rune">ᛟ</span> Custom Fonts with @font-face
 
 > *`@font-face` teaches the browser about a font it doesn't already have installed, and `font-display` decides what happens to your text during the awkward gap before that font file finishes downloading.*
 

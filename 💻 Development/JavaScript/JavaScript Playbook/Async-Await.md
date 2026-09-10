@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Async/Await
+# <span class="rune">ᛟ</span> Async/Await
 
 > *`async`/`await` is syntactic sugar over Promises that lets you write asynchronous code that reads top-to-bottom like synchronous code.*
 

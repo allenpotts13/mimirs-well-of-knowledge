@@ -19,7 +19,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Object Destructuring and the Spread/Rest Operators
+# <span class="rune">ᛟ</span> Object Destructuring and the Spread/Rest Operators
 
 > *Destructuring unpacks values out of objects and arrays into named variables; spread and rest use the same `...` syntax to do the exact opposite in two different directions — expanding things out, and gathering things up.*
 

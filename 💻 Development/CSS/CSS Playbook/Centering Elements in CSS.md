@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Centering Elements in CSS
+# <span class="rune">ᛟ</span> Centering Elements in CSS
 
 > *"How do I center a div?" has at least four good answers, and picking the right one depends entirely on whether you need one axis or two, whether the element's size is known, and what else needs to happen around it.*
 

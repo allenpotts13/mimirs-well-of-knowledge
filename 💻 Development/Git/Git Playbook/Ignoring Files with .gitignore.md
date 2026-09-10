@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Ignoring Files with .gitignore
+# <span class="rune">ᛟ</span> Ignoring Files with .gitignore
 
 > *A `.gitignore` file tells Git which untracked files to stop mentioning — it's a filter on `git status`'s attention, not a lock on files Git already knows about.*
 

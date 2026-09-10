@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Subqueries
+# <span class="rune">ᛟ</span> Subqueries
 
 > A query nested inside another query, used to feed a value, a list, or a filtered set into the outer query.
 

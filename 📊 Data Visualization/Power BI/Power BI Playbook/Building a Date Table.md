@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Building a Date Table
+# <span class="rune">ᚲ</span> Building a Date Table
 
 > The prerequisite every time intelligence function silently depends on — one continuous row per calendar date, marked as the model's official Date table.
 

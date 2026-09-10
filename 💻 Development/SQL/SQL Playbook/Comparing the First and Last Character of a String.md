@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Comparing the First and Last Character of a String
+# <span class="rune">ᚲ</span> Comparing the First and Last Character of a String
 
 > *Pull single characters off either end of a string with LEFT() and RIGHT() to compare them.*
 

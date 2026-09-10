@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Filtering Records by a Recent Date Window
+# <span class="rune">ᚲ</span> Filtering Records by a Recent Date Window
 
 > *Use `DATE_SUB()` with `CURDATE()` to compute a calendar-accurate cutoff date, then filter rows that fall after it.*
 

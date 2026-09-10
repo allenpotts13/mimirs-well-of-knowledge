@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Forms and Form Validation
+# <span class="rune">ᛟ</span> Forms and Form Validation
 
 > *Browsers can enforce required fields, patterns, and ranges before a form ever submits — but that built-in validation is a UX courtesy for honest users, never a security boundary against dishonest ones.*
 

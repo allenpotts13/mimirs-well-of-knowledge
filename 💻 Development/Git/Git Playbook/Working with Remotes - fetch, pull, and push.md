@@ -20,7 +20,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Working with Remotes: fetch, pull, and push
+# <span class="rune">ᛟ</span> Working with Remotes: fetch, pull, and push
 
 > *`git fetch` safely downloads what's new without touching anything of yours; `git pull` does that same download and then immediately merges (or rebases) it into your current branch — conflating the two is the single most common source of "why did my branch just change" surprise.*
 

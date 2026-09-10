@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Understanding Specificity
+# <span class="rune">ᛟ</span> Understanding Specificity
 
 > *When two CSS rules target the same element and disagree, specificity is the scoring system the browser uses to decide which one wins.*
 

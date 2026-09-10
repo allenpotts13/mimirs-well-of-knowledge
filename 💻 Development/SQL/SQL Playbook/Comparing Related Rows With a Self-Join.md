@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Comparing Related Rows With a Self-Join
+# <span class="rune">ᚲ</span> Comparing Related Rows With a Self-Join
 
 > *Join a table to itself, aliased as two different roles, to compare each row against another related row in the same table.*
 

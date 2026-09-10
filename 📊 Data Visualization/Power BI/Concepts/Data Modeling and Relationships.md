@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Data Modeling and Relationships
+# <span class="rune">ᛟ</span> Data Modeling and Relationships
 
 > How tables connect to each other in the data model determines whether filtering one table correctly affects another — get this wrong and every visual downstream is quietly lying.
 

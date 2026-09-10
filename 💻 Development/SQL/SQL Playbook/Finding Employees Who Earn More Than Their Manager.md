@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Finding Employees Who Earn More Than Their Manager
+# <span class="rune">ᚲ</span> Finding Employees Who Earn More Than Their Manager
 
 > *Use a self-join to place each employee next to their manager, then compare their salaries directly.*
 

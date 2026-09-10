@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Find All Employees Who Report to a Specific Manager
+# <span class="rune">ᚲ</span> Find All Employees Who Report to a Specific Manager
 
 > *A reusable SQL solution for finding employees who report directly to a specific manager.*
 

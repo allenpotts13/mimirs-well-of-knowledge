@@ -18,7 +18,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Ranking the Top N Rows Within Each Group
+# <span class="rune">ᚲ</span> Ranking the Top N Rows Within Each Group
 
 > *Use `DENSE_RANK() OVER (PARTITION BY ... ORDER BY ...)` to rank rows independently inside each group, then filter on the rank.*
 

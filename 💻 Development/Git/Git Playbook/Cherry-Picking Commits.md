@@ -16,7 +16,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Cherry-Picking Commits
+# <span class="rune">ᛟ</span> Cherry-Picking Commits
 
 > *`git cherry-pick` takes one specific commit from anywhere in the repository and replays its changes onto your current branch — a scalpel where `merge` is a whole transplant.*
 

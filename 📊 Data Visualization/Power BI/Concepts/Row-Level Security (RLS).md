@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Row-Level Security (RLS)
+# <span class="rune">ᛟ</span> Row-Level Security (RLS)
 
 > Restricts which rows a user sees when they open a report — the same report, the same visuals, different data depending on who's looking.
 

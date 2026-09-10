@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Web Components Basics: Custom Elements and Templates
+# <span class="rune">ᛟ</span> Web Components Basics: Custom Elements and Templates
 
 > *`customElements.define()` lets you invent your own HTML tag, backed by real JavaScript logic and, optionally, its own isolated DOM and styles — a framework-agnostic component model built directly into the browser.*
 

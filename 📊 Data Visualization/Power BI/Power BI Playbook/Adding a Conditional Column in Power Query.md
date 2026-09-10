@@ -13,7 +13,7 @@ aliases:
 publish: true
 ---
 
-# 🧩 Adding a Conditional Column in Power Query
+# <span class="rune">ᚲ</span> Adding a Conditional Column in Power Query
 
 > Bucket or label rows based on a condition, at the data-prep stage — before the model, before DAX, using a point-and-click UI.
 

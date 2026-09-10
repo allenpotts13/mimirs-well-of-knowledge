@@ -15,7 +15,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Constraints
+# <span class="rune">ᛟ</span> Constraints
 
 > Rules attached to a column or table that the database enforces on every insert and update, no exceptions.
 

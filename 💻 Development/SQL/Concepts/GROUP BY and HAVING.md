@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 GROUP BY and HAVING
+# <span class="rune">ᛟ</span> GROUP BY and HAVING
 
 > GROUP BY collapses rows into per-group summaries; HAVING filters those groups after they're calculated.
 

@@ -17,7 +17,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Accessibility Basics: alt Text, Labels, and ARIA
+# <span class="rune">ᛟ</span> Accessibility Basics: alt Text, Labels, and ARIA
 
 > *Accessibility starts with choosing the right native element — ARIA is a patch for the gaps that are left over, not a substitute for doing that first.*
 

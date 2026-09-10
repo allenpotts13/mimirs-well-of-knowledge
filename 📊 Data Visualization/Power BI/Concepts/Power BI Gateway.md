@@ -14,7 +14,7 @@ aliases:
 publish: true
 ---
 
-# 📚 Power BI Gateway
+# <span class="rune">ᛟ</span> Power BI Gateway
 
 > A bridge that lets the cloud-based Power BI Service reach data sources that live behind a firewall, on-premises.
 
