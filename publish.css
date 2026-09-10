@@ -1,5 +1,5 @@
 /*
-Mímir's Well of Knowledge — Obsidian Publish Theme v1.2
+Mímir's Well of Knowledge — Obsidian Publish Theme v1.4
 Author: Allen Potts / OpenAI-assisted
 Purpose: Professional technical knowledge-base styling with restrained Norse / deep-well influence.
 
@@ -36,6 +36,16 @@ Then publish it through Obsidian Publish.
 
   --mimir-code-bg: #0d1110;
   --mimir-code-border: #29302d;
+  --mimir-code-inline-bg: #171c1b;
+  --mimir-code-text: #d7c28f;
+
+  --mimir-heading-strong: #f1eadf;
+  --mimir-text-faint: #77756f;
+  --mimir-link-unresolved: #b47f72;
+  --mimir-code-normal: #d9d2c6;
+  --mimir-input-bg: #121716;
+  --mimir-selection-bg: rgba(184, 154, 98, 0.28);
+  --mimir-selection-text: #fffaf0;
 
   --mimir-radius-sm: 6px;
   --mimir-radius-md: 10px;
@@ -43,6 +53,7 @@ Then publish it through Obsidian Publish.
 
   --mimir-content-width: 900px;
   --mimir-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+  --mimir-overlay-panel: rgba(17, 21, 20, 0.72);
 
   /* Obsidian Publish variables */
   --background-primary: var(--mimir-bg);
@@ -52,23 +63,70 @@ Then publish it through Obsidian Publish.
 
   --text-normal: var(--mimir-text);
   --text-muted: var(--mimir-text-muted);
-  --text-faint: #77756f;
+  --text-faint: var(--mimir-text-faint);
 
   --interactive-accent: var(--mimir-gold);
   --interactive-accent-hover: var(--mimir-gold-bright);
 
   --link-color: var(--mimir-water-bright);
   --link-color-hover: var(--mimir-gold-bright);
-  --link-unresolved-color: #b47f72;
+  --link-unresolved-color: var(--mimir-link-unresolved);
 
   --divider-color: var(--mimir-border);
   --blockquote-border-color: var(--mimir-gold-dim);
 
   --code-background: var(--mimir-code-bg);
-  --code-normal: #d9d2c6;
+  --code-normal: var(--mimir-code-normal);
 
   --font-text-size: 16px;
   --line-height-normal: 1.7;
+}
+
+/* =========================================================
+   1B. LIGHT MODE PALETTE
+   Everything downstream reads through the --mimir-* tokens above,
+   so redefining just those tokens here re-themes the whole site
+   for Publish's light/dark toggle (body.theme-light /
+   body.theme-dark). Without this block the toggle barely changes
+   anything, and a few headings/code text were hardcoded to
+   near-white literals that go invisible on a light background.
+   ========================================================= */
+
+body.theme-light {
+  --mimir-bg: #f8f5ee;
+  --mimir-bg-soft: #f1ece1;
+  --mimir-panel: #ffffff;
+  --mimir-panel-raised: #f3ede0;
+  --mimir-border: #ddd3c0;
+  --mimir-border-strong: #c3b79e;
+
+  --mimir-text: #2a2620;
+  --mimir-text-soft: #4a4337;
+  --mimir-text-muted: #7c7365;
+
+  --mimir-gold: #93711f;
+  --mimir-gold-bright: #7a5c19;
+  --mimir-gold-dim: #c9b183;
+
+  --mimir-water: #2f6567;
+  --mimir-water-bright: #1f4d4f;
+  --mimir-water-deep: #cfe6e6;
+
+  --mimir-code-bg: #f1ede1;
+  --mimir-code-border: #ddd3c0;
+  --mimir-code-inline-bg: #efe8d8;
+  --mimir-code-text: #7a5c19;
+
+  --mimir-heading-strong: #1f1c17;
+  --mimir-text-faint: #948a78;
+  --mimir-link-unresolved: #9a4e3c;
+  --mimir-code-normal: #3a352c;
+  --mimir-input-bg: #ffffff;
+  --mimir-selection-bg: rgba(147, 113, 31, 0.18);
+  --mimir-selection-text: #201c14;
+
+  --mimir-shadow: 0 10px 28px rgba(60, 50, 30, 0.1);
+  --mimir-overlay-panel: rgba(248, 245, 238, 0.86);
 }
 
 /* =========================================================
@@ -88,8 +146,8 @@ body {
 }
 
 ::selection {
-  background: rgba(184, 154, 98, 0.28);
-  color: #fffaf0;
+  background: var(--mimir-selection-bg);
+  color: var(--mimir-selection-text);
 }
 
 /* =========================================================
@@ -156,7 +214,7 @@ body {
   padding-bottom: 0.48rem;
   border-bottom: 1px solid var(--mimir-border);
   font-size: 1.55rem;
-  color: #f1eadf;
+  color: var(--mimir-heading-strong);
 }
 
 .markdown-preview-view h3 {
@@ -175,11 +233,11 @@ body {
 }
 
 .markdown-preview-view strong {
-  color: #f2ecdf;
+  color: var(--mimir-heading-strong);
 }
 
 .markdown-preview-view em {
-  color: #d7d0c4;
+  color: var(--mimir-text-soft);
 }
 
 /* =========================================================
@@ -274,8 +332,8 @@ body {
   padding: 0.14em 0.42em;
   border: 1px solid var(--mimir-code-border);
   border-radius: 5px;
-  background: #171c1b;
-  color: #d7c28f;
+  background: var(--mimir-code-inline-bg);
+  color: var(--mimir-code-text);
   font-size: 0.88em;
 }
 
@@ -288,7 +346,7 @@ body {
 }
 
 .markdown-preview-view pre code {
-  color: #d6d0c5;
+  color: var(--mimir-text-soft);
   line-height: 1.6;
 }
 
@@ -394,7 +452,7 @@ body {
 .site-body-left-column .search-input-container input {
   border: 1px solid var(--mimir-border);
   border-radius: var(--mimir-radius-sm);
-  background: #121716;
+  background: var(--mimir-input-bg);
   color: var(--mimir-text);
 }
 
@@ -438,7 +496,7 @@ body {
    ========================================================= */
 
 .site-body-right-column {
-  background: rgba(17, 21, 20, 0.72);
+  background: var(--mimir-overlay-panel);
   border-left: 1px solid var(--mimir-border);
 }
 
@@ -609,30 +667,46 @@ input[type="checkbox"] {
 
 
 /* =========================================================
-   18. LAYOUT GEOMETRY — v1.1
-   Fixes wide-screen overlap between article content and TOC.
+   18. LAYOUT GEOMETRY — v1.5
+   Console-verified against the live page's computed layout
+   (getComputedStyle + getBoundingClientRect on each column).
+
+   Two real findings from that inspection, not guesses:
+
+   1. Obsidian Publish renders `.site-body-right-column` (the TOC)
+      as `position: absolute`, anchored so its right edge lines up
+      with the ARTICLE's own right edge — not the center column's
+      outer edge. That means reserving space with padding on the
+      center column can never work: the TOC's anchor point moves
+      inward together with the padding, so it always ends up glued
+      to the last ~300px of whatever the article's current edge is.
+      v1.1–v1.4 all tried some version of the padding-reserve
+      approach; none of them could have worked, by construction.
+
+   2. `.site-body-left-column`'s width was NOT the 270px this file
+      requested — Publish's own CSS was winning that fight and
+      rendering it at ~599px, starving the center column.
+
+   Fix: stop fighting the overlay. Force the right column into
+   normal flex flow (position: relative) so the browser's flexbox
+   engine allocates its space the same way it does for the left
+   nav — which makes overlap structurally impossible, not just
+   unlikely — and use !important on both side columns since plain-
+   specificity rules were losing to Publish's own CSS.
    ========================================================= */
 
-/* Give the three-column layout explicit breathing room. */
-.site-body {
+:root {
   --mimir-left-column-width: 270px;
-  --mimir-right-column-width: 280px;
+  --mimir-right-column-width: 285px;
+  --mimir-article-max: 900px;
 }
 
 /* Keep the navigation comfortably narrow without crushing labels. */
 .site-body-left-column {
-  width: var(--mimir-left-column-width);
-  min-width: var(--mimir-left-column-width);
-  flex: 0 0 var(--mimir-left-column-width);
-}
-
-/* Reserve real space for the table of contents instead of letting it
-   visually sit on top of the article. */
-.site-body-right-column {
-  width: var(--mimir-right-column-width);
-  min-width: var(--mimir-right-column-width);
-  flex: 0 0 var(--mimir-right-column-width);
-  overflow-x: hidden;
+  width: var(--mimir-left-column-width) !important;
+  min-width: var(--mimir-left-column-width) !important;
+  max-width: var(--mimir-left-column-width) !important;
+  flex: 0 0 var(--mimir-left-column-width) !important;
 }
 
 /* The middle pane must be allowed to shrink inside the remaining width.
@@ -640,15 +714,23 @@ input[type="checkbox"] {
 .site-body-center-column {
   min-width: 0;
   flex: 1 1 auto;
+  box-sizing: border-box;
 }
 
-/* Constrain prose to the available center pane, not the full viewport. */
-.site-body-center-column .markdown-preview-sizer,
-.site-body-center-column .markdown-preview-view .markdown-preview-sizer {
+/* Pull the TOC out of absolute-overlay mode and into normal flex flow.
+   With real flex siblings, the browser guarantees the center column
+   never renders underneath it — no reserve math required. */
+.site-body-right-column {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  width: var(--mimir-right-column-width) !important;
+  min-width: var(--mimir-right-column-width) !important;
+  max-width: var(--mimir-right-column-width) !important;
+  flex: 0 0 var(--mimir-right-column-width) !important;
+  overflow-x: hidden;
   box-sizing: border-box;
-  width: min(100%, var(--mimir-content-width));
-  max-width: min(100%, var(--mimir-content-width));
-  margin-inline: auto;
 }
 
 /* Long headings, links, code-like text, and TOC items should wrap instead
@@ -693,145 +775,74 @@ input[type="checkbox"] {
   line-height: 1.35;
 }
 
-/* Slightly reduce desktop content width when both sidebars are visible.
-   This keeps the article visually centered in its own pane. */
-@media (min-width: 1200px) {
-  :root {
-    --mimir-content-width: 820px;
+.site-body-right-column .outline-tree-item-inner {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+/* Center the article inside whatever room flexbox actually gave the
+   center column. No fixed margin-left here — margin-inline: auto is
+   the only thing that reliably centers a box. */
+@media (min-width: 1181px) {
+  .site-body-center-column .markdown-preview-sizer,
+  .site-body-center-column .markdown-preview-view .markdown-preview-sizer {
+    box-sizing: border-box;
+    width: min(100%, var(--mimir-article-max));
+    max-width: var(--mimir-article-max);
+    margin-inline: auto;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1700px) {
   :root {
-    --mimir-content-width: 900px;
-  }
-
-  .site-body {
-    --mimir-left-column-width: 285px;
     --mimir-right-column-width: 300px;
+    --mimir-article-max: 1040px;
   }
 }
 
-/* On medium-width screens, collapse the visual footprint of the TOC before
-   the article becomes cramped. Obsidian Publish may also hide this natively. */
+@media (min-width: 2200px) {
+  :root {
+    --mimir-right-column-width: 320px;
+    --mimir-article-max: 1160px;
+  }
+}
+
+/* Slightly tighter heading scale prevents long titles from feeling
+   cramped beside the outline on desktop. */
+@media (min-width: 1181px) and (max-width: 1699px) {
+  .markdown-preview-view h1 {
+    font-size: clamp(2rem, 2.35vw, 2.55rem);
+  }
+}
+
+/* Below desktop width, hide the TOC and let the article use the pane. */
 @media (max-width: 1180px) {
   .site-body-right-column {
-    display: none;
+    display: none !important;
   }
 
   .site-body-center-column .markdown-preview-sizer,
   .site-body-center-column .markdown-preview-view .markdown-preview-sizer {
+    box-sizing: border-box;
+    width: min(100%, 860px);
     max-width: min(100%, 860px);
+    margin-inline: auto;
   }
 }
 
 /* Mobile/tablet: let Obsidian's native drawer behavior take over. */
 @media (max-width: 750px) {
-  .site-body {
-    --mimir-left-column-width: auto;
-    --mimir-right-column-width: auto;
-  }
-
   .site-body-left-column {
-    width: auto;
-    min-width: 0;
-    flex: initial;
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    flex: initial !important;
   }
 
   .site-body-center-column {
     width: 100%;
-  }
-}
-
-
-/* =========================================================
-   19. PUBLISH LAYOUT OVERRIDE — v1.2
-   Obsidian Publish's right outline can visually overlay the
-   article pane. Reserve that space inside the center column.
-   ========================================================= */
-
-:root {
-  --mimir-outline-reserve: 330px;
-  --mimir-article-max: 840px;
-}
-
-/*
-  The Publish outline behaves more like an overlay than a normal
-  flex sibling on some desktop widths. Reserving space on the
-  center column prevents article content from rendering beneath it.
-*/
-@media (min-width: 1181px) {
-  .site-body-center-column {
-    box-sizing: border-box !important;
-    padding-right: var(--mimir-outline-reserve) !important;
-  }
-
-  .site-body-center-column .markdown-preview-view {
-    box-sizing: border-box;
-    width: 100%;
-  }
-
-  .site-body-center-column .markdown-preview-sizer,
-  .site-body-center-column .markdown-preview-view .markdown-preview-sizer {
-    box-sizing: border-box !important;
-    width: min(100%, var(--mimir-article-max)) !important;
-    max-width: var(--mimir-article-max) !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-  }
-
-  /*
-    Keep the outline in a predictable desktop lane.
-    These rules intentionally avoid changing its vertical behavior.
-  */
-  .site-body-right-column {
-    box-sizing: border-box !important;
-    width: 300px !important;
-    min-width: 300px !important;
-    max-width: 300px !important;
-    z-index: 5;
-  }
-
-  .site-body-right-column .outline-view-outer {
-    box-sizing: border-box !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-  }
-
-  .site-body-right-column .outline-tree-item,
-  .site-body-right-column .outline-tree-item-self,
-  .site-body-right-column .outline-tree-item-inner {
-    box-sizing: border-box;
-    max-width: 100%;
-  }
-
-  .site-body-right-column .outline-tree-item-inner {
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
-  }
-}
-
-/*
-  Extra-wide displays can support a slightly wider article while
-  still preserving a clear gutter before the outline.
-*/
-@media (min-width: 1700px) {
-  :root {
-    --mimir-outline-reserve: 350px;
-    --mimir-article-max: 900px;
-  }
-}
-
-/*
-  Below desktop width, remove the reservation entirely. v1.1 already
-  hides the right outline at these widths.
-*/
-@media (max-width: 1180px) {
-  .site-body-center-column {
-    padding-right: 0 !important;
   }
 }
 
@@ -839,7 +850,7 @@ input[type="checkbox"] {
 .site-body-center-column .markdown-preview-view,
 .site-body-center-column .markdown-preview-sizer,
 .site-body-center-column .markdown-preview-section {
-  min-width: 0 !important;
+  min-width: 0;
 }
 
 .site-body-center-column .markdown-preview-view img,
@@ -852,12 +863,4 @@ input[type="checkbox"] {
 .site-body-center-column .markdown-preview-view code,
 .site-body-center-column .markdown-preview-view table {
   min-width: 0;
-}
-
-/* Slightly tighter heading scale prevents long Codex titles from
-   feeling cramped beside the outline on desktop. */
-@media (min-width: 1181px) and (max-width: 1699px) {
-  .markdown-preview-view h1 {
-    font-size: clamp(2rem, 2.35vw, 2.55rem);
-  }
 }
