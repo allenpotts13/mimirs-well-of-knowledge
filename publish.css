@@ -222,10 +222,11 @@ body {
   background: var(--mimir-bg);
 }
 
-/* The home hero is the one place the atmosphere is meant to be seen,
-   not just felt — let its own background (section 19) show through
-   instead of covering it here. */
-.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) .markdown-preview-sizer {
+/* The home hero photo only renders in dark mode (section 19 — the
+   photo doesn't work against light mode's dark-on-light text), so
+   this transparency only needs to apply there too; light mode keeps
+   the normal opaque reading surface like every other page. */
+body.theme-dark .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) .markdown-preview-sizer {
   background: transparent;
 }
 
@@ -1005,23 +1006,29 @@ input[type="checkbox"] {
    fights the reading experience on regular content pages.
    ========================================================= */
 
-/* The hero photo (your own generated art — see conversation) lives on
-   an absolutely positioned ::before band across just the top of the
-   page, not the whole scrolling height, so it reads as a banner
-   rather than a texture tiled behind the "Enter the Well" lists
-   further down. z-index: 0 on the view element gives this its own
-   contained stacking context, so the ::before's z-index: -1 only
-   reaches behind THIS page's own content — it can't interfere with
-   the sitewide ripple layer (body::before) or anything else. The
-   gradient fades the photo into var(--mimir-bg) at the bottom edge
-   so the transition into regular content is seamless, and darkens the
-   top so the title/quote text stays readable over it. */
-.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) {
+/* The hero photo is a night scene — it never becomes "light," so it
+   fundamentally conflicts with light mode's dark-text-on-light-bg
+   design (confirmed by seeing it: dark ink text over a dark photo is
+   unreadable, and the blockquote's white card looks like a mismatched
+   popup floating on the art). Rather than force a "dark island" onto
+   an otherwise light page, the photo only shows in dark mode; light
+   mode falls back to a plain page like every other note. */
+body.theme-dark .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) {
   position: relative;
   z-index: 0;
 }
 
-.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"])::before {
+/* Lives on an absolutely positioned ::before band across just the top
+   of the page, not the whole scrolling height, so it reads as a
+   banner rather than a texture tiled behind the "Enter the Well"
+   lists further down. z-index: 0 on the view element (above) gives
+   this its own contained stacking context, so the ::before's
+   z-index: -1 only reaches behind THIS page's own content — it can't
+   interfere with the sitewide ripple layer (body::before) or anything
+   else. The gradient fades the photo into var(--mimir-bg) at the
+   bottom edge so the transition into regular content is seamless, and
+   darkens the top so the title/quote text stays readable over it. */
+body.theme-dark .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"])::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1044,7 +1051,7 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 750px) {
-  .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"])::before {
+  body.theme-dark .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"])::before {
     height: 380px;
     background-position: center 22%;
   }
