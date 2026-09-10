@@ -16,6 +16,7 @@ aliases:
   - Event Bubbling
   - Event Capturing
 publish: true
+permalink: javascript/event-handling-and-event-delegation
 ---
 
 # <span class="rune">ᛟ</span> Event Handling and Event Delegation

@@ -14,6 +14,7 @@ aliases:
   - git revert
   - Undoing a Pushed Commit
 publish: true
+permalink: git/reverting-a-commit-vs-resetting
 ---
 
 # <span class="rune">ᛟ</span> Reverting a Commit vs Resetting

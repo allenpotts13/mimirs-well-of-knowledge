@@ -13,6 +13,7 @@ aliases:
   - IS NULL
   - Finding missing values
 publish: true
+permalink: sql/filtering-rows-with-a-null-column
 ---
 
 # <span class="rune">ᚲ</span> Filtering Rows With a NULL Column

@@ -13,6 +13,7 @@ tags:
 aliases:
   - Governance Tool Choice
 publish: true
+permalink: az-900-azure-fundamentals/azure-rbac-vs-azure-policy-vs-resource-locks
 ---
 
 # <span class="rune">ᚲ</span> Azure RBAC vs Azure Policy vs Resource Locks

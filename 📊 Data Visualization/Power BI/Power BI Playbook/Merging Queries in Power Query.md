@@ -12,6 +12,7 @@ aliases:
   - Power Query Merge
   - Merge Queries
 publish: true
+permalink: power-bi/merging-queries-in-power-query
 ---
 
 # <span class="rune">ᚲ</span> Merging Queries in Power Query

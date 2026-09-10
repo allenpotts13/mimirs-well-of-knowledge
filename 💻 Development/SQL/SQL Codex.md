@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: sql
 ---
 
 # <span class="rune">ᚢ</span> SQL

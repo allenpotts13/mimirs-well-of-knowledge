@@ -16,6 +16,7 @@ aliases:
   - Array.filter
   - Array.reduce
 publish: true
+permalink: javascript/array-methods-map-filter-and-reduce
 ---
 
 # <span class="rune">ᛟ</span> Array Methods: map, filter, and reduce

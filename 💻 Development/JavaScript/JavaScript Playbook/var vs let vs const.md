@@ -15,6 +15,7 @@ aliases:
   - Variable Declarations
   - Block Scope vs Function Scope
 publish: true
+permalink: javascript/var-vs-let-vs-const
 ---
 
 # <span class="rune">ᛟ</span> var vs let vs const

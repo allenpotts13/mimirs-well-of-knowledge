@@ -15,6 +15,7 @@ aliases:
   - Choosing Between Arrays and Objects
   - Data Structure Selection
 publish: true
+permalink: javascript/arrays-vs-objects-when-to-use-which
 ---
 
 # <span class="rune">ᛟ</span> Arrays vs Objects: When to Use Which

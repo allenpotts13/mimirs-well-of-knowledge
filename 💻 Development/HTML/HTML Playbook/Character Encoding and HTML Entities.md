@@ -15,6 +15,7 @@ aliases:
   - HTML Entities
   - Mojibake
 publish: true
+permalink: html/character-encoding-and-html-entities
 ---
 
 # <span class="rune">ᛟ</span> Character Encoding and HTML Entities

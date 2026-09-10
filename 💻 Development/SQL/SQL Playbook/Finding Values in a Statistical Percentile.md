@@ -15,6 +15,7 @@ aliases:
   - PERCENTILE_CONT Alternative
   - Finding Percentile Cutoffs
 publish: true
+permalink: sql/finding-values-in-a-statistical-percentile
 ---
 
 # <span class="rune">ᚲ</span> Finding Values in a Statistical Percentile

@@ -14,6 +14,7 @@ aliases:
   - Self-Join Pattern
   - Comparing a Row to Its Related Row
 publish: true
+permalink: sql/comparing-related-rows-with-a-self-join
 ---
 
 # <span class="rune">ᚲ</span> Comparing Related Rows With a Self-Join

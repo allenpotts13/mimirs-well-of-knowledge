@@ -14,6 +14,7 @@ aliases:
   - Error Handling with try/catch
   - try/catch/finally
 publish: true
+permalink: javascript/error-handling-with-try-catch
 ---
 
 # <span class="rune">ᛟ</span> Error Handling with try/catch

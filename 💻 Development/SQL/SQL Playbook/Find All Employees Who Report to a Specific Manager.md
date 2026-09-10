@@ -14,6 +14,7 @@ aliases:
   - Direct Reports
   - Find Employees by Manager
 publish: true
+permalink: sql/find-all-employees-who-report-to-a-specific-manager
 ---
 
 # <span class="rune">ᚲ</span> Find All Employees Who Report to a Specific Manager

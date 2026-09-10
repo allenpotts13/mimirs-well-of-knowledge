@@ -13,6 +13,7 @@ aliases:
   - git commit
   - Amending Commits
 publish: true
+permalink: git/committing-changes-with-git-commit
 ---
 
 # <span class="rune">ᛟ</span> Committing Changes with git commit

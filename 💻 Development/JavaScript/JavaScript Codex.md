@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: javascript
 ---
 
 # <span class="rune">ᚾ</span> JavaScript

@@ -13,6 +13,7 @@ aliases:
   - Calculated Column
   - Measure
 publish: true
+permalink: power-bi/calculated-columns-vs-measures
 ---
 
 # <span class="rune">ᛟ</span> Calculated Columns vs Measures

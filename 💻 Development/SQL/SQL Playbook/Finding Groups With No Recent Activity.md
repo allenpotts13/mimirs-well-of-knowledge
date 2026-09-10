@@ -16,6 +16,7 @@ aliases:
   - Departments With No Recent Hires
   - Detecting Stale Groups
 publish: true
+permalink: sql/finding-groups-with-no-recent-activity
 ---
 
 # <span class="rune">ᚲ</span> Finding Groups With No Recent Activity

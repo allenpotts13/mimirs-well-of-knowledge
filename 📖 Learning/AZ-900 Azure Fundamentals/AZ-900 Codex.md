@@ -12,6 +12,7 @@ aliases:
   - Azure Fundamentals
   - AZ-900
 publish: true
+permalink: az-900-azure-fundamentals/az-900-codex
 ---
 
 # <span class="rune">ᚱ</span> AZ-900: Microsoft Certified Azure Fundamentals

@@ -12,6 +12,7 @@ aliases:
   - Cloud Computing Basics
   - Cloud Service Models
 publish: true
+permalink: az-900-azure-fundamentals/cloud-concepts
 ---
 
 # <span class="rune">ᛟ</span> Cloud Concepts

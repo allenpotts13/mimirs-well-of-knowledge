@@ -15,6 +15,7 @@ aliases:
   - Truthy Values
   - Boolean Coercion
 publish: true
+permalink: javascript/truthy-and-falsy-values
 ---
 
 # <span class="rune">ᛟ</span> Truthy and Falsy Values

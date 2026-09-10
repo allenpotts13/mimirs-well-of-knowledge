@@ -13,6 +13,7 @@ aliases:
   - Primary Key
   - PK
 publish: true
+permalink: sql/primary-keys
 ---
 
 # <span class="rune">ᛟ</span> Primary Keys

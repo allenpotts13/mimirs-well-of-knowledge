@@ -12,6 +12,7 @@ aliases:
   - SWITCH
   - DAX CASE
 publish: true
+permalink: power-bi/using-switch-for-multiple-conditions
 ---
 
 # <span class="rune">ᚲ</span> Using SWITCH for Multiple Conditions

@@ -14,6 +14,7 @@ aliases:
   - Finding Duplicate Records
   - Identifying Duplicate Values
 publish: true
+permalink: sql/finding-duplicate-records
 ---
 
 # <span class="rune">ᚲ</span> Finding Duplicate Records

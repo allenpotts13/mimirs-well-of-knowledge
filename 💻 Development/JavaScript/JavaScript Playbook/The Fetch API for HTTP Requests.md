@@ -15,6 +15,7 @@ aliases:
   - fetch()
   - The Fetch API
 publish: true
+permalink: javascript/the-fetch-api-for-http-requests
 ---
 
 # <span class="rune">ᛟ</span> The Fetch API for HTTP Requests

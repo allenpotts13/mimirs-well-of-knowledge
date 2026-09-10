@@ -19,6 +19,7 @@ aliases:
   - Unstaging a File
   - Discarding Changes
 publish: true
+permalink: git/undoing-changes-checkout-restore-and-reset
 ---
 
 # <span class="rune">ᛟ</span> Undoing Changes: checkout, restore, and reset

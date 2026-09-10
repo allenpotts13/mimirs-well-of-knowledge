@@ -13,6 +13,7 @@ aliases:
   - label element
   - Form Label Accessibility
 publish: true
+permalink: html/the-label-element-and-form-accessibility
 ---
 
 # <span class="rune">ᛟ</span> The label Element and Form Accessibility

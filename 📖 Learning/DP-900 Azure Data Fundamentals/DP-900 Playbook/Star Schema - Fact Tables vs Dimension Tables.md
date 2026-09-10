@@ -12,6 +12,7 @@ tags:
 aliases:
   - Fact vs Dimension
 publish: true
+permalink: dp-900-azure-data-fundamentals/star-schema-fact-tables-vs-dimension-tables
 ---
 
 # <span class="rune">ᚲ</span> Star Schema - Fact Tables vs Dimension Tables

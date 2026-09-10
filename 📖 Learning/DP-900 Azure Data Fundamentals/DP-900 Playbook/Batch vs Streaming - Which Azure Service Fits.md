@@ -13,6 +13,7 @@ tags:
 aliases:
   - Batch vs Streaming
 publish: true
+permalink: dp-900-azure-data-fundamentals/batch-vs-streaming-which-azure-service-fits
 ---
 
 # <span class="rune">ᚲ</span> Batch vs Streaming - Which Azure Service Fits

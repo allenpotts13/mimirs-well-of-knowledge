@@ -15,6 +15,7 @@ aliases:
   - TCL
   - SQL Statement Categories
 publish: true
+permalink: sql/ddl-vs-dml-vs-dcl-vs-tcl
 ---
 
 # <span class="rune">ᛟ</span> DDL vs DML vs DCL vs TCL

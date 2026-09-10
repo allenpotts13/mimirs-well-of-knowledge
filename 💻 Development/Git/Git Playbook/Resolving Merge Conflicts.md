@@ -14,6 +14,7 @@ aliases:
   - Conflict Markers
   - git merge --abort
 publish: true
+permalink: git/resolving-merge-conflicts
 ---
 
 # <span class="rune">ᛟ</span> Resolving Merge Conflicts

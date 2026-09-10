@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: git
 ---
 
 # <span class="rune">ᚦ</span> Git

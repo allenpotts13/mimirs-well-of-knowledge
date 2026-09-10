@@ -15,6 +15,7 @@ aliases:
   - Highest Salaries
   - Top N Records
 publish: true
+permalink: sql/retrieving-the-top-n-highest-values
 ---
 
 # <span class="rune">ᚲ</span> Retrieving the Top N Highest Values

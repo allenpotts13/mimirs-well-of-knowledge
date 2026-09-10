@@ -14,6 +14,7 @@ aliases:
   - HTML Boilerplate
   - DOCTYPE and html lang
 publish: true
+permalink: html/document-structure-doctype-html-head-and-body
 ---
 
 # <span class="rune">ᛟ</span> Document Structure: doctype, html, head, and body

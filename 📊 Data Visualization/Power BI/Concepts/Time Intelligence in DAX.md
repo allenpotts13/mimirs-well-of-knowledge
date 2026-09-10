@@ -13,6 +13,7 @@ aliases:
   - DATESYTD
   - SAMEPERIODLASTYEAR
 publish: true
+permalink: power-bi/time-intelligence-in-dax
 ---
 
 # <span class="rune">ᛟ</span> Time Intelligence in DAX

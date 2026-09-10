@@ -14,6 +14,7 @@ aliases:
   - CSS Transforms
   - translate scale rotate skew
 publish: true
+permalink: css/the-transform-property
 ---
 
 # <span class="rune">ᛟ</span> The transform Property

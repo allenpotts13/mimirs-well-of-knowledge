@@ -16,6 +16,7 @@ aliases:
   - await
   - Async Functions
 publish: true
+permalink: javascript/async-await
 ---
 
 # <span class="rune">ᛟ</span> Async/Await

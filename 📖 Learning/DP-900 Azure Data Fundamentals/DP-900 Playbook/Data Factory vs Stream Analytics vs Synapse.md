@@ -13,6 +13,7 @@ tags:
 aliases:
   - Analytics Service Overlap
 publish: true
+permalink: dp-900-azure-data-fundamentals/data-factory-vs-stream-analytics-vs-synapse
 ---
 
 # <span class="rune">ᚲ</span> Data Factory vs Stream Analytics vs Synapse

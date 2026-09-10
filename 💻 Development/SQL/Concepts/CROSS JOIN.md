@@ -12,6 +12,7 @@ aliases:
   - SQL CROSS JOIN
   - Cartesian Product
 publish: true
+permalink: sql/cross-join
 ---
 
 # <span class="rune">ᛟ</span> CROSS JOIN

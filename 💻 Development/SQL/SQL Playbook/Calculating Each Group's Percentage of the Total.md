@@ -15,6 +15,7 @@ aliases:
   - Percentage of Total by Group
   - Department Percentage Breakdown
 publish: true
+permalink: sql/calculating-each-groups-percentage-of-the-total
 ---
 
 # <span class="rune">ᚲ</span> Calculating Each Group's Percentage of the Total

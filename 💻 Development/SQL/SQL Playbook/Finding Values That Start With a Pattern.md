@@ -14,6 +14,7 @@ aliases:
   - Names Starting With A
   - LIKE Prefix Search
 publish: true
+permalink: sql/finding-values-that-start-with-a-pattern
 ---
 
 # <span class="rune">ᚲ</span> Finding Values That Start With a Pattern

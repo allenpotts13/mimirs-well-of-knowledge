@@ -14,6 +14,7 @@ aliases:
   - Multiple Aggregates in One Query
   - Group-Wise Min and Max
 publish: true
+permalink: sql/calculating-multiple-aggregates-per-group
 ---
 
 # <span class="rune">ᚲ</span> Calculating Multiple Aggregates Per Group

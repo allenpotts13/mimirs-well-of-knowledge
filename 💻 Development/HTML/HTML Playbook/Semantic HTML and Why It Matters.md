@@ -14,6 +14,7 @@ aliases:
   - Semantic Markup
   - Why Semantic HTML Matters
 publish: true
+permalink: html/semantic-html-and-why-it-matters
 ---
 
 # <span class="rune">ᛟ</span> Semantic HTML and Why It Matters

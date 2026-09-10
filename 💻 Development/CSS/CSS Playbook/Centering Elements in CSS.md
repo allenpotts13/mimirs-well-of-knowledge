@@ -16,6 +16,7 @@ aliases:
   - Centering a Div
   - Vertical and Horizontal Centering
 publish: true
+permalink: css/centering-elements-in-css
 ---
 
 # <span class="rune">ᛟ</span> Centering Elements in CSS

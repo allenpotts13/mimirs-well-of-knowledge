@@ -12,6 +12,7 @@ tags:
 aliases:
   - Azure SQL Deployment Choice
 publish: true
+permalink: dp-900-azure-data-fundamentals/choosing-between-azure-sql-database-managed-instance-and-sql-server-on-a-vm
 ---
 
 # <span class="rune">ᚲ</span> Choosing Between Azure SQL Database, Managed Instance, and SQL Server on a VM

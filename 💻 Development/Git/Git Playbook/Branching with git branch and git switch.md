@@ -15,6 +15,7 @@ aliases:
   - git switch
   - Creating Branches
 publish: true
+permalink: git/branching-with-git-branch-and-git-switch
 ---
 
 # <span class="rune">ᛟ</span> Branching with git branch and git switch

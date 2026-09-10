@@ -12,6 +12,7 @@ aliases:
   - GROUP BY
   - HAVING
 publish: true
+permalink: sql/group-by-and-having
 ---
 
 # <span class="rune">ᛟ</span> GROUP BY and HAVING

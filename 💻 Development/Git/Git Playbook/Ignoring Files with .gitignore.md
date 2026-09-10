@@ -14,6 +14,7 @@ aliases:
   - gitignore
   - Excluding Files from Git
 publish: true
+permalink: git/ignoring-files-with-gitignore
 ---
 
 # <span class="rune">ᛟ</span> Ignoring Files with .gitignore

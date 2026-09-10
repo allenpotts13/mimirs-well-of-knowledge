@@ -13,6 +13,7 @@ aliases:
   - Percent of Total
   - Percent of Parent
 publish: true
+permalink: power-bi/creating-a-percentage-of-total-measure
 ---
 
 # <span class="rune">ᚲ</span> Creating a Percentage of Total Measure

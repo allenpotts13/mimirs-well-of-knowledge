@@ -12,6 +12,7 @@ tags:
 aliases:
   - CapEx vs OpEx
 publish: true
+permalink: az-900-azure-fundamentals/capex-vs-opex-and-the-economics-of-cloud
 ---
 
 # <span class="rune">ᚲ</span> CapEx vs OpEx and the Economics of Cloud

@@ -10,6 +10,7 @@ tags:
 aliases:
   - AZ-900 Exam Info
 publish: true
+permalink: az-900-azure-fundamentals/az-900-study-plan-and-exam-info
 ---
 
 # <span class="rune">ᛃ</span> AZ-900 Study Plan and Exam Info

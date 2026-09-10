@@ -12,6 +12,7 @@ tags:
 aliases:
   - Query Fold
 publish: true
+permalink: power-bi/query-folding
 ---
 
 # <span class="rune">ᛟ</span> Query Folding

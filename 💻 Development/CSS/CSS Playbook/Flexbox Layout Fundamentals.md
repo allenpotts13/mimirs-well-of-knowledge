@@ -15,6 +15,7 @@ aliases:
   - display flex
   - Flexible Box Layout
 publish: true
+permalink: css/flexbox-layout-fundamentals
 ---
 
 # <span class="rune">ᛟ</span> Flexbox Layout Fundamentals

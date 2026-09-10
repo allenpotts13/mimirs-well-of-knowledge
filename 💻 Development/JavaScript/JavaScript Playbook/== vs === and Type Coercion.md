@@ -15,6 +15,7 @@ aliases:
   - Double Equals vs Triple Equals
   - Type Coercion
 publish: true
+permalink: javascript/vs-and-type-coercion
 ---
 
 # <span class="rune">ᛟ</span> == vs === and Type Coercion

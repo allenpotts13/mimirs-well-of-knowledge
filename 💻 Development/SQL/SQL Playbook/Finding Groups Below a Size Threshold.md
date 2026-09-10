@@ -14,6 +14,7 @@ aliases:
   - Departments With Fewer Than N Employees
   - Small Group Filtering
 publish: true
+permalink: sql/finding-groups-below-a-size-threshold
 ---
 
 # <span class="rune">ᚲ</span> Finding Groups Below a Size Threshold

@@ -12,6 +12,7 @@ aliases:
   - DAX BLANK
   - DIVIDE Function
 publish: true
+permalink: power-bi/handling-blank-values-with-dax
 ---
 
 # <span class="rune">ᚲ</span> Handling Blank Values with DAX

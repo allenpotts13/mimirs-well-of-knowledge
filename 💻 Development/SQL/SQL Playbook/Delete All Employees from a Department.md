@@ -12,6 +12,7 @@ tags:
   - data-cleaning
 aliases:
 publish: true
+permalink: sql/delete-all-employees-from-a-department
 ---
 
 # <span class="rune">ᚲ</span> Delete All Employees from a Department

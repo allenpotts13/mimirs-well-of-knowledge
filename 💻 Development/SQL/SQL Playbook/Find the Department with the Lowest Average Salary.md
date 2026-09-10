@@ -14,6 +14,7 @@ aliases:
   - Lowest Average Salary by Department
   - Department with Lowest Average Salary
 publish: true
+permalink: sql/find-the-department-with-the-lowest-average-salary
 ---
 
 # <span class="rune">ᚲ</span> Find the Department with the Lowest Average Salary

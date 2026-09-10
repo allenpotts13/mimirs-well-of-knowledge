@@ -14,6 +14,7 @@ aliases:
   - input type attribute
   - HTML Input Types
 publish: true
+permalink: html/input-types-and-attributes
 ---
 
 # <span class="rune">ᛟ</span> Input Types and Attributes

@@ -12,6 +12,7 @@ tags:
 aliases:
   - Service Model Recognition
 publish: true
+permalink: az-900-azure-fundamentals/iaas-vs-paas-vs-saas-spotting-the-service-model
 ---
 
 # <span class="rune">ᚲ</span> IaaS vs PaaS vs SaaS - Spotting the Service Model

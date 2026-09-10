@@ -12,6 +12,7 @@ aliases:
   - Database Indexes
   - B-Tree Index
 publish: true
+permalink: sql/indexes
 ---
 
 # <span class="rune">ᛟ</span> Indexes

@@ -13,6 +13,7 @@ aliases:
   - Power BI Visual Types
   - Chart Selection
 publish: true
+permalink: power-bi/choosing-the-right-visual
 ---
 
 # <span class="rune">ᛟ</span> Choosing the Right Visual

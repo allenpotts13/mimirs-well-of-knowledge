@@ -2,6 +2,7 @@
 publish: true
 status: published
 type: landing
+permalink: home/the-well
 ---
 
 ![[mimirs-well-background.jpg]]

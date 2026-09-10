@@ -15,6 +15,7 @@ aliases:
   - Highest Salary Per Department
   - Maximum Salary by Department
 publish: true
+permalink: sql/finding-the-highest-salary-in-each-department
 ---
 
 # <span class="rune">ᚲ</span> Finding the Highest Salary in Each Department

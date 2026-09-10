@@ -13,6 +13,7 @@ aliases:
   - UNIQUE Constraint
   - CHECK Constraint
 publish: true
+permalink: sql/constraints
 ---
 
 # <span class="rune">ᛟ</span> Constraints

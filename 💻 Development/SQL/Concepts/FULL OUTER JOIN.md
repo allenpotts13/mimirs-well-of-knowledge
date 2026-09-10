@@ -12,6 +12,7 @@ aliases:
   - SQL FULL OUTER JOIN
   - FULL JOIN
 publish: true
+permalink: sql/full-outer-join
 ---
 
 # <span class="rune">ᛟ</span> FULL OUTER JOIN

@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: power-bi/power-bi-cheat-sheet
 ---
 
 # <span class="rune">ᛊ</span> Power BI Cheat Sheet

@@ -11,6 +11,7 @@ tags:
 aliases:
   - Data Analysis Expressions
 publish: true
+permalink: power-bi/dax-fundamentals
 ---
 
 # <span class="rune">ᛟ</span> DAX Fundamentals

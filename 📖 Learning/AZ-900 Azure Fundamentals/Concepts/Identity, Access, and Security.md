@@ -16,6 +16,7 @@ aliases:
   - Azure RBAC
   - Zero Trust
 publish: true
+permalink: az-900-azure-fundamentals/identity-access-and-security
 ---
 
 # <span class="rune">ᛟ</span> Identity, Access, and Security

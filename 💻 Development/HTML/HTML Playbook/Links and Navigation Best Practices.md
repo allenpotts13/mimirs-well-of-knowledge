@@ -14,6 +14,7 @@ aliases:
   - Anchor Tag Best Practices
   - a href
 publish: true
+permalink: html/links-and-navigation-best-practices
 ---
 
 # <span class="rune">ᛟ</span> Links and Navigation Best Practices

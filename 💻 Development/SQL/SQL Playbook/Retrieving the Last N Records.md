@@ -15,6 +15,7 @@ aliases:
   - Most Recent Records
   - Retrieving Recent Rows
 publish: true
+permalink: sql/retrieving-the-last-n-records
 ---
 
 # <span class="rune">ᚲ</span> Retrieving the Last N Records

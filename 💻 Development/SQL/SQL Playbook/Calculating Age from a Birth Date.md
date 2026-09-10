@@ -13,6 +13,7 @@ tags:
 aliases:
   - Filtering by age
 publish: true
+permalink: sql/calculating-age-from-a-birth-date
 ---
 
 # <span class="rune">ᚲ</span> Calculating Age from a Birth Date

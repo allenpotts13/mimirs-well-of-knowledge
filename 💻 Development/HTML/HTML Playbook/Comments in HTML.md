@@ -13,6 +13,7 @@ aliases:
   - HTML Comment Syntax
   - "<!-- -->"
 publish: true
+permalink: html/comments-in-html
 ---
 
 # <span class="rune">ᛟ</span> Comments in HTML

@@ -14,6 +14,7 @@ aliases:
   - Nth Highest Salary
   - Nth Largest Value
 publish: true
+permalink: sql/finding-the-nth-highest-value
 ---
 
 # <span class="rune">ᚲ</span> Finding the Nth Highest Value

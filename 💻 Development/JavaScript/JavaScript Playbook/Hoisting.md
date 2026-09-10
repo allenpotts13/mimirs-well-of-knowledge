@@ -15,6 +15,7 @@ aliases:
   - Temporal Dead Zone
   - TDZ
 publish: true
+permalink: javascript/hoisting
 ---
 
 # <span class="rune">ᛟ</span> Hoisting

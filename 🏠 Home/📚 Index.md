@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: home/index
 ---
 
 # Knowledge Index

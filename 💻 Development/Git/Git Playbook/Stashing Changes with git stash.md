@@ -14,6 +14,7 @@ aliases:
   - Stash Stack
   - git stash pop
 publish: true
+permalink: git/stashing-changes-with-git-stash
 ---
 
 # <span class="rune">ᛟ</span> Stashing Changes with git stash

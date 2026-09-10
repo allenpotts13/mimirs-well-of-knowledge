@@ -12,6 +12,7 @@ aliases:
   - Azure Data Fundamentals
   - DP-900
 publish: true
+permalink: dp-900-azure-data-fundamentals/dp-900-codex
 ---
 
 # <span class="rune">ᚱ</span> DP-900: Azure Data Fundamentals

@@ -16,6 +16,7 @@ aliases:
   - Position Absolute vs Relative vs Fixed
   - "Positioning: static, relative, absolute, fixed, and sticky"
 publish: true
+permalink: css/positioning-static-relative-absolute-fixed-and-sticky
 ---
 
 # <span class="rune">ᛟ</span> Positioning: static, relative, absolute, fixed, and sticky

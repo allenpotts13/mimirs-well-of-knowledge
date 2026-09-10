@@ -12,6 +12,7 @@ tags:
 aliases:
   - On-Premises Data Gateway
 publish: true
+permalink: power-bi/power-bi-gateway
 ---
 
 # <span class="rune">ᛟ</span> Power BI Gateway

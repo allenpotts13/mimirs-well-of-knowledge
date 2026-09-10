@@ -13,6 +13,7 @@ tags:
 aliases:
   - OLTP vs OLAP Recognition
 publish: true
+permalink: dp-900-azure-data-fundamentals/spotting-oltp-vs-olap-in-a-scenario
 ---
 
 # <span class="rune">ᚲ</span> Spotting OLTP vs OLAP in a Scenario

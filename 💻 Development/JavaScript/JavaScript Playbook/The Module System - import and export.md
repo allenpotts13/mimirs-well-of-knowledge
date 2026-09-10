@@ -15,6 +15,7 @@ aliases:
   - ES Modules
   - CommonJS vs ES Modules
 publish: true
+permalink: javascript/the-module-system-import-and-export
 ---
 
 # <span class="rune">ᛟ</span> The Module System: import and export

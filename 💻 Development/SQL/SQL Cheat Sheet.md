@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: sql/sql-cheat-sheet
 ---
 
 # <span class="rune">ᛊ</span> SQL Cheat Sheet

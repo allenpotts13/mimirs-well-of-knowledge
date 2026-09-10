@@ -16,6 +16,7 @@ aliases:
   - Lightweight Tags
   - Release Tagging
 publish: true
+permalink: git/tagging-releases
 ---
 
 # <span class="rune">ᛟ</span> Tagging Releases

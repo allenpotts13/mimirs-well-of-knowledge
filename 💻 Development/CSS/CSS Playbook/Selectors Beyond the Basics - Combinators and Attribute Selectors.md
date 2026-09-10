@@ -16,6 +16,7 @@ aliases:
   - Attribute Selectors
   - Descendant vs Child Selector
 publish: true
+permalink: css/selectors-beyond-the-basics-combinators-and-attribute-selectors
 ---
 
 # <span class="rune">ᛟ</span> Selectors Beyond the Basics: Combinators and Attribute Selectors

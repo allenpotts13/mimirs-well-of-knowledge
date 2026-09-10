@@ -13,6 +13,7 @@ aliases:
   - Calendar Table
   - Mark as Date Table
 publish: true
+permalink: power-bi/building-a-date-table
 ---
 
 # <span class="rune">ᚲ</span> Building a Date Table

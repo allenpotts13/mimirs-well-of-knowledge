@@ -11,6 +11,7 @@ tags:
 aliases:
   - YoY Growth
 publish: true
+permalink: power-bi/calculating-year-over-year-growth
 ---
 
 # <span class="rune">ᚲ</span> Calculating Year-over-Year Growth

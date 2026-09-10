@@ -11,6 +11,7 @@ tags:
 aliases:
   - YTD Measure
 publish: true
+permalink: power-bi/calculating-year-to-date-totals
 ---
 
 # <span class="rune">ᚲ</span> Calculating Year-to-Date Totals

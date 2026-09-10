@@ -17,6 +17,7 @@ aliases:
   - Video and Audio Elements
   - iframe sandbox
 publish: true
+permalink: html/embedding-media-audio-video-and-iframe
 ---
 
 # <span class="rune">ᛟ</span> Embedding Media: audio, video, and iframe

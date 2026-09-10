@@ -15,6 +15,7 @@ aliases:
   - Custom Elements
   - customElements.define
 publish: true
+permalink: html/web-components-basics-custom-elements-and-templates
 ---
 
 # <span class="rune">ᛟ</span> Web Components Basics: Custom Elements and Templates

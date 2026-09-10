@@ -14,6 +14,7 @@ aliases:
   - Salary Between Two Values
   - Range Filtering
 publish: true
+permalink: sql/finding-values-within-a-range
 ---
 
 # <span class="rune">ᚲ</span> Finding Values Within a Range

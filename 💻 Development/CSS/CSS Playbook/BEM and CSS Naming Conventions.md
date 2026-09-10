@@ -16,6 +16,7 @@ aliases:
   - Block Element Modifier
   - CSS Naming Methodology
 publish: true
+permalink: css/bem-and-css-naming-conventions
 ---
 
 # <span class="rune">ᛟ</span> BEM and CSS Naming Conventions

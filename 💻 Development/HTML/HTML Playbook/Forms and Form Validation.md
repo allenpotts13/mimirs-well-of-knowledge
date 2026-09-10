@@ -14,6 +14,7 @@ aliases:
   - HTML5 Form Validation
   - Built-in Validation
 publish: true
+permalink: html/forms-and-form-validation
 ---
 
 # <span class="rune">ᛟ</span> Forms and Form Validation

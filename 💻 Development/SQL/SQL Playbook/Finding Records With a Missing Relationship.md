@@ -15,6 +15,7 @@ aliases:
   - IS NULL
   - Finding NULL Values
 publish: true
+permalink: sql/finding-records-with-a-missing-relationship
 ---
 
 # <span class="rune">ᚲ</span> Finding Records With a Missing Relationship

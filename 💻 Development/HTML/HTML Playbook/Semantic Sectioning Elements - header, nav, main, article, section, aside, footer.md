@@ -16,6 +16,7 @@ aliases:
   - HTML5 Sectioning Elements
   - Landmark Elements
 publish: true
+permalink: html/semantic-sectioning-elements-header-nav-main-article-section-aside-footer
 ---
 
 # <span class="rune">ᛟ</span> Semantic Sectioning Elements: header, nav, main, article, section, aside, footer

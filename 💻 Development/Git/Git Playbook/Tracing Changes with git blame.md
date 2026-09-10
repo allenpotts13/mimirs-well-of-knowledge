@@ -14,6 +14,7 @@ aliases:
   - Blame
   - Line-by-Line History
 publish: true
+permalink: git/tracing-changes-with-git-blame
 ---
 
 # <span class="rune">ᛟ</span> Tracing Changes with git blame

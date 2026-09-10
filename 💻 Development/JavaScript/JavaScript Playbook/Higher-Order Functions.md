@@ -14,6 +14,7 @@ aliases:
   - HOFs
   - Functions as First-Class Citizens
 publish: true
+permalink: javascript/higher-order-functions
 ---
 
 # <span class="rune">ᛟ</span> Higher-Order Functions

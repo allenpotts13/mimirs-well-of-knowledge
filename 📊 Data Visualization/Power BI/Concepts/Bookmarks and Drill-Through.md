@@ -14,6 +14,7 @@ aliases:
   - Drill-Through
   - Drillthrough
 publish: true
+permalink: power-bi/bookmarks-and-drill-through
 ---
 
 # <span class="rune">ᛟ</span> Bookmarks and Drill-Through

@@ -12,6 +12,7 @@ aliases:
   - RLS
   - Row-Level Security
 publish: true
+permalink: power-bi/row-level-security-rls
 ---
 
 # <span class="rune">ᛟ</span> Row-Level Security (RLS)

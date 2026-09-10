@@ -14,6 +14,7 @@ aliases:
   - Employees Who Joined in 2020
   - Filtering Dates by Year
 publish: true
+permalink: sql/filtering-records-by-year
 ---
 
 # <span class="rune">ᚲ</span> Filtering Records by Year

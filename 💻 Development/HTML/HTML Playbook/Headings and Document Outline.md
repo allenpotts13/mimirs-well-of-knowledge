@@ -13,6 +13,7 @@ aliases:
   - Heading Hierarchy
   - h1-h6
 publish: true
+permalink: html/headings-and-document-outline
 ---
 
 # <span class="rune">ᛟ</span> Headings and Document Outline

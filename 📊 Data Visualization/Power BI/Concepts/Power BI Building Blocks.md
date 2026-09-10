@@ -12,6 +12,7 @@ aliases:
   - Dataset Report Dashboard
   - Power BI Workspace
 publish: true
+permalink: power-bi/power-bi-building-blocks
 ---
 
 # <span class="rune">ᛟ</span> Power BI Building Blocks

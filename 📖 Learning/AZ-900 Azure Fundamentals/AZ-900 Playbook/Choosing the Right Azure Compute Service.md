@@ -11,6 +11,7 @@ tags:
 aliases:
   - Azure Compute Decision
 publish: true
+permalink: az-900-azure-fundamentals/choosing-the-right-azure-compute-service
 ---
 
 # <span class="rune">ᚲ</span> Choosing the Right Azure Compute Service

@@ -15,6 +15,7 @@ aliases:
   - Azure Policy
   - Azure Governance Tools
 publish: true
+permalink: az-900-azure-fundamentals/azure-management-and-governance
 ---
 
 # <span class="rune">ᛟ</span> Azure Management and Governance

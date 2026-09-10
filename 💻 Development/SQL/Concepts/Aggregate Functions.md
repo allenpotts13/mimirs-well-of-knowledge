@@ -12,6 +12,7 @@ aliases:
   - COUNT SUM AVG MIN MAX
   - Aggregate Function
 publish: true
+permalink: sql/aggregate-functions
 ---
 
 # <span class="rune">ᛟ</span> Aggregate Functions

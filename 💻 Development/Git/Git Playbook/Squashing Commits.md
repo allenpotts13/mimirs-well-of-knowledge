@@ -14,6 +14,7 @@ aliases:
   - git merge --squash
   - Combining Commits
 publish: true
+permalink: git/squashing-commits
 ---
 
 # <span class="rune">ᛟ</span> Squashing Commits

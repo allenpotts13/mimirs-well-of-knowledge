@@ -13,6 +13,7 @@ tags:
 aliases:
   - Filtering by email suffix
 publish: true
+permalink: sql/filtering-rows-by-email-domain
 ---
 
 # <span class="rune">ᚲ</span> Filtering Rows by Email Domain

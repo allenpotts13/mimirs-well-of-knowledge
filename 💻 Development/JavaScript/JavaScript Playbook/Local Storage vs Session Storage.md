@@ -15,6 +15,7 @@ aliases:
   - Web Storage API
   - localStorage vs sessionStorage
 publish: true
+permalink: javascript/local-storage-vs-session-storage
 ---
 
 # <span class="rune">ᛟ</span> Local Storage vs Session Storage

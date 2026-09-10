@@ -14,6 +14,7 @@ aliases:
   - 3NF
   - Database Normalization
 publish: true
+permalink: sql/normalization
 ---
 
 # <span class="rune">ᛟ</span> Normalization

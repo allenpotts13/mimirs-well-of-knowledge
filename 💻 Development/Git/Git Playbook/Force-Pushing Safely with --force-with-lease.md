@@ -14,6 +14,7 @@ aliases:
   - Safe Force Push
   - git push --force-with-lease
 publish: true
+permalink: git/force-pushing-safely-with-force-with-lease
 ---
 
 # <span class="rune">ᛟ</span> Force-Pushing Safely with --force-with-lease

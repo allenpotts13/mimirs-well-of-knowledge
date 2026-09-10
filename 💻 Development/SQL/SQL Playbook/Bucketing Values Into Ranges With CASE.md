@@ -15,6 +15,7 @@ aliases:
   - Salary Range Buckets
   - CASE WHEN Binning
 publish: true
+permalink: sql/bucketing-values-into-ranges-with-case
 ---
 
 # <span class="rune">ᚲ</span> Bucketing Values Into Ranges With CASE

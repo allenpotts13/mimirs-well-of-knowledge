@@ -15,6 +15,7 @@ aliases:
   - Web Fonts
   - font-display
 publish: true
+permalink: css/custom-fonts-with-font-face
 ---
 
 # <span class="rune">ᛟ</span> Custom Fonts with @font-face

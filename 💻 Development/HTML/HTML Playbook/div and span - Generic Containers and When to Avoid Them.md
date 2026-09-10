@@ -15,6 +15,7 @@ aliases:
   - Divitis
   - Generic Containers
 publish: true
+permalink: html/div-and-span-generic-containers-and-when-to-avoid-them
 ---
 
 # <span class="rune">ᛟ</span> div and span: Generic Containers and When to Avoid Them

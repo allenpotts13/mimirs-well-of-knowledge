@@ -14,6 +14,7 @@ aliases:
   - git submodule
   - Nested Repositories
 publish: true
+permalink: git/git-submodules
 ---
 
 # <span class="rune">ᛟ</span> Git Submodules

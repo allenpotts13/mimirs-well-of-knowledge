@@ -15,6 +15,7 @@ aliases:
   - overflow-y
   - Scrollable Containers
 publish: true
+permalink: css/overflow-and-scrolling-behavior
 ---
 
 # <span class="rune">ᛟ</span> Overflow and Scrolling Behavior

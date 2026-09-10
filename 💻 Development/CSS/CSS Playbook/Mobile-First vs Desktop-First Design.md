@@ -15,6 +15,7 @@ aliases:
   - Desktop First
   - min-width vs max-width strategy
 publish: true
+permalink: css/mobile-first-vs-desktop-first-design
 ---
 
 # <span class="rune">ᛟ</span> Mobile-First vs Desktop-First Design

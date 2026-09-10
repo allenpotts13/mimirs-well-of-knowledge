@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: azure
 ---
 
 # <span class="rune">ᚱ</span> Azure

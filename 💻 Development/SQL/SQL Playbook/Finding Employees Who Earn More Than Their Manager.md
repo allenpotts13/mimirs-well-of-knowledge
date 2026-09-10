@@ -14,6 +14,7 @@ aliases:
   - Employees Who Out-Earn Their Boss
   - Overpaid Subordinates
 publish: true
+permalink: sql/finding-employees-who-earn-more-than-their-manager
 ---
 
 # <span class="rune">ᚲ</span> Finding Employees Who Earn More Than Their Manager

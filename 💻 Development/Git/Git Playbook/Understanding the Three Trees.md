@@ -15,6 +15,7 @@ aliases:
   - Git's Three States
   - The Index
 publish: true
+permalink: git/understanding-the-three-trees
 ---
 
 # <span class="rune">ᛟ</span> Understanding the Three Trees

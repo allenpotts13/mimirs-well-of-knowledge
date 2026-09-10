@@ -15,6 +15,7 @@ aliases:
   - Fat Arrow Functions
   - Function Expressions vs Arrow Functions
 publish: true
+permalink: javascript/arrow-functions-vs-regular-functions
 ---
 
 # <span class="rune">ᛟ</span> Arrow Functions vs Regular Functions

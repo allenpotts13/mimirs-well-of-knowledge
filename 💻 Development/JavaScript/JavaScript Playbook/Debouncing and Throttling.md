@@ -15,6 +15,7 @@ aliases:
   - Debounce vs Throttle
   - Rate Limiting Function Calls
 publish: true
+permalink: javascript/debouncing-and-throttling
 ---
 
 # <span class="rune">ᛟ</span> Debouncing and Throttling

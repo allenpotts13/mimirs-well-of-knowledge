@@ -11,6 +11,7 @@ tags:
 aliases:
   - Cloud Deployment Model Choice
 publish: true
+permalink: az-900-azure-fundamentals/public-vs-private-vs-hybrid-vs-multi-cloud
 ---
 
 # <span class="rune">ᚲ</span> Public vs Private vs Hybrid vs Multi-Cloud

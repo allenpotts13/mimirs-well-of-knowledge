@@ -14,6 +14,7 @@ aliases:
   - Prototype Chain
   - Prototypal Inheritance
 publish: true
+permalink: javascript/prototypes-and-prototypal-inheritance
 ---
 
 # <span class="rune">ᛟ</span> Prototypes and Prototypal Inheritance

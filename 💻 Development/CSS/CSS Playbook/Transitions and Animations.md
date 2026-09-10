@@ -15,6 +15,7 @@ aliases:
   - CSS Animations
   - "@keyframes"
 publish: true
+permalink: css/transitions-and-animations
 ---
 
 # <span class="rune">ᛟ</span> Transitions and Animations
