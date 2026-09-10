@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -14,6 +14,7 @@ aliases:
   - Age Bracket Grouping
   - Salary Range Buckets
   - CASE WHEN Binning
+publish: true
 ---
 
 # 🧩 Bucketing Values Into Ranges With CASE

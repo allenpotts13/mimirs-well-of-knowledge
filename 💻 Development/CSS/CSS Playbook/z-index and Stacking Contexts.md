@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Stacking Context
   - z-index Not Working
+publish: true
 ---
 
 # 📚 z-index and Stacking Contexts
@@ -160,7 +161,7 @@ When a z-index fight doesn't make sense, I stop guessing numbers immediately and
 
 ## 🔗 Related Notes
 
-- [[Positioning: static, relative, absolute, fixed, and sticky]] — z-index requires a non-static position value to have any effect at all
+- [[Positioning - static, relative, absolute, fixed, and sticky]] — z-index requires a non-static position value to have any effect at all
 - [[The transform Property]] — one of the most common accidental creators of a trapping stacking context
 - [[Transitions and Animations]] — animating opacity/transform/filter, exactly the properties that create stacking contexts, makes this bug easy to introduce
 - [[Overflow and Scrolling Behavior]] — another property that interacts with layout containment in ways that surprise people the same way stacking contexts do

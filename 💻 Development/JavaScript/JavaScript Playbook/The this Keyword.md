@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -14,6 +14,7 @@ aliases:
   - this
   - What is this in JavaScript
   - Understanding this
+publish: true
 ---
 
 # 📚 The this Keyword

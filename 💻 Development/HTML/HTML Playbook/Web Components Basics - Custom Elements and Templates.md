@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -14,6 +14,7 @@ aliases:
   - Web Components
   - Custom Elements
   - customElements.define
+publish: true
 ---
 
 # 📚 Web Components Basics: Custom Elements and Templates
@@ -186,5 +187,5 @@ I reach for native web components almost exclusively for things that need to lea
 ## 🔗 Related Notes
 
 - [[Semantic HTML and Why It Matters]] — custom elements extend the same "tags carry meaning" idea to your own invented vocabulary
-- [[Data Attributes (data-*)]] — a lighter-weight way to attach custom data to elements, often used alongside or instead of full custom elements
-- [[div and span: Generic Containers and When to Avoid Them]] — the generic containers a custom element is often a more meaningful upgrade from
+- [[Data Attributes (data-＊)]] — a lighter-weight way to attach custom data to elements, often used alongside or instead of full custom elements
+- [[div and span - Generic Containers and When to Avoid Them]] — the generic containers a custom element is often a more meaningful upgrade from

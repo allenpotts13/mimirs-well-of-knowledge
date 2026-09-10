@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,6 +11,7 @@ tags:
 aliases:
   - SQL LEFT JOIN
   - LEFT OUTER JOIN
+publish: true
 ---
 
 # 📚 LEFT JOIN

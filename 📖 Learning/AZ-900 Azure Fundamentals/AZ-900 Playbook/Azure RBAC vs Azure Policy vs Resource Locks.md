@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -12,6 +12,7 @@ tags:
   - policy
 aliases:
   - Governance Tool Choice
+publish: true
 ---
 
 # 🧩 Azure RBAC vs Azure Policy vs Resource Locks

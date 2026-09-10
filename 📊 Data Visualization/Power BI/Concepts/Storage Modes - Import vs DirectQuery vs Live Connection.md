@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -13,6 +13,7 @@ aliases:
   - DirectQuery
   - Import Mode
   - Live Connection
+publish: true
 ---
 
 # 📚 Storage Modes - Import vs DirectQuery vs Live Connection

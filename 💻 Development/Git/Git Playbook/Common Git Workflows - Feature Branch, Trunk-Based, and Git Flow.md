@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -15,6 +15,7 @@ aliases:
   - Branching Strategies
   - Trunk-Based Development
   - Git Flow
+publish: true
 ---
 
 # 📚 Common Git Workflows: Feature Branch, Trunk-Based, and Git Flow

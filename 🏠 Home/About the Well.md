@@ -1,13 +1,14 @@
 ---
-publish: false
-status: private
+publish: true
+status: published
+type: guide
 ---
 
-# Guide to Mímir's Well of Knowledge
+# About the Well
 
 > *"Wisdom is earned through experience. Knowledge is preserved through discipline."*
 
-Welcome to **Mímir**.
+Welcome to **Mímir's Well**.
 
 This vault is more than a collection of notes. It is a living knowledge system designed to capture lessons, solutions, ideas, and experience accumulated throughout a career in technology.
 

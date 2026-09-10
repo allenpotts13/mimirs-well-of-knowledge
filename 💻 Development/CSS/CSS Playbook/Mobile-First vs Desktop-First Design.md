@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,6 +14,7 @@ aliases:
   - Mobile First
   - Desktop First
   - min-width vs max-width strategy
+publish: true
 ---
 
 # 📚 Mobile-First vs Desktop-First Design
@@ -174,5 +175,5 @@ The real argument for mobile-first was never really about phones — it's about 
 ## 🔗 Related Notes
 
 - [[Responsive Design with Media Queries]] — the underlying media query mechanics this note builds a strategy on top of
-- [[CSS Units: px, em, rem, and vw/vh]] — breakpoint values and fluid typography both interact with the mobile-first sizing approach
+- [[CSS Units - px, em, rem, %, and vw-vh]] — breakpoint values and fluid typography both interact with the mobile-first sizing approach
 - [[CSS Grid Layout Fundamentals]] and [[Flexbox Layout Fundamentals]] — the layout tools most commonly reconfigured across breakpoints in either strategy

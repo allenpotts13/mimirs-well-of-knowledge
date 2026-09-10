@@ -11,7 +11,9 @@ difficulty:
 tags:
 
 aliases:
+publish: false
 ---
+
 ---
 # 📚 <% tp.file.title %>
 

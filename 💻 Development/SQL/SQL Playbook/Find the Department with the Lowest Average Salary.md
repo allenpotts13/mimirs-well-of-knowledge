@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Lowest Average Salary by Department
   - Department with Lowest Average Salary
+publish: true
 ---
 
 # 🧩 Find the Department with the Lowest Average Salary

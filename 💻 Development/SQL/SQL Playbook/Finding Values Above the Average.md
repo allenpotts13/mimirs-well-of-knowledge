@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-02
 updated: 2026-08-02
 technology: SQL
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Employees Earning Above Average
   - Comparing Values Against an Average
+publish: true
 ---
 
 # 🧩 Finding Values Above the Average

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -15,6 +15,7 @@ aliases:
   - Array.map
   - Array.filter
   - Array.reduce
+publish: true
 ---
 
 # 📚 Array Methods: map, filter, and reduce
@@ -183,5 +184,5 @@ When code reviewing, I use a simple litmus test on any array transformation: ask
 ## 🔗 Related Notes
 
 - [[Higher-Order Functions]] — `map`, `filter`, and `reduce` are the canonical real-world examples of higher-order functions in everyday JavaScript
-- [[Arrays vs Objects: When to Use Which]] — useful context for deciding what shape `reduce()` should build toward
+- [[Arrays vs Objects - When to Use Which]] — useful context for deciding what shape `reduce()` should build toward
 - [[Arrow Functions vs Regular Functions]] — these methods are almost always paired with concise arrow function callbacks in modern code

@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -14,6 +14,7 @@ aliases:
   - Relational Division
   - Employees in Multiple Departments
   - Matching All Values in a Set
+publish: true
 ---
 
 # 🧩 Finding Records That Match Every Value in a Set

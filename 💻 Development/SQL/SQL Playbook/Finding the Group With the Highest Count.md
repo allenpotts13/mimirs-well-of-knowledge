@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -14,6 +14,7 @@ tags:
 aliases:
   - Department With the Most Employees
   - Highest Group Count
+publish: true
 ---
 
 # 🧩 Finding the Group With the Highest Count

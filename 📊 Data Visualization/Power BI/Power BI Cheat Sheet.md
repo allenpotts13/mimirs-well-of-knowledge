@@ -1,3 +1,8 @@
+---
+publish: true
+status: published
+---
+
 # ⚡ Power BI Cheat Sheet
 
 > Dense reference across Power BI, DAX, and Power Query. Each section links back to the full [[Power BI Codex|concept note]] for depth.

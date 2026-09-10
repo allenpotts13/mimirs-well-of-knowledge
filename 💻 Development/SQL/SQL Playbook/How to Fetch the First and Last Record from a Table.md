@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -12,6 +12,7 @@ tags:
 aliases:
   - First and Last Record
   - SQL First and Last Record
+publish: true
 ---
 
 # 🧩 How to Fetch the First and Last Record from a Table

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -13,6 +13,7 @@ aliases:
   - 2NF
   - 3NF
   - Database Normalization
+publish: true
 ---
 
 # 📚 Normalization

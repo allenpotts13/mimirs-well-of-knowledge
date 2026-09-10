@@ -1,3 +1,8 @@
+---
+publish: true
+status: published
+---
+
 # 📊 Power BI
 
 > "The chart is the last five percent. The model underneath it is the other ninety-five."

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,6 +14,7 @@ aliases:
   - git merge
   - Fast-Forward Merge
   - Three-Way Merge
+publish: true
 ---
 
 # 📚 Merging Branches

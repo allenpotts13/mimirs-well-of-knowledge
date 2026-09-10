@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,6 +13,7 @@ tags:
 aliases:
   - git log
   - Viewing Commit History
+publish: true
 ---
 
 # 📚 Viewing History with git log
@@ -86,7 +87,7 @@ git log -p -3
 git log --author="Allen"
 # Only commits where the author name/email matches "Allen"
 
-git log --oneline --author="curse1313@gmail.com"
+git log --oneline --author="developer@example.com"
 # Combine filters with presentation flags freely
 
 # --- Filtering by date range ---

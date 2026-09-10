@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,6 +14,7 @@ tags:
 aliases:
   - Detached HEAD
   - What is HEAD in Git
+publish: true
 ---
 
 # 📚 Understanding HEAD and Detached HEAD State
@@ -166,4 +167,4 @@ The single habit that makes detached HEAD stop being scary: the instant you make
 - [[Recovering Lost Commits with the Reflog]] — the safety net if you already switched away and lost track of a detached-HEAD commit
 - [[Understanding the Three Trees]] — background on commits and pointers that this note builds on
 - [[Branching with git branch and git switch]] — the normal, attached-HEAD branching workflow this note contrasts against
-- [[Undoing Changes: checkout, restore, and reset]] — `checkout`'s dual role (branches vs files) is part of why detached HEAD confuses people coming from older Git habits
+- [[Undoing Changes - checkout, restore, and reset]] — `checkout`'s dual role (branches vs files) is part of why detached HEAD confuses people coming from older Git habits

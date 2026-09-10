@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Employees Above Their Department Average
   - Correlated Subquery Pattern
+publish: true
 ---
 
 # 🧩 Filtering Rows Above Their Group's Average

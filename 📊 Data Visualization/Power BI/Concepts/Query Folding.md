@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,6 +11,7 @@ tags:
   - performance
 aliases:
   - Query Fold
+publish: true
 ---
 
 # 📚 Query Folding

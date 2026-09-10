@@ -11,6 +11,7 @@ difficulty: Beginner
 tags:
 
 aliases:
+publish: false
 ---
 
 # 🧩 <% tp.file.title %>

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -16,6 +16,7 @@ aliases:
   - "Embedding Media: audio, video, and iframe"
   - Video and Audio Elements
   - iframe sandbox
+publish: true
 ---
 
 # 📚 Embedding Media: audio, video, and iframe

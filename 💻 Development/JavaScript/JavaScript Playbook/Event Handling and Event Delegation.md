@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -15,6 +15,7 @@ aliases:
   - addEventListener
   - Event Bubbling
   - Event Capturing
+publish: true
 ---
 
 # 📚 Event Handling and Event Delegation

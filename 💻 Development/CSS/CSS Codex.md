@@ -1,3 +1,8 @@
+---
+publish: true
+status: published
+---
+
 # 🎨 CSS
 
 > "Layout fights are almost always specificity fights in disguise."

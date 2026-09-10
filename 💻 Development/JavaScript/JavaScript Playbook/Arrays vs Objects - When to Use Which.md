@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,6 +14,7 @@ aliases:
   - "Arrays vs Objects: When to Use Which"
   - Choosing Between Arrays and Objects
   - Data Structure Selection
+publish: true
 ---
 
 # 📚 Arrays vs Objects: When to Use Which

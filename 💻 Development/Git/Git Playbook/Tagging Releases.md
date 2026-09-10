@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -15,6 +15,7 @@ aliases:
   - Annotated Tags
   - Lightweight Tags
   - Release Tagging
+publish: true
 ---
 
 # 📚 Tagging Releases
@@ -73,7 +74,7 @@ git tag -a v1.2.0 -m "Release 1.2.0: adds checkout flow, fixes cart bug"
 
 git show v1.2.0
 # tag v1.2.0
-# Tagger: Allen <curse1313@gmail.com>
+# Tagger: Allen <developer@example.com>
 # Date:   Wed Sep 2 2026 ...
 #
 #     Release 1.2.0: adds checkout flow, fixes cart bug
@@ -181,5 +182,5 @@ I treat `git push --follow-tags` as close to a default habit whenever I've just 
 
 - [[Understanding HEAD and Detached HEAD State]] — checking out a tag is a textbook example of entering detached HEAD
 - [[Viewing History with git log]] — using tag ranges to generate a changelog between releases
-- [[Working with Remotes: fetch, pull, and push]] — the push behavior tags deliberately opt out of by default
-- [[Common Git Workflows: Feature Branch, Trunk-Based, and Git Flow]] — where release tagging typically fits in a team's overall process
+- [[Working with Remotes - fetch, pull, and push]] — the push behavior tags deliberately opt out of by default
+- [[Common Git Workflows - Feature Branch, Trunk-Based, and Git Flow]] — where release tagging typically fits in a team's overall process

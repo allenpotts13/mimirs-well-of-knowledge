@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -14,6 +14,7 @@ aliases:
   - Year-to-Date Sales
   - Rolling Window Aggregation
   - YTD Calculation
+publish: true
 ---
 
 # 🧩 Aggregating Values Within a Date Range

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -15,6 +15,7 @@ aliases:
   - Microsoft Entra ID
   - Azure RBAC
   - Zero Trust
+publish: true
 ---
 
 # 📚 Identity, Access, and Security

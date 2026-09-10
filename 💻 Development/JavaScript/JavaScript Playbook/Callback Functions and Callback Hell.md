@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,6 +14,7 @@ aliases:
   - Callback Hell
   - Pyramid of Doom
   - Callbacks
+publish: true
 ---
 
 # 📚 Callback Functions and Callback Hell

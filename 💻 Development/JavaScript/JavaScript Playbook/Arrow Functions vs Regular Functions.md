@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -14,6 +14,7 @@ aliases:
   - Arrow Functions
   - Fat Arrow Functions
   - Function Expressions vs Arrow Functions
+publish: true
 ---
 
 # 📚 Arrow Functions vs Regular Functions

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,6 +13,7 @@ tags:
 aliases:
   - input type attribute
   - HTML Input Types
+publish: true
 ---
 
 # 📚 Input Types and Attributes

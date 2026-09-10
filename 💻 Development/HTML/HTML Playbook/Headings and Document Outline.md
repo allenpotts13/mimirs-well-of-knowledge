@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -12,6 +12,7 @@ tags:
 aliases:
   - Heading Hierarchy
   - h1-h6
+publish: true
 ---
 
 # 📚 Headings and Document Outline

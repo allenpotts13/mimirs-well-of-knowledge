@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -14,6 +14,7 @@ aliases:
   - Top 10 Percent Salaries
   - PERCENTILE_CONT Alternative
   - Finding Percentile Cutoffs
+publish: true
 ---
 
 # 🧩 Finding Values in a Statistical Percentile

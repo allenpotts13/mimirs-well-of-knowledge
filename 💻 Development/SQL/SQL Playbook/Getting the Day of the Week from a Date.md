@@ -11,6 +11,7 @@ tags:
   - dayname
 aliases:
   - DAYNAME function
+publish: false
 ---
 
 # 🧩 Getting the Day of the Week from a Date

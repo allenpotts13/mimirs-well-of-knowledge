@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,6 +14,7 @@ tags:
 aliases:
   - fetch()
   - The Fetch API
+publish: true
 ---
 
 # 📚 The Fetch API for HTTP Requests

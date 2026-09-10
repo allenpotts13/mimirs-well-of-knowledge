@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -11,6 +11,7 @@ tags:
   - data-modification
   - salary
 aliases:
+publish: true
 ---
 
 # 🧩 Increasing Every Employee's Salary by 10%

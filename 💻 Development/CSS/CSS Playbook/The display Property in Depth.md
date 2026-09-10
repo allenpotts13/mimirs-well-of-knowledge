@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,6 +14,7 @@ aliases:
   - display block vs inline
   - display none vs visibility hidden
   - inline-block
+publish: true
 ---
 
 # 📚 The display Property in Depth
@@ -192,4 +193,4 @@ The `display: none` vs `visibility: hidden` distinction is a great one to drill 
 - [[The Box Model]] — display type determines which box-model rules (margin, width, height) actually apply to an element
 - [[Flexbox Layout Fundamentals]] and [[CSS Grid Layout Fundamentals]] — both are themselves `display` values (`flex`, `grid`), and `display: contents` is specifically useful for fixing wrapper problems in these layouts
 - [[Float and Its Legacy Layout Role]] — float historically interacted with `display` in ways that produced its own set of quirks
-- [[Positioning: static, relative, absolute, fixed, and sticky]] — an element's `display` and `position` values interact (e.g. `position: absolute` computes an element's display to block-like regardless of its specified display type)
+- [[Positioning - static, relative, absolute, fixed, and sticky]] — an element's `display` and `position` values interact (e.g. `position: absolute` computes an element's display to block-like regardless of its specified display type)

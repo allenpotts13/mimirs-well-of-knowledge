@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -11,6 +11,7 @@ tags:
   - where
 aliases:
   - Filtering by divisibility
+publish: true
 ---
 
 # 🧩 Filtering Values That Are a Multiple of a Number

@@ -11,6 +11,7 @@ tags:
   - lower
 aliases:
   - LOWER function
+publish: false
 ---
 
 # 🧩 Converting Text to Lowercase

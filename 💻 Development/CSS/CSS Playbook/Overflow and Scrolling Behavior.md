@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,6 +14,7 @@ aliases:
   - overflow-x
   - overflow-y
   - Scrollable Containers
+publish: true
 ---
 
 # 📚 Overflow and Scrolling Behavior
@@ -180,4 +181,4 @@ The formatting-context side effect is the part that surprises people who've only
 - [[Float and Its Legacy Layout Role]] — the exact float-collapse problem that `overflow: hidden` was historically used to work around
 - [[The Box Model]] — overflow behavior is about what happens when content exceeds the content box's dimensions
 - [[z-index and Stacking Contexts]] — an element clipped by an ancestor's `overflow: hidden` can look like a z-index bug but isn't one
-- [[Positioning: static, relative, absolute, fixed, and sticky]] — absolutely positioned children are also subject to an ancestor's `overflow: hidden` clipping
+- [[Positioning - static, relative, absolute, fixed, and sticky]] — absolutely positioned children are also subject to an ancestor's `overflow: hidden` clipping

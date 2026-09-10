@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,6 +14,7 @@ aliases:
   - Working Directory vs Staging vs Repository
   - Git's Three States
   - The Index
+publish: true
 ---
 
 # 📚 Understanding the Three Trees
@@ -136,7 +137,7 @@ Whenever a Git command's behavior seems surprising, I stop and ask one question:
 
 ## 🔗 Related Notes
 
-- [[Undoing Changes: checkout, restore, and reset]] — the `--soft`/`--mixed`/`--hard` distinction only makes sense in terms of these three trees
+- [[Undoing Changes - checkout, restore, and reset]] — the `--soft`/`--mixed`/`--hard` distinction only makes sense in terms of these three trees
 - [[Committing Changes with git commit]] — the staging-area-to-repository step in detail
 - [[Inspecting Changes with git diff]] — reading the differences between the three trees
 - [[Stashing Changes with git stash]] — temporarily setting aside working-directory and staging-area changes

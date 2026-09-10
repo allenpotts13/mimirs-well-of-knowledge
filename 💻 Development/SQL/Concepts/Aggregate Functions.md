@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,6 +11,7 @@ tags:
 aliases:
   - COUNT SUM AVG MIN MAX
   - Aggregate Function
+publish: true
 ---
 
 # 📚 Aggregate Functions

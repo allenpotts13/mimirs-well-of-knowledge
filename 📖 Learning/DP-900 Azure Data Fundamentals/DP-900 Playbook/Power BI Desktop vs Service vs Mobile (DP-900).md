@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -10,6 +10,7 @@ tags:
   - power-bi
 aliases:
   - Power BI Apps
+publish: true
 ---
 
 # 🧩 Power BI Desktop vs Service vs Mobile (DP-900)

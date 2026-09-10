@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -10,6 +10,7 @@ tags:
   - cloud-concepts
 aliases:
   - Cloud Deployment Model Choice
+publish: true
 ---
 
 # 🧩 Public vs Private vs Hybrid vs Multi-Cloud

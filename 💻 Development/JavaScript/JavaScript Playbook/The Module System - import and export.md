@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,6 +14,7 @@ aliases:
   - "The Module System: import and export"
   - ES Modules
   - CommonJS vs ES Modules
+publish: true
 ---
 
 # 📚 The Module System: import and export

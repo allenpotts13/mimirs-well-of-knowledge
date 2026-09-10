@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Employees Who Are Not Managers
   - Finding Leaf Nodes in a Hierarchy
+publish: true
 ---
 
 # 🧩 Finding Employees With No Subordinates

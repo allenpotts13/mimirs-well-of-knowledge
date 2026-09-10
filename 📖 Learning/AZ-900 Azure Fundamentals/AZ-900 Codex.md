@@ -1,6 +1,6 @@
 ---
 type: codex
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -11,6 +11,7 @@ tags:
 aliases:
   - Azure Fundamentals
   - AZ-900
+publish: true
 ---
 
 # ☁️ AZ-900: Microsoft Certified Azure Fundamentals

@@ -1,6 +1,6 @@
 ---
 type: power-query-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -10,6 +10,7 @@ tags:
   - conditional-logic
 aliases:
   - Power Query Conditional Column
+publish: true
 ---
 
 # 🧩 Adding a Conditional Column in Power Query

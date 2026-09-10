@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,6 +13,7 @@ aliases:
   - git stash
   - Stash Stack
   - git stash pop
+publish: true
 ---
 
 # 📚 Stashing Changes with git stash
@@ -150,6 +151,6 @@ The single habit that saves the most confusion with stashing is naming them. `gi
 ## 🔗 Related Notes
 
 - [[Understanding the Three Trees]] — what stashing actually captures (working directory + staging area)
-- [[Undoing Changes: checkout, restore, and reset]] — related but distinct ways of discarding or moving uncommitted changes
+- [[Undoing Changes - checkout, restore, and reset]] — related but distinct ways of discarding or moving uncommitted changes
 - [[Branching with git branch and git switch]] — stashing is most often used right before a branch switch
 - [[Recovering Lost Commits with the Reflog]] — recovering a dropped or cleared stash if needed

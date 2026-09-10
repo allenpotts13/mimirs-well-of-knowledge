@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,6 +12,7 @@ tags:
   - right
 aliases:
   - LEFT and RIGHT string functions
+publish: true
 ---
 
 # 🧩 Comparing the First and Last Character of a String

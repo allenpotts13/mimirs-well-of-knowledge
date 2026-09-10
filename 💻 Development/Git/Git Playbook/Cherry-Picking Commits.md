@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,6 +13,7 @@ tags:
 aliases:
   - git cherry-pick
   - Backporting a Commit
+publish: true
 ---
 
 # 📚 Cherry-Picking Commits
@@ -160,4 +161,4 @@ Cherry-pick is a scalpel, not a workflow. It's the right tool exactly once in a 
 - [[Resolving Merge Conflicts]] — the same conflict-resolution process applies when a cherry-pick doesn't apply cleanly
 - [[Merging Branches]] — the "bring in everything" counterpart to cherry-pick's "bring in one thing"
 - [[Reverting a Commit vs Resetting]] — another commit-level operation, but for undoing rather than replaying
-- [[Common Git Workflows: Feature Branch, Trunk-Based, and Git Flow]] — where release-branch backporting patterns like this typically fit
+- [[Common Git Workflows - Feature Branch, Trunk-Based, and Git Flow]] — where release-branch backporting patterns like this typically fit

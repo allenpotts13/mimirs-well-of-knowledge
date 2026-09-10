@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,6 +13,7 @@ tags:
 aliases:
   - GET vs POST
   - form method attribute
+publish: true
 ---
 
 # 📚 Form Submission: GET vs POST

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -12,6 +12,7 @@ tags:
 aliases:
   - ol ul dl
   - Description Lists
+publish: true
 ---
 
 # 📚 Lists: Ordered, Unordered, and Description

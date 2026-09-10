@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -15,6 +15,7 @@ aliases:
   - async/await
   - await
   - Async Functions
+publish: true
 ---
 
 # 📚 Async/Await
@@ -177,5 +178,5 @@ My rule of thumb: if two `await`s don't depend on each other's results, they don
 - [[Promises]] — the mechanism async/await is built entirely on top of
 - [[The Event Loop - Call Stack, Task Queue, and Microtasks]] — explains exactly when a paused `await` resumes
 - [[Callback Functions and Callback Hell]] — the nested-callback problem that Promises and async/await were designed to solve
-- [[Error Handling with try/catch]] — the mechanism async/await reuses for asynchronous errors
+- [[Error Handling with try-catch]] — the mechanism async/await reuses for asynchronous errors
 - [[The Fetch API for HTTP Requests]] — the most common real-world use case for async/await

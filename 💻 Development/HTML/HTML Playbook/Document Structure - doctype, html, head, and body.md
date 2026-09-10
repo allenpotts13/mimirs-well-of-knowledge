@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,6 +13,7 @@ aliases:
   - "Document Structure: doctype, html, head, and body"
   - HTML Boilerplate
   - DOCTYPE and html lang
+publish: true
 ---
 
 # 📚 Document Structure: doctype, html, head, and body

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -14,6 +14,7 @@ aliases:
   - Promise
   - JavaScript Promises
   - Promise.all
+publish: true
 ---
 
 # 📚 Promises
@@ -136,7 +137,7 @@ Promise.race([fast, slow]).then((result) => console.log(result)); // "fast wins"
 - `Promise.all()` is standard for loading several independent pieces of data a page needs before rendering (e.g., user profile + settings + notifications, all fetched in parallel).
 - `Promise.allSettled()` is used when partial success is acceptable — e.g. sending notifications to five services where one failing shouldn't stop the other four from completing.
 - `Promise.race()` is commonly used to implement request timeouts — racing a real request against a promise that rejects after N seconds.
-- Database drivers, file system APIs (Node's `fs.promises`), and most modern async libraries expose promise-based APIs as their primary interface, often layered with `async`/`await` on top (see [[Async/Await]]).
+- Database drivers, file system APIs (Node's `fs.promises`), and most modern async libraries expose promise-based APIs as their primary interface, often layered with `async`/`await` on top (see [[Async-Await]]).
 
 ---
 
@@ -186,8 +187,8 @@ If you only remember one distinction from this note, make it `Promise.all()` vs 
 
 ## 🔗 Related Notes
 
-- [[Async/Await]] — the syntax sugar built directly on top of promises, for writing async chains that read like synchronous code
+- [[Async-Await]] — the syntax sugar built directly on top of promises, for writing async chains that read like synchronous code
 - [[Callback Functions and Callback Hell]] — the exact problem promises were designed to solve
-- [[The Event Loop: Call Stack, Task Queue, and Microtasks]] — explains precisely *when* promise callbacks actually run relative to other code
+- [[The Event Loop - Call Stack, Task Queue, and Microtasks]] — explains precisely *when* promise callbacks actually run relative to other code
 - [[The Fetch API for HTTP Requests]] — the most common real-world source of promises in everyday web development
-- [[Error Handling with try/catch]] — how `try`/`catch` interacts with promise rejections once you're using `async`/`await`
+- [[Error Handling with try-catch]] — how `try`/`catch` interacts with promise rejections once you're using `async`/`await`

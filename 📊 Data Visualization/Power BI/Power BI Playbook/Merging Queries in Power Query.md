@@ -1,6 +1,6 @@
 ---
 type: power-query-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,6 +11,7 @@ tags:
 aliases:
   - Power Query Merge
   - Merge Queries
+publish: true
 ---
 
 # 🧩 Merging Queries in Power Query

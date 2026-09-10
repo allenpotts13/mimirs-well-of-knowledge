@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-02
 updated: 2026-08-02
 technology: SQL
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Nth Highest Salary
   - Nth Largest Value
+publish: true
 ---
 
 # 🧩 Finding the Nth Highest Value

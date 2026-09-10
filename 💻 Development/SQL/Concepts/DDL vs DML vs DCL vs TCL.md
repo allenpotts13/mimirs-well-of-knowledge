@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -14,6 +14,7 @@ aliases:
   - DCL
   - TCL
   - SQL Statement Categories
+publish: true
 ---
 
 # 📚 DDL vs DML vs DCL vs TCL

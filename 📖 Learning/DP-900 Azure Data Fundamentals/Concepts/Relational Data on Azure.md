@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -12,6 +12,7 @@ tags:
   - azure-sql
 aliases:
   - Azure SQL Family
+publish: true
 ---
 
 # 📚 Relational Data on Azure

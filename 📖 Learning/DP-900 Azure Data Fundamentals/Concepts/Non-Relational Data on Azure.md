@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -13,6 +13,7 @@ tags:
 aliases:
   - NoSQL on Azure
   - Cosmos DB
+publish: true
 ---
 
 # 📚 Non-Relational Data on Azure

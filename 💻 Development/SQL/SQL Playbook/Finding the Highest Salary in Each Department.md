@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -14,6 +14,7 @@ tags:
 aliases:
   - Highest Salary Per Department
   - Maximum Salary by Department
+publish: true
 ---
 
 # 🧩 Finding the Highest Salary in Each Department

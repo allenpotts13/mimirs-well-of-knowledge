@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Total Salary of Employees
   - SUM Function
+publish: true
 ---
 
 # 🧩 Calculating a Total with SUM()

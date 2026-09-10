@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -15,6 +15,7 @@ aliases:
   - CSS Combinators
   - Attribute Selectors
   - Descendant vs Child Selector
+publish: true
 ---
 
 # 📚 Selectors Beyond the Basics: Combinators and Attribute Selectors

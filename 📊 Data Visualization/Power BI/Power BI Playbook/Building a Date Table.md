@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,6 +12,7 @@ tags:
 aliases:
   - Calendar Table
   - Mark as Date Table
+publish: true
 ---
 
 # 🧩 Building a Date Table

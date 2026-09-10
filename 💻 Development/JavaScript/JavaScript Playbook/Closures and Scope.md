@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -14,6 +14,7 @@ aliases:
   - Closures
   - Lexical Scope
   - What is a Closure
+publish: true
 ---
 
 # 📚 Closures and Scope
@@ -156,6 +157,6 @@ Whenever a bug looks like "this variable has the wrong value" inside a callback,
 ## 🔗 Related Notes
 
 - [[var vs let vs const]] — the block-vs-function scoping distinction that makes the loop-variable closure gotcha possible
-- [[The Event Loop: Call Stack, Task Queue, and Microtasks]] — explains *when* a closure like a `setTimeout` callback actually runs
+- [[The Event Loop - Call Stack, Task Queue, and Microtasks]] — explains *when* a closure like a `setTimeout` callback actually runs
 - [[Higher-Order Functions]] — closures are what make returning specialized functions from a general one possible
 - [[Debouncing and Throttling]] — a concrete, practical application of a closure holding state between calls

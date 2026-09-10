@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -14,6 +14,7 @@ tags:
 aliases:
   - Modern Data Warehouse
   - Power BI Basics
+publish: true
 ---
 
 # 📚 Analytics Workloads on Azure

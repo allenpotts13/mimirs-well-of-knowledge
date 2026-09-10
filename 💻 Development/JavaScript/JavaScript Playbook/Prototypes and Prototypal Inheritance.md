@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Prototype Chain
   - Prototypal Inheritance
+publish: true
 ---
 
 # 📚 Prototypes and Prototypal Inheritance

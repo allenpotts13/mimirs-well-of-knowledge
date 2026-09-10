@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,6 +11,7 @@ tags:
 aliases:
   - Logical Query Processing Order
   - SQL Execution Order
+publish: true
 ---
 
 # 📚 Query Execution Order

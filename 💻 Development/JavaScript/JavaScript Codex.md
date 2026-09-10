@@ -1,3 +1,8 @@
+---
+publish: true
+status: published
+---
+
 # 🟨 JavaScript
 
 > "The language runs everywhere, but the event loop is why it behaves the way it does everywhere."

@@ -1,3 +1,8 @@
+---
+publish: true
+status: published
+---
+
 # 📄 HTML
 
 > "Semantic markup is a message to every future reader of the DOM — including screen readers and search engines."

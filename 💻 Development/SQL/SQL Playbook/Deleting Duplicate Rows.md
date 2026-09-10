@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-11
 updated: 2026-08-11
 technology: SQL
@@ -14,6 +14,7 @@ tags:
 aliases:
   - Delete Duplicate Records
   - Removing Duplicate Rows
+publish: true
 ---
 
 # 🧩 Deleting Duplicate Rows

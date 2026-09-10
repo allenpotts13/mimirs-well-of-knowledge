@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,6 +12,7 @@ tags:
 aliases:
   - IS NULL
   - Finding missing values
+publish: true
 ---
 
 # 🧩 Filtering Rows With a NULL Column

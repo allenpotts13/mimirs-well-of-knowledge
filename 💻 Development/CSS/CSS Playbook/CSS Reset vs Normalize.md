@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,6 +14,7 @@ aliases:
   - CSS Reset
   - normalize.css
   - Modern CSS Reset
+publish: true
 ---
 
 # 📚 CSS Reset vs Normalize

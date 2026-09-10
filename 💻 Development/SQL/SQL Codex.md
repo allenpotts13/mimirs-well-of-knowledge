@@ -1,3 +1,8 @@
+---
+publish: true
+status: published
+---
+
 # 💾 SQL
 
 > "Data is only as valuable as your ability to retrieve it."
@@ -147,6 +152,6 @@ Task-oriented, one pattern per note. This is the bulk of the SQL knowledge base.
 
 ## 🚀 Related Projects
 
-- [[Inventory App]]
-- [[TEIS]]
-- [[Motorcycle Dashboard]]
+- Inventory App
+- TEIS
+- Motorcycle Dashboard

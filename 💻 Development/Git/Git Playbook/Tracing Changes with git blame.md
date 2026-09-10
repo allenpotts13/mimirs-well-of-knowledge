@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,6 +13,7 @@ aliases:
   - git blame
   - Blame
   - Line-by-Line History
+publish: true
 ---
 
 # 📚 Tracing Changes with git blame

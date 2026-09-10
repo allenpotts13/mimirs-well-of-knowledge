@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -16,6 +16,7 @@ aliases:
   - Spread Operator
   - Rest Parameters
   - Rest Operator
+publish: true
 ---
 
 # 📚 Object Destructuring and the Spread/Rest Operators
@@ -176,5 +177,5 @@ The shallow-copy gotcha is the one that gets experienced developers too, not jus
 
 ## 🔗 Related Notes
 
-- [[Arrays vs Objects: When to Use Which]] — useful background for understanding why destructuring differs between the two
-- [[The Module System: import and export]] — named imports use the same destructuring-style syntax against a module's exports
+- [[Arrays vs Objects - When to Use Which]] — useful background for understanding why destructuring differs between the two
+- [[The Module System - import and export]] — named imports use the same destructuring-style syntax against a module's exports

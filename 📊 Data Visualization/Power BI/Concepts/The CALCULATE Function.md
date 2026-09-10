@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -10,6 +10,7 @@ tags:
   - dax
 aliases:
   - CALCULATE
+publish: true
 ---
 
 # 📚 The CALCULATE Function

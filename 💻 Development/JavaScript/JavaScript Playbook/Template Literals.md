@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -14,6 +14,7 @@ aliases:
   - Template Strings
   - Backtick Strings
   - String Interpolation
+publish: true
 ---
 
 # 📚 Template Literals
@@ -168,5 +169,5 @@ Tagged templates are worth knowing *exist*, even if you never write one yourself
 
 ## 🔗 Related Notes
 
-- [[Object Destructuring and the Spread/Rest Operators]] — another ES6 syntax convenience commonly used alongside template literals when formatting dynamic data
+- [[Object Destructuring and the Spread-Rest Operators]] — another ES6 syntax convenience commonly used alongside template literals when formatting dynamic data
 - [[The Fetch API for HTTP Requests]] — template literals are the standard way to build dynamic request URLs

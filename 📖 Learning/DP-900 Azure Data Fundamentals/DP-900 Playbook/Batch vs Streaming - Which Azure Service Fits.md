@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -12,6 +12,7 @@ tags:
   - data-factory
 aliases:
   - Batch vs Streaming
+publish: true
 ---
 
 # 🧩 Batch vs Streaming - Which Azure Service Fits

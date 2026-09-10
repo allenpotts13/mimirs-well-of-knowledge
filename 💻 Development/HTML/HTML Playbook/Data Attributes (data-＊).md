@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -14,6 +14,7 @@ aliases:
   - data-* Attributes
   - dataset
   - Custom Data Attributes
+publish: true
 ---
 
 # 📚 Data Attributes (data-*)
@@ -155,4 +156,4 @@ The test I use for `data-*` is whether I can name a *real* HTML or ARIA attribut
 ## 🔗 Related Notes
 
 - [[Semantic HTML and Why It Matters]] — the general principle of preferring meaningful attributes over generic ones
-- [[Accessibility Basics: alt Text, Labels, and ARIA]] — the real semantic attributes `data-*` should never substitute for
+- [[Accessibility Basics - alt Text, Labels, and ARIA]] — the real semantic attributes `data-*` should never substitute for

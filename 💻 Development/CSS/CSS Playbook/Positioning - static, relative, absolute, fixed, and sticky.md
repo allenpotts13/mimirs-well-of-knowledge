@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -15,6 +15,7 @@ aliases:
   - position property
   - Position Absolute vs Relative vs Fixed
   - "Positioning: static, relative, absolute, fixed, and sticky"
+publish: true
 ---
 
 # 📚 Positioning: static, relative, absolute, fixed, and sticky

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -14,6 +14,7 @@ aliases:
   - div vs span
   - Divitis
   - Generic Containers
+publish: true
 ---
 
 # 📚 div and span: Generic Containers and When to Avoid Them
@@ -154,6 +155,6 @@ I treat `<div>` and `<span>` as the "none of the above" option on a multiple-cho
 ## 🔗 Related Notes
 
 - [[Semantic HTML and Why It Matters]] — the foundational principle divitis violates
-- [[Semantic Sectioning Elements: header, nav, main, article, section, aside, footer]] — the specific elements most often skipped in favor of div soup
-- [[Buttons vs Links: button vs a]] — the most common single instance of avoidable div misuse
-- [[Accessibility Basics: alt Text, Labels, and ARIA]] — what's lost, accessibility-wise, when a div stands in for a real element
+- [[Semantic Sectioning Elements - header, nav, main, article, section, aside, footer]] — the specific elements most often skipped in favor of div soup
+- [[Buttons vs Links - button vs a]] — the most common single instance of avoidable div misuse
+- [[Accessibility Basics - alt Text, Labels, and ARIA]] — what's lost, accessibility-wise, when a div stands in for a real element

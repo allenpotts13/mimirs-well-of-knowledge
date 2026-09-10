@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -15,6 +15,7 @@ aliases:
   - Finding Inactive Groups
   - Departments With No Recent Hires
   - Detecting Stale Groups
+publish: true
 ---
 
 # 🧩 Finding Groups With No Recent Activity

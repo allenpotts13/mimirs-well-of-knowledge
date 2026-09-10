@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -14,6 +14,7 @@ aliases:
   - Top 5 Employees by Salary
   - Highest Salaries
   - Top N Records
+publish: true
 ---
 
 # 🧩 Retrieving the Top N Highest Values

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -17,6 +17,7 @@ aliases:
   - em vs rem
   - Relative Units in CSS
   - Viewport Units
+publish: true
 ---
 
 # 📚 CSS Units: px, em, rem, %, and vw/vh

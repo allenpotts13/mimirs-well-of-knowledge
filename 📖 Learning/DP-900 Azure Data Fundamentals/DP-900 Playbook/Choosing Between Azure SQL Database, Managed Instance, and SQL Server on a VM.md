@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -11,6 +11,7 @@ tags:
   - relational
 aliases:
   - Azure SQL Deployment Choice
+publish: true
 ---
 
 # 🧩 Choosing Between Azure SQL Database, Managed Instance, and SQL Server on a VM

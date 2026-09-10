@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-11
 updated: 2026-08-11
 technology: SQL
@@ -14,6 +14,7 @@ aliases:
   - Common Records Between Tables
   - Finding Matching Rows
   - INTERSECT
+publish: true
 ---
 
 # 🧩 Finding Common Records Between Two Tables

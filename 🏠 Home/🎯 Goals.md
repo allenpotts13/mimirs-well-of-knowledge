@@ -1,3 +1,8 @@
+---
+publish: false
+status: private
+---
+
 Why am I building this?
 
 What do I hope to gain?

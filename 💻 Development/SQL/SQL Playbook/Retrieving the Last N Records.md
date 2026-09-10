@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -14,6 +14,7 @@ aliases:
   - Last 10 Records
   - Most Recent Records
   - Retrieving Recent Rows
+publish: true
 ---
 
 # 🧩 Retrieving the Last N Records

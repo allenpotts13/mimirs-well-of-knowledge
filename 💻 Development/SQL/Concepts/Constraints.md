@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -12,6 +12,7 @@ aliases:
   - NOT NULL
   - UNIQUE Constraint
   - CHECK Constraint
+publish: true
 ---
 
 # 📚 Constraints

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -14,6 +14,7 @@ aliases:
   - "Accessibility Basics: alt Text, Labels, and ARIA"
   - a11y Basics
   - ARIA vs Semantic HTML
+publish: true
 ---
 
 # 📚 Accessibility Basics: alt Text, Labels, and ARIA
@@ -161,5 +162,5 @@ The most useful accessibility habit I know is boringly simple: before writing a 
 
 - [[Semantic HTML and Why It Matters]] — why native elements come with accessibility built in
 - [[The label Element and Form Accessibility]] — a deeper look at correct label association and its edge cases
-- [[Buttons vs Links: button vs a]] — the most common native-element-vs-div accessibility decision
-- [[div and span: Generic Containers and When to Avoid Them]] — the flip side: when a generic container really is correct
+- [[Buttons vs Links - button vs a]] — the most common native-element-vs-div accessibility decision
+- [[div and span - Generic Containers and When to Avoid Them]] — the flip side: when a generic container really is correct

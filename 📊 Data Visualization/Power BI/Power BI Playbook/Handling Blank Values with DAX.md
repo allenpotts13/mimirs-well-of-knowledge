@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,6 +11,7 @@ tags:
 aliases:
   - DAX BLANK
   - DIVIDE Function
+publish: true
 ---
 
 # 🧩 Handling Blank Values with DAX

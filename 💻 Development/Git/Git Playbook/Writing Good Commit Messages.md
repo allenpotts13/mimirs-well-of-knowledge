@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,6 +14,7 @@ aliases:
   - Commit Message Conventions
   - Conventional Commits
   - The 50/72 Rule
+publish: true
 ---
 
 # 📚 Writing Good Commit Messages

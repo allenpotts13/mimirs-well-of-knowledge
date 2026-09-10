@@ -1,3 +1,8 @@
+---
+publish: true
+status: published
+---
+
 # 🔀 Git
 
 > "Version control isn't about tracking files — it's about tracking decisions."

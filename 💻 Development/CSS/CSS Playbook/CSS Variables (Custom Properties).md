@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,6 +14,7 @@ aliases:
   - Custom Properties
   - CSS Custom Properties
   - var()
+publish: true
 ---
 
 # 📚 CSS Variables (Custom Properties)
@@ -183,6 +184,6 @@ The moment CSS variables really "clicked" for me was realizing they aren't a sco
 ## 🔗 Related Notes
 
 - [[The Cascade and Inheritance]] — custom properties are ordinary properties for cascade and inheritance purposes, which is the whole reason they can be overridden per-component
-- [[CSS Units: px, em, rem, %, and vw/vh]] — custom properties often store unit values and are frequently combined with `calc()`
+- [[CSS Units - px, em, rem, %, and vw-vh]] — custom properties often store unit values and are frequently combined with `calc()`
 - [[Responsive Design with Media Queries]] — a common pattern redefines custom properties inside a media query to adjust values per breakpoint
 - [[Using !important and When to Avoid It]] — another cascade-related tool worth understanding alongside custom-property overrides

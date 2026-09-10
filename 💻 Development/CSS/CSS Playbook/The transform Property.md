@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -13,6 +13,7 @@ tags:
 aliases:
   - CSS Transforms
   - translate scale rotate skew
+publish: true
 ---
 
 # 📚 The transform Property
@@ -177,4 +178,4 @@ If I'm animating anything and reach for `top`, `left`, `width`, or `height` out 
 - [[Transitions and Animations]] — transform is the property most commonly animated via both `transition` and `@keyframes`
 - [[z-index and Stacking Contexts]] — transform creates a new stacking context, a frequent source of z-index confusion
 - [[Centering Elements in CSS]] — the `translate(-50%, -50%)` trick relies entirely on how transform percentages work
-- [[Positioning: static, relative, absolute, fixed, and sticky]] — transform is often combined with absolute positioning for size-agnostic placement
+- [[Positioning - static, relative, absolute, fixed, and sticky]] — transform is often combined with absolute positioning for size-agnostic placement

@@ -1,3 +1,8 @@
+---
+publish: false
+status: private
+---
+
 # 🧠 Mimir
 
 "Don't collect information. Build knowledge."

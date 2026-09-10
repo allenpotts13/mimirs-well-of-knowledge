@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -15,6 +15,7 @@ aliases:
   - git diff
   - git diff --staged
   - Comparing Commits
+publish: true
 ---
 
 # 📚 Inspecting Changes with git diff

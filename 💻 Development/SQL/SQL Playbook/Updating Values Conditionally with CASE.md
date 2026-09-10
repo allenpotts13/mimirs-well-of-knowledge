@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,6 +13,7 @@ tags:
 aliases:
   - Conditional UPDATE with CASE
   - Give Different Raises by Department
+publish: true
 ---
 
 # 🧩 Updating Values Conditionally with CASE

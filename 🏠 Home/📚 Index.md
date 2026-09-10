@@ -1,3 +1,8 @@
+---
+publish: true
+status: published
+---
+
 # Knowledge Index
 
 ## Development

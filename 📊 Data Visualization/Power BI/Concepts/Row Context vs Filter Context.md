@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,6 +12,7 @@ aliases:
   - Filter Context
   - Row Context
   - DAX Context
+publish: true
 ---
 
 # 📚 Row Context vs Filter Context
