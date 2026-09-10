@@ -15,6 +15,7 @@ aliases:
   - Modern Data Warehouse
   - Power BI Basics
 publish: true
+permalink: dp-900-azure-data-fundamentals/analytics-workloads-on-azure
 ---
 
 # <span class="rune">ᛟ</span> Analytics Workloads on Azure

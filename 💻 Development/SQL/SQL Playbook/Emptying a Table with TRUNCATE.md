@@ -12,6 +12,7 @@ tags:
 aliases:
   - Removing all rows from a table
 publish: true
+permalink: sql/emptying-a-table-with-truncate
 ---
 
 # <span class="rune">ᚲ</span> Emptying a Table with TRUNCATE

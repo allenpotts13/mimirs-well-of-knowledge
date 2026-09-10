@@ -12,6 +12,7 @@ aliases:
   - Nested Query
   - Correlated Subquery
 publish: true
+permalink: sql/subqueries
 ---
 
 # <span class="rune">ᛟ</span> Subqueries

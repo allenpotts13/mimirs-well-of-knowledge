@@ -15,6 +15,7 @@ aliases:
   - Rolling Window Aggregation
   - YTD Calculation
 publish: true
+permalink: sql/aggregating-values-within-a-date-range
 ---
 
 # <span class="rune">ᚲ</span> Aggregating Values Within a Date Range

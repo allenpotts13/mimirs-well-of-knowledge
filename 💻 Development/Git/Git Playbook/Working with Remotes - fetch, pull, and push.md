@@ -18,6 +18,7 @@ aliases:
   - git push
   - Upstream Tracking
 publish: true
+permalink: git/working-with-remotes-fetch-pull-and-push
 ---
 
 # <span class="rune">ᛟ</span> Working with Remotes: fetch, pull, and push

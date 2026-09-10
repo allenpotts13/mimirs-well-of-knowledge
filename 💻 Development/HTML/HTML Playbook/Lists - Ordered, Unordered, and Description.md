@@ -13,6 +13,7 @@ aliases:
   - ol ul dl
   - Description Lists
 publish: true
+permalink: html/lists-ordered-unordered-and-description
 ---
 
 # <span class="rune">ᛟ</span> Lists: Ordered, Unordered, and Description

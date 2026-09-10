@@ -14,6 +14,7 @@ aliases:
   - Employees Hired in the Last 6 Months
   - DATE_SUB Filtering
 publish: true
+permalink: sql/filtering-records-by-a-recent-date-window
 ---
 
 # <span class="rune">ᚲ</span> Filtering Records by a Recent Date Window

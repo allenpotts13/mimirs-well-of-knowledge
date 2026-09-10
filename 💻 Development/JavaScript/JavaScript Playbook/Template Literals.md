@@ -15,6 +15,7 @@ aliases:
   - Backtick Strings
   - String Interpolation
 publish: true
+permalink: javascript/template-literals
 ---
 
 # <span class="rune">ᛟ</span> Template Literals

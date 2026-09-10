@@ -15,6 +15,7 @@ aliases:
   - box-sizing
   - Content Box vs Border Box
 publish: true
+permalink: css/the-box-model
 ---
 
 # <span class="rune">ᛟ</span> The Box Model

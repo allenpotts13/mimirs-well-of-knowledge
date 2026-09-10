@@ -14,6 +14,7 @@ aliases:
   - Reflog
   - Recovering Deleted Commits
 publish: true
+permalink: git/recovering-lost-commits-with-the-reflog
 ---
 
 # <span class="rune">ᛟ</span> Recovering Lost Commits with the Reflog

@@ -13,6 +13,7 @@ tags:
 aliases:
   - Azure SQL Family
 publish: true
+permalink: dp-900-azure-data-fundamentals/relational-data-on-azure
 ---
 
 # <span class="rune">ᛟ</span> Relational Data on Azure

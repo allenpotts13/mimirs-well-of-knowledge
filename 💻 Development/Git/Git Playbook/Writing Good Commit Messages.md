@@ -15,6 +15,7 @@ aliases:
   - Conventional Commits
   - The 50/72 Rule
 publish: true
+permalink: git/writing-good-commit-messages
 ---
 
 # <span class="rune">ᛟ</span> Writing Good Commit Messages

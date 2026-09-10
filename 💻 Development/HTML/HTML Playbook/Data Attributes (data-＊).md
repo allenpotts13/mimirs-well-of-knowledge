@@ -15,6 +15,7 @@ aliases:
   - dataset
   - Custom Data Attributes
 publish: true
+permalink: html/data-attributes-data
 ---
 
 # <span class="rune">ᛟ</span> Data Attributes (data-*)

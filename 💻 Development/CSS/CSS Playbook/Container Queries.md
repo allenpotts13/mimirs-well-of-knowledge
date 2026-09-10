@@ -15,6 +15,7 @@ aliases:
   - container-type
   - Element Queries
 publish: true
+permalink: css/container-queries
 ---
 
 # <span class="rune">ᛟ</span> Container Queries

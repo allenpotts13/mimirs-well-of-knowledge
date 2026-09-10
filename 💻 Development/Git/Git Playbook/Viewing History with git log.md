@@ -14,6 +14,7 @@ aliases:
   - git log
   - Viewing Commit History
 publish: true
+permalink: git/viewing-history-with-git-log
 ---
 
 # <span class="rune">ᛟ</span> Viewing History with git log

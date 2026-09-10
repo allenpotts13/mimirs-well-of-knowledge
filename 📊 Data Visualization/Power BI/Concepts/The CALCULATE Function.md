@@ -11,6 +11,7 @@ tags:
 aliases:
   - CALCULATE
 publish: true
+permalink: power-bi/the-calculate-function
 ---
 
 # <span class="rune">ᛟ</span> The CALCULATE Function

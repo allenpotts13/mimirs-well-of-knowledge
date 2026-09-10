@@ -15,6 +15,7 @@ aliases:
   - Single Colon vs Double Colon
   - CSS Pseudo Selectors
 publish: true
+permalink: css/pseudo-classes-and-pseudo-elements
 ---
 
 # <span class="rune">ᛟ</span> Pseudo-Classes and Pseudo-Elements

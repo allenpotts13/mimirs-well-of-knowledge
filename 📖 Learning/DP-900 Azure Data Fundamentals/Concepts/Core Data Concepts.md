@@ -14,6 +14,7 @@ aliases:
   - OLTP vs OLAP
   - Data Workloads
 publish: true
+permalink: dp-900-azure-data-fundamentals/core-data-concepts
 ---
 
 # <span class="rune">ᛟ</span> Core Data Concepts

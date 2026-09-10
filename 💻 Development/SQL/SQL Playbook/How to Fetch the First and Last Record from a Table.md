@@ -13,6 +13,7 @@ aliases:
   - First and Last Record
   - SQL First and Last Record
 publish: true
+permalink: sql/how-to-fetch-the-first-and-last-record-from-a-table
 ---
 
 # <span class="rune">ᚲ</span> How to Fetch the First and Last Record from a Table

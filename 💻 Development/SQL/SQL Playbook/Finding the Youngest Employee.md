@@ -14,6 +14,7 @@ aliases:
   - Youngest Employee
   - Most Recent Birth Date
 publish: true
+permalink: sql/finding-the-youngest-employee
 ---
 
 # <span class="rune">ᚲ</span> Finding the Youngest Employee

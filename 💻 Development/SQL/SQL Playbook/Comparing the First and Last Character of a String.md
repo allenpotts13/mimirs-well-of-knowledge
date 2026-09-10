@@ -13,6 +13,7 @@ tags:
 aliases:
   - LEFT and RIGHT string functions
 publish: true
+permalink: sql/comparing-the-first-and-last-character-of-a-string
 ---
 
 # <span class="rune">ᚲ</span> Comparing the First and Last Character of a String

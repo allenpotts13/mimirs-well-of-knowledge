@@ -13,6 +13,7 @@ tags:
 aliases:
   - Azure Physical Structure
 publish: true
+permalink: az-900-azure-fundamentals/regions-vs-availability-zones-vs-region-pairs
 ---
 
 # <span class="rune">ᚲ</span> Regions vs Availability Zones vs Region Pairs

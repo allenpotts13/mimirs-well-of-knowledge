@@ -12,6 +12,7 @@ aliases:
   - SQL LEFT JOIN
   - LEFT OUTER JOIN
 publish: true
+permalink: sql/left-join
 ---
 
 # <span class="rune">ᛟ</span> LEFT JOIN

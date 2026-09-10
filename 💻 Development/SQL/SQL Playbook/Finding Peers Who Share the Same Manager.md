@@ -13,6 +13,7 @@ tags:
 aliases:
   - Employees under the same manager
 publish: true
+permalink: sql/finding-peers-who-share-the-same-manager
 ---
 
 # <span class="rune">ᚲ</span> Finding Peers Who Share the Same Manager

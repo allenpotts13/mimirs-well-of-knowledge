@@ -15,6 +15,7 @@ aliases:
   - Employees in Multiple Departments
   - Matching All Values in a Set
 publish: true
+permalink: sql/finding-records-that-match-every-value-in-a-set
 ---
 
 # <span class="rune">ᚲ</span> Finding Records That Match Every Value in a Set

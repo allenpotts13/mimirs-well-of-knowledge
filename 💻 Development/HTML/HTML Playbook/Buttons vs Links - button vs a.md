@@ -15,6 +15,7 @@ aliases:
   - button vs a
   - When to Use a Link vs a Button
 publish: true
+permalink: html/buttons-vs-links-button-vs-a
 ---
 
 # <span class="rune">ᛟ</span> Buttons vs Links: button vs a

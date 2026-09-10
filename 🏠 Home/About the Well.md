@@ -2,6 +2,7 @@
 publish: true
 status: published
 type: guide
+permalink: home/about-the-well
 ---
 
 # About the Well

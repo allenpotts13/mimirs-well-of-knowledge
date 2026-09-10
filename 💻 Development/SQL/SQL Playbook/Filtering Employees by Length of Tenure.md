@@ -14,6 +14,7 @@ aliases:
   - Employees With More Than 5 Years of Service
   - DATEDIFF Filtering
 publish: true
+permalink: sql/filtering-employees-by-length-of-tenure
 ---
 
 # <span class="rune">ᚲ</span> Filtering Employees by Length of Tenure

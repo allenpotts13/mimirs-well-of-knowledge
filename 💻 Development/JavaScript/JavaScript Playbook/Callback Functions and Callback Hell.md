@@ -15,6 +15,7 @@ aliases:
   - Pyramid of Doom
   - Callbacks
 publish: true
+permalink: javascript/callback-functions-and-callback-hell
 ---
 
 # <span class="rune">ᛟ</span> Callback Functions and Callback Hell

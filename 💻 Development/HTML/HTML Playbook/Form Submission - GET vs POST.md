@@ -14,6 +14,7 @@ aliases:
   - GET vs POST
   - form method attribute
 publish: true
+permalink: html/form-submission-get-vs-post
 ---
 
 # <span class="rune">ᛟ</span> Form Submission: GET vs POST

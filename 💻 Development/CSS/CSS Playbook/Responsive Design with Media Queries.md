@@ -15,6 +15,7 @@ aliases:
   - Mobile-First CSS
   - Responsive CSS
 publish: true
+permalink: css/responsive-design-with-media-queries
 ---
 
 # <span class="rune">ᛟ</span> Responsive Design with Media Queries

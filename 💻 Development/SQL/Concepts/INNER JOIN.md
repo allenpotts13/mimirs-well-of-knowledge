@@ -11,6 +11,7 @@ tags:
 aliases:
   - SQL INNER JOIN
 publish: true
+permalink: sql/inner-join
 ---
 
 ---

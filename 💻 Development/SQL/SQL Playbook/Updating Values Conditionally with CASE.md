@@ -14,6 +14,7 @@ aliases:
   - Conditional UPDATE with CASE
   - Give Different Raises by Department
 publish: true
+permalink: sql/updating-values-conditionally-with-case
 ---
 
 # <span class="rune">ᚲ</span> Updating Values Conditionally with CASE

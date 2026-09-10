@@ -13,6 +13,7 @@ aliases:
   - Current Timestamp
   - Getting the Current Date and Time
 publish: true
+permalink: sql/displaying-the-current-date-and-time
 ---
 
 # <span class="rune">ᚲ</span> Displaying the Current Date and Time

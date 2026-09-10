@@ -16,6 +16,7 @@ aliases:
   - git diff --staged
   - Comparing Commits
 publish: true
+permalink: git/inspecting-changes-with-git-diff
 ---
 
 # <span class="rune">ᛟ</span> Inspecting Changes with git diff

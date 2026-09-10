@@ -15,6 +15,7 @@ aliases:
   - Lexical Scope
   - What is a Closure
 publish: true
+permalink: javascript/closures-and-scope
 ---
 
 # <span class="rune">ᛟ</span> Closures and Scope

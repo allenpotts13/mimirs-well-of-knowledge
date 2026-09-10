@@ -17,6 +17,7 @@ aliases:
   - Rest Parameters
   - Rest Operator
 publish: true
+permalink: javascript/object-destructuring-and-the-spread-rest-operators
 ---
 
 # <span class="rune">ᛟ</span> Object Destructuring and the Spread/Rest Operators

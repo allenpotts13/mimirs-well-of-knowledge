@@ -12,6 +12,7 @@ tags:
 aliases:
   - Basic SUM Measure
 publish: true
+permalink: power-bi/creating-a-basic-measure-with-sum
 ---
 
 # <span class="rune">ᚲ</span> Creating a Basic Measure with SUM

@@ -10,6 +10,7 @@ tags:
 aliases:
   - DP-900 Quick Reference
 publish: true
+permalink: dp-900-azure-data-fundamentals/dp-900-cheat-sheet
 ---
 
 # <span class="rune">ᛊ</span> DP-900 Cheat Sheet

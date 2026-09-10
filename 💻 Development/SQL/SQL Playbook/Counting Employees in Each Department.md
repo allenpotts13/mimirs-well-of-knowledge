@@ -14,6 +14,7 @@ aliases:
   - Employee Count by Department
   - COUNT by Department
 publish: true
+permalink: sql/counting-employees-in-each-department
 ---
 
 # <span class="rune">ᚲ</span> Counting Employees in Each Department

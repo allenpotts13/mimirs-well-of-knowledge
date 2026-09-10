@@ -14,6 +14,7 @@ aliases:
   - Total Salary of Employees
   - SUM Function
 publish: true
+permalink: sql/calculating-a-total-with-sum
 ---
 
 # <span class="rune">ᚲ</span> Calculating a Total with SUM()

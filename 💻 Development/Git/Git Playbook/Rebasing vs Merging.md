@@ -15,6 +15,7 @@ aliases:
   - Rebase vs Merge
   - The Golden Rule of Rebasing
 publish: true
+permalink: git/rebasing-vs-merging
 ---
 
 # <span class="rune">ᛟ</span> Rebasing vs Merging

@@ -13,6 +13,7 @@ aliases:
   - OVER clause
   - PARTITION BY
 publish: true
+permalink: sql/window-functions
 ---
 
 # <span class="rune">ᛟ</span> Window Functions

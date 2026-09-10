@@ -11,6 +11,7 @@ tags:
 aliases:
   - Cost Tool Choice
 publish: true
+permalink: az-900-azure-fundamentals/picking-the-right-cost-management-tool
 ---
 
 # <span class="rune">ᚲ</span> Picking the Right Cost Management Tool

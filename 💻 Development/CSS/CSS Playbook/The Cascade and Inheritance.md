@@ -15,6 +15,7 @@ aliases:
   - Cascading Style Sheets
   - Inheritance in CSS
 publish: true
+permalink: css/the-cascade-and-inheritance
 ---
 
 # <span class="rune">ᛟ</span> The Cascade and Inheritance

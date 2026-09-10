@@ -12,6 +12,7 @@ aliases:
   - SPROC
   - Stored Procedure
 publish: true
+permalink: sql/stored-procedures
 ---
 
 # <span class="rune">ᛟ</span> Stored Procedures

@@ -15,6 +15,7 @@ aliases:
   - Document Object Model
   - querySelector
 publish: true
+permalink: javascript/dom-manipulation-basics
 ---
 
 # <span class="rune">ᛟ</span> DOM Manipulation Basics

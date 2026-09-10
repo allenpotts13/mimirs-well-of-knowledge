@@ -12,6 +12,7 @@ aliases:
   - SQL View
   - Materialized View
 publish: true
+permalink: sql/views
 ---
 
 # <span class="rune">ᛟ</span> Views

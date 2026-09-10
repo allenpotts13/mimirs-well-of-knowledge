@@ -12,6 +12,7 @@ aliases:
   - Three-Valued Logic
   - IS NULL
 publish: true
+permalink: sql/null-and-three-valued-logic
 ---
 
 # <span class="rune">ᛟ</span> NULL and Three-Valued Logic

@@ -15,6 +15,7 @@ aliases:
   - clearfix
   - Clearing Floats
 publish: true
+permalink: css/float-and-its-legacy-layout-role
 ---
 
 # <span class="rune">ᛟ</span> Float and Its Legacy Layout Role

@@ -13,6 +13,7 @@ aliases:
   - Row Context
   - DAX Context
 publish: true
+permalink: power-bi/row-context-vs-filter-context
 ---
 
 # <span class="rune">ᛟ</span> Row Context vs Filter Context

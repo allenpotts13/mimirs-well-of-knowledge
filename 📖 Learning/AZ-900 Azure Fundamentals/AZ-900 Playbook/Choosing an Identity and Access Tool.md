@@ -12,6 +12,7 @@ tags:
 aliases:
   - Identity Tool Choice
 publish: true
+permalink: az-900-azure-fundamentals/choosing-an-identity-and-access-tool
 ---
 
 # <span class="rune">ᚲ</span> Choosing an Identity and Access Tool

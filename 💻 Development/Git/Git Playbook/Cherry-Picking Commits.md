@@ -14,6 +14,7 @@ aliases:
   - git cherry-pick
   - Backporting a Commit
 publish: true
+permalink: git/cherry-picking-commits
 ---
 
 # <span class="rune">ᛟ</span> Cherry-Picking Commits

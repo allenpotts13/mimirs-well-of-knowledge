@@ -12,6 +12,7 @@ tags:
 aliases:
   - CALCULATE FILTER Pattern
 publish: true
+permalink: power-bi/filtering-a-measure-with-calculate-and-filter
 ---
 
 # <span class="rune">ᚲ</span> Filtering a Measure with CALCULATE and FILTER

@@ -15,6 +15,7 @@ aliases:
   - Specificity Wars
   - Specificity Score
 publish: true
+permalink: css/understanding-specificity
 ---
 
 # <span class="rune">ᛟ</span> Understanding Specificity

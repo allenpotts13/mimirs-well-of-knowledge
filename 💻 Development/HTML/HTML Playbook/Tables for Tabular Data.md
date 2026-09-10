@@ -13,6 +13,7 @@ aliases:
   - HTML Tables
   - thead tbody tfoot
 publish: true
+permalink: html/tables-for-tabular-data
 ---
 
 # <span class="rune">ᛟ</span> Tables for Tabular Data

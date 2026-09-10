@@ -12,6 +12,7 @@ tags:
 aliases:
   - MONTHNAME function
 publish: true
+permalink: sql/getting-the-current-month-name
 ---
 
 # <span class="rune">ᚲ</span> Getting the Current Month Name

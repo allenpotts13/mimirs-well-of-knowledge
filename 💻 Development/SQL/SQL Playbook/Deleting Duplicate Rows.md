@@ -15,6 +15,7 @@ aliases:
   - Delete Duplicate Records
   - Removing Duplicate Rows
 publish: true
+permalink: sql/deleting-duplicate-rows
 ---
 
 # <span class="rune">ᚲ</span> Deleting Duplicate Rows

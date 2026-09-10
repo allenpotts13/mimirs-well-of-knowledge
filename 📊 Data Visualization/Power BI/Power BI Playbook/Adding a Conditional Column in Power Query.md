@@ -11,6 +11,7 @@ tags:
 aliases:
   - Power Query Conditional Column
 publish: true
+permalink: power-bi/adding-a-conditional-column-in-power-query
 ---
 
 # <span class="rune">ᚲ</span> Adding a Conditional Column in Power Query

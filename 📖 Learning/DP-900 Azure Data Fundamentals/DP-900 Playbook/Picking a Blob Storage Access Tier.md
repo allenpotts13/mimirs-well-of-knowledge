@@ -12,6 +12,7 @@ tags:
 aliases:
   - Blob Access Tiers
 publish: true
+permalink: dp-900-azure-data-fundamentals/picking-a-blob-storage-access-tier
 ---
 
 # <span class="rune">ᚲ</span> Picking a Blob Storage Access Tier

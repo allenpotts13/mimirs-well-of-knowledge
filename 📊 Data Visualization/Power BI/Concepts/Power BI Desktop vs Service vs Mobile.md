@@ -11,6 +11,7 @@ tags:
 aliases:
   - Power BI Apps
 publish: true
+permalink: power-bi/power-bi-desktop-vs-service-vs-mobile
 ---
 
 # <span class="rune">ᛟ</span> Power BI Desktop vs Service vs Mobile

@@ -13,6 +13,7 @@ aliases:
   - ACID
   - BEGIN COMMIT ROLLBACK
 publish: true
+permalink: sql/transactions
 ---
 
 # <span class="rune">ᛟ</span> Transactions

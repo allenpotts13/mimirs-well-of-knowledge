@@ -14,6 +14,7 @@ aliases:
   - Import Mode
   - Live Connection
 publish: true
+permalink: power-bi/storage-modes-import-vs-directquery-vs-live-connection
 ---
 
 # <span class="rune">ᛟ</span> Storage Modes - Import vs DirectQuery vs Live Connection

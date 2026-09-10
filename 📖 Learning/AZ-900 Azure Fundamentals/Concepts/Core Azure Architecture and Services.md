@@ -15,6 +15,7 @@ aliases:
   - Azure Regions and Resource Hierarchy
   - Azure Compute Services
 publish: true
+permalink: az-900-azure-fundamentals/core-azure-architecture-and-services
 ---
 
 # <span class="rune">ᛟ</span> Core Azure Architecture and Services

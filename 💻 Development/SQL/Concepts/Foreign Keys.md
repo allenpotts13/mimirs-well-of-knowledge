@@ -14,6 +14,7 @@ aliases:
   - FK
   - Referential Integrity
 publish: true
+permalink: sql/foreign-keys
 ---
 
 # <span class="rune">ᛟ</span> Foreign Keys

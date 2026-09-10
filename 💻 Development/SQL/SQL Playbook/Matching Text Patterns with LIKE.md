@@ -13,6 +13,7 @@ tags:
 aliases:
   - Ends-with pattern matching
 publish: true
+permalink: sql/matching-text-patterns-with-like
 ---
 
 # <span class="rune">ᚲ</span> Matching Text Patterns with LIKE

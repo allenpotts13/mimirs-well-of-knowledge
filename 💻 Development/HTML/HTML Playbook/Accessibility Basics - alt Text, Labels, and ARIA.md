@@ -15,6 +15,7 @@ aliases:
   - a11y Basics
   - ARIA vs Semantic HTML
 publish: true
+permalink: html/accessibility-basics-alt-text-labels-and-aria
 ---
 
 # <span class="rune">ᛟ</span> Accessibility Basics: alt Text, Labels, and ARIA

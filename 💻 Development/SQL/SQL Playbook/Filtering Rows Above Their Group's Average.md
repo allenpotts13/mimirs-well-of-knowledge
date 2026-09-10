@@ -14,6 +14,7 @@ aliases:
   - Employees Above Their Department Average
   - Correlated Subquery Pattern
 publish: true
+permalink: sql/filtering-rows-above-their-groups-average
 ---
 
 # <span class="rune">ᚲ</span> Filtering Rows Above Their Group's Average

@@ -15,6 +15,7 @@ aliases:
   - display grid
   - Grid Layout
 publish: true
+permalink: css/css-grid-layout-fundamentals
 ---
 
 # <span class="rune">ᛟ</span> CSS Grid Layout Fundamentals

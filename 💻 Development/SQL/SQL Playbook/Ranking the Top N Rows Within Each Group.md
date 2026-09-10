@@ -16,6 +16,7 @@ aliases:
   - Top N Per Group
   - DENSE_RANK with PARTITION BY
 publish: true
+permalink: sql/ranking-the-top-n-rows-within-each-group
 ---
 
 # <span class="rune">ᚲ</span> Ranking the Top N Rows Within Each Group

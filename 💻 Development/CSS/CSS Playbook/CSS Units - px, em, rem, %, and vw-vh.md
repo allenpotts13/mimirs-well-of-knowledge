@@ -18,6 +18,7 @@ aliases:
   - Relative Units in CSS
   - Viewport Units
 publish: true
+permalink: css/css-units-px-em-rem-and-vw-vh
 ---
 
 # <span class="rune">ᛟ</span> CSS Units: px, em, rem, %, and vw/vh

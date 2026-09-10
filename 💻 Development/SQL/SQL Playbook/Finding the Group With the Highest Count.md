@@ -15,6 +15,7 @@ aliases:
   - Department With the Most Employees
   - Highest Group Count
 publish: true
+permalink: sql/finding-the-group-with-the-highest-count
 ---
 
 # <span class="rune">ᚲ</span> Finding the Group With the Highest Count

@@ -12,6 +12,7 @@ tags:
 aliases:
   - Cumulative Total
 publish: true
+permalink: power-bi/creating-a-running-total
 ---
 
 # <span class="rune">ᚲ</span> Creating a Running Total

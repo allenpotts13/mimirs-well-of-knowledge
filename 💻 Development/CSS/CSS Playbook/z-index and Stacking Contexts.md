@@ -14,6 +14,7 @@ aliases:
   - Stacking Context
   - z-index Not Working
 publish: true
+permalink: css/z-index-and-stacking-contexts
 ---
 
 # <span class="rune">ᛟ</span> z-index and Stacking Contexts

@@ -12,6 +12,7 @@ tags:
 aliases:
   - Cosmos DB API Choice
 publish: true
+permalink: dp-900-azure-data-fundamentals/choosing-the-right-cosmos-db-api
 ---
 
 # <span class="rune">ᚲ</span> Choosing the Right Cosmos DB API

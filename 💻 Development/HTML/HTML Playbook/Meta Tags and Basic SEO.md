@@ -15,6 +15,7 @@ aliases:
   - Open Graph Tags
   - Viewport Meta Tag
 publish: true
+permalink: html/meta-tags-and-basic-seo
 ---
 
 # <span class="rune">ᛟ</span> Meta Tags and Basic SEO

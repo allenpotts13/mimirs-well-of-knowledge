@@ -14,6 +14,7 @@ aliases:
   - Is This Table Empty
   - EXISTS Existence Check
 publish: true
+permalink: sql/checking-whether-a-table-is-empty
 ---
 
 # <span class="rune">ᚲ</span> Checking Whether a Table Is Empty

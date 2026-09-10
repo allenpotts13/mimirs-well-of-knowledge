@@ -14,6 +14,7 @@ aliases:
   - Employees Who Are Not Managers
   - Finding Leaf Nodes in a Hierarchy
 publish: true
+permalink: sql/finding-employees-with-no-subordinates
 ---
 
 # <span class="rune">ᚲ</span> Finding Employees With No Subordinates

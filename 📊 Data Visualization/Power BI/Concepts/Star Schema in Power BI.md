@@ -12,6 +12,7 @@ tags:
 aliases:
   - Fact and Dimension Tables
 publish: true
+permalink: power-bi/star-schema-in-power-bi
 ---
 
 # <span class="rune">ᛟ</span> Star Schema in Power BI

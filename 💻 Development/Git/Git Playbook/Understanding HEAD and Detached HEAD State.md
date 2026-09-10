@@ -15,6 +15,7 @@ aliases:
   - Detached HEAD
   - What is HEAD in Git
 publish: true
+permalink: git/understanding-head-and-detached-head-state
 ---
 
 # <span class="rune">ᛟ</span> Understanding HEAD and Detached HEAD State

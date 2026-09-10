@@ -15,6 +15,7 @@ aliases:
   - srcset and sizes
   - picture element
 publish: true
+permalink: html/images-and-responsive-images-srcset-and-picture
 ---
 
 # <span class="rune">ᛟ</span> Images and Responsive Images (srcset and picture)

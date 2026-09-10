@@ -16,6 +16,7 @@ aliases:
   - Trunk-Based Development
   - Git Flow
 publish: true
+permalink: git/common-git-workflows-feature-branch-trunk-based-and-git-flow
 ---
 
 # <span class="rune">ᛟ</span> Common Git Workflows: Feature Branch, Trunk-Based, and Git Flow

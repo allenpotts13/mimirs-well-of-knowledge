@@ -12,6 +12,7 @@ tags:
 aliases:
   - Power BI Dataflow
 publish: true
+permalink: power-bi/dataflows
 ---
 
 # <span class="rune">ᛟ</span> Dataflows

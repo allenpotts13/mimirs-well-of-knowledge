@@ -13,6 +13,7 @@ aliases:
   - VAR RETURN
   - DAX Variables
 publish: true
+permalink: power-bi/simplifying-dax-with-variables
 ---
 
 # <span class="rune">ᚲ</span> Simplifying DAX with Variables

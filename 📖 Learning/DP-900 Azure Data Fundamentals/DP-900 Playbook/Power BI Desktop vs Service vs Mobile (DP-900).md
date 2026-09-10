@@ -11,6 +11,7 @@ tags:
 aliases:
   - Power BI Apps
 publish: true
+permalink: dp-900-azure-data-fundamentals/power-bi-desktop-vs-service-vs-mobile-dp-900
 ---
 
 # <span class="rune">ᚲ</span> Power BI Desktop vs Service vs Mobile (DP-900)

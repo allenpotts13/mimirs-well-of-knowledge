@@ -12,6 +12,7 @@ aliases:
   - UNION
   - UNION ALL
 publish: true
+permalink: sql/union-vs-union-all
 ---
 
 # <span class="rune">ᛟ</span> UNION vs UNION ALL

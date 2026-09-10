@@ -15,6 +15,7 @@ aliases:
   - JavaScript Promises
   - Promise.all
 publish: true
+permalink: javascript/promises
 ---
 
 # <span class="rune">ᛟ</span> Promises

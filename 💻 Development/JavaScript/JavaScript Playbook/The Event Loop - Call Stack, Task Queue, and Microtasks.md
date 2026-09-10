@@ -19,6 +19,7 @@ aliases:
   - Macrotask Queue
   - Task Queue
 publish: true
+permalink: javascript/the-event-loop-call-stack-task-queue-and-microtasks
 ---
 
 # <span class="rune">ᛟ</span> The Event Loop: Call Stack, Task Queue, and Microtasks

@@ -14,6 +14,7 @@ aliases:
   - Second Highest Salary
   - Second Largest Value
 publish: true
+permalink: sql/finding-the-second-highest-value
 ---
 
 # <span class="rune">ᚲ</span> Finding the Second Highest Value

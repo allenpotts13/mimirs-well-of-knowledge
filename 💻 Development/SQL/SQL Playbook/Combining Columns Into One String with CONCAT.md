@@ -13,6 +13,7 @@ aliases:
   - CONCAT function
   - Building a formatted string column
 publish: true
+permalink: sql/combining-columns-into-one-string-with-concat
 ---
 
 # <span class="rune">ᚲ</span> Combining Columns Into One String with CONCAT

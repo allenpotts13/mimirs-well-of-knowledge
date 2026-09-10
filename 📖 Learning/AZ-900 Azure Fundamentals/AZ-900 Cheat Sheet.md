@@ -10,6 +10,7 @@ tags:
 aliases:
   - AZ-900 Quick Reference
 publish: true
+permalink: az-900-azure-fundamentals/az-900-cheat-sheet
 ---
 
 # <span class="rune">ᛊ</span> AZ-900 Cheat Sheet

@@ -15,6 +15,7 @@ aliases:
   - Interactive Rebase
   - Squash and Fixup
 publish: true
+permalink: git/interactive-rebase-for-cleaning-up-history
 ---
 
 # <span class="rune">ᛟ</span> Interactive Rebase for Cleaning Up History

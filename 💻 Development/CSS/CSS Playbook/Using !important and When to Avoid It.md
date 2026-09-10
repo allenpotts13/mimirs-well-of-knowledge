@@ -14,6 +14,7 @@ aliases:
   - "!important"
   - CSS important
 publish: true
+permalink: css/using-important-and-when-to-avoid-it
 ---
 
 # <span class="rune">ᛟ</span> Using !important and When to Avoid It

@@ -10,6 +10,7 @@ tags:
 aliases:
   - DP-900 Exam Info
 publish: true
+permalink: dp-900-azure-data-fundamentals/dp-900-study-plan-and-exam-info
 ---
 
 # <span class="rune">ᛃ</span> DP-900 Study Plan and Exam Info

@@ -15,6 +15,7 @@ aliases:
   - Finding Matching Rows
   - INTERSECT
 publish: true
+permalink: sql/finding-common-records-between-two-tables
 ---
 
 # <span class="rune">ᚲ</span> Finding Common Records Between Two Tables

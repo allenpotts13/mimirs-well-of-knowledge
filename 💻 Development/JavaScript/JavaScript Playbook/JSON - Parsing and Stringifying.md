@@ -15,6 +15,7 @@ aliases:
   - JSON.parse
   - JSON.stringify
 publish: true
+permalink: javascript/json-parsing-and-stringifying
 ---
 
 # <span class="rune">ᛟ</span> JSON: Parsing and Stringifying

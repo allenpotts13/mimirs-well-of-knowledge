@@ -15,6 +15,7 @@ aliases:
   - What is this in JavaScript
   - Understanding this
 publish: true
+permalink: javascript/the-this-keyword
 ---
 
 # <span class="rune">ᛟ</span> The this Keyword

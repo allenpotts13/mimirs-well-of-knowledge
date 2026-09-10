@@ -11,6 +11,7 @@ tags:
 aliases:
   - RANKX
 publish: true
+permalink: power-bi/ranking-values-with-rankx
 ---
 
 # <span class="rune">ᚲ</span> Ranking Values with RANKX

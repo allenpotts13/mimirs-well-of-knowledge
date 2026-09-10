@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: power-bi
 ---
 
 # <span class="rune">ᛞ</span> Power BI

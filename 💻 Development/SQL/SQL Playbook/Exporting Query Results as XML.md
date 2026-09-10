@@ -13,6 +13,7 @@ tags:
 aliases:
   - FOR XML AUTO
 publish: true
+permalink: sql/exporting-query-results-as-xml
 ---
 
 # <span class="rune">ᚲ</span> Exporting Query Results as XML

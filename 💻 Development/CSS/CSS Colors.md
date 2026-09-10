@@ -1,6 +1,7 @@
 ---
 publish: true
 status: published
+permalink: css/css-colors
 ---
 
 | Name          | RGB                | Color                                                                                                                      | Description                                                  |

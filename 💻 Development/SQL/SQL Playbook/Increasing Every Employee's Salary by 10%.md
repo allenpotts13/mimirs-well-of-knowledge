@@ -12,6 +12,7 @@ tags:
   - salary
 aliases:
 publish: true
+permalink: sql/increasing-every-employees-salary-by-10
 ---
 
 # <span class="rune">ᚲ</span> Increasing Every Employee's Salary by 10%

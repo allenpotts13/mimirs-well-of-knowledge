@@ -14,6 +14,7 @@ aliases:
   - Employees Earning Above Average
   - Comparing Values Against an Average
 publish: true
+permalink: sql/finding-values-above-the-average
 ---
 
 # <span class="rune">ᚲ</span> Finding Values Above the Average

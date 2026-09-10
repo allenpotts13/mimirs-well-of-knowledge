@@ -13,6 +13,7 @@ aliases:
   - Count Departments
   - Number of Departments
 publish: true
+permalink: sql/find-the-total-number-of-departments
 ---
 
 # <span class="rune">ᚲ</span> Find the Total Number of Departments

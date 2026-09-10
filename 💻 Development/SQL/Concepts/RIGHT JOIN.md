@@ -12,6 +12,7 @@ aliases:
   - SQL RIGHT JOIN
   - RIGHT OUTER JOIN
 publish: true
+permalink: sql/right-join
 ---
 
 # <span class="rune">ᛟ</span> RIGHT JOIN

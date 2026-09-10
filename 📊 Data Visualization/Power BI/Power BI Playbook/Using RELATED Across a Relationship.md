@@ -12,6 +12,7 @@ aliases:
   - RELATED Function
   - RELATEDTABLE
 publish: true
+permalink: power-bi/using-related-across-a-relationship
 ---
 
 # <span class="rune">ᚲ</span> Using RELATED Across a Relationship

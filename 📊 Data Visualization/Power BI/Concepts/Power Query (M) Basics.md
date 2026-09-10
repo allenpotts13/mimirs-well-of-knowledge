@@ -13,6 +13,7 @@ aliases:
   - Power Query
   - M Language
 publish: true
+permalink: power-bi/power-query-m-basics
 ---
 
 # <span class="rune">ᛟ</span> Power Query (M) Basics

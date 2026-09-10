@@ -15,6 +15,7 @@ aliases:
   - normalize.css
   - Modern CSS Reset
 publish: true
+permalink: css/css-reset-vs-normalize
 ---
 
 # <span class="rune">ᛟ</span> CSS Reset vs Normalize

@@ -14,6 +14,7 @@ aliases:
   - NoSQL on Azure
   - Cosmos DB
 publish: true
+permalink: dp-900-azure-data-fundamentals/non-relational-data-on-azure
 ---
 
 # <span class="rune">ᛟ</span> Non-Relational Data on Azure

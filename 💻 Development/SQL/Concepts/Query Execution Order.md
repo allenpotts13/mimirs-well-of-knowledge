@@ -12,6 +12,7 @@ aliases:
   - Logical Query Processing Order
   - SQL Execution Order
 publish: true
+permalink: sql/query-execution-order
 ---
 
 # <span class="rune">ᛟ</span> Query Execution Order

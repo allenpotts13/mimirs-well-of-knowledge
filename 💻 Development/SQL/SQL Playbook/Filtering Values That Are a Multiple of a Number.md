@@ -12,6 +12,7 @@ tags:
 aliases:
   - Filtering by divisibility
 publish: true
+permalink: sql/filtering-values-that-are-a-multiple-of-a-number
 ---
 
 # <span class="rune">ᚲ</span> Filtering Values That Are a Multiple of a Number

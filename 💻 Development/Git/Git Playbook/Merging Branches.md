@@ -15,6 +15,7 @@ aliases:
   - Fast-Forward Merge
   - Three-Way Merge
 publish: true
+permalink: git/merging-branches
 ---
 
 # <span class="rune">ᛟ</span> Merging Branches

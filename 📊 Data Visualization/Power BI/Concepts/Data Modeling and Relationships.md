@@ -13,6 +13,7 @@ aliases:
   - Power BI Relationships
   - Cardinality
 publish: true
+permalink: power-bi/data-modeling-and-relationships
 ---
 
 # <span class="rune">ᛟ</span> Data Modeling and Relationships

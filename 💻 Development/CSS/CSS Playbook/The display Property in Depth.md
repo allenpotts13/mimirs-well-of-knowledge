@@ -15,6 +15,7 @@ aliases:
   - display none vs visibility hidden
   - inline-block
 publish: true
+permalink: css/the-display-property-in-depth
 ---
 
 # <span class="rune">ᛟ</span> The display Property in Depth

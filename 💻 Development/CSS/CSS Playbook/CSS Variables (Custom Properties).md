@@ -15,6 +15,7 @@ aliases:
   - CSS Custom Properties
   - var()
 publish: true
+permalink: css/css-variables-custom-properties
 ---
 
 # <span class="rune">ᛟ</span> CSS Variables (Custom Properties)
