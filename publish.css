@@ -1,0 +1,608 @@
+/*
+Mímir's Well of Knowledge — Obsidian Publish Theme v1
+Author: Allen Potts / OpenAI-assisted
+Purpose: Professional technical knowledge-base styling with restrained Norse / deep-well influence.
+
+Place this file at the ROOT of the Obsidian vault:
+    /publish.css
+
+Then publish it through Obsidian Publish.
+*/
+
+/* =========================================================
+   1. DESIGN TOKENS
+   ========================================================= */
+
+:root {
+  /* Core palette */
+  --mimir-bg: #111514;
+  --mimir-bg-soft: #171c1b;
+  --mimir-panel: #1c2220;
+  --mimir-panel-raised: #232a27;
+  --mimir-border: #313936;
+  --mimir-border-strong: #49534e;
+
+  --mimir-text: #eee8dc;
+  --mimir-text-soft: #c9c2b6;
+  --mimir-text-muted: #938e85;
+
+  --mimir-gold: #b89a62;
+  --mimir-gold-bright: #d2b77c;
+  --mimir-gold-dim: #786744;
+
+  --mimir-water: #5d8f91;
+  --mimir-water-bright: #79aeb0;
+  --mimir-water-deep: #284e51;
+
+  --mimir-code-bg: #0d1110;
+  --mimir-code-border: #29302d;
+
+  --mimir-radius-sm: 6px;
+  --mimir-radius-md: 10px;
+  --mimir-radius-lg: 14px;
+
+  --mimir-content-width: 900px;
+  --mimir-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+
+  /* Obsidian Publish variables */
+  --background-primary: var(--mimir-bg);
+  --background-primary-alt: var(--mimir-bg-soft);
+  --background-secondary: var(--mimir-bg-soft);
+  --background-secondary-alt: var(--mimir-panel);
+
+  --text-normal: var(--mimir-text);
+  --text-muted: var(--mimir-text-muted);
+  --text-faint: #77756f;
+
+  --interactive-accent: var(--mimir-gold);
+  --interactive-accent-hover: var(--mimir-gold-bright);
+
+  --link-color: var(--mimir-water-bright);
+  --link-color-hover: var(--mimir-gold-bright);
+  --link-unresolved-color: #b47f72;
+
+  --divider-color: var(--mimir-border);
+  --blockquote-border-color: var(--mimir-gold-dim);
+
+  --code-background: var(--mimir-code-bg);
+  --code-normal: #d9d2c6;
+
+  --font-text-size: 16px;
+  --line-height-normal: 1.7;
+}
+
+/* =========================================================
+   2. PAGE FOUNDATION
+   ========================================================= */
+
+html,
+body {
+  background:
+    radial-gradient(circle at 52% -10%, rgba(93, 143, 145, 0.06), transparent 38%),
+    var(--mimir-bg);
+}
+
+body {
+  color: var(--mimir-text);
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+::selection {
+  background: rgba(184, 154, 98, 0.28);
+  color: #fffaf0;
+}
+
+/* =========================================================
+   3. MAIN CONTENT
+   ========================================================= */
+
+.publish-renderer .markdown-preview-view,
+.markdown-preview-view {
+  line-height: 1.7;
+}
+
+.markdown-preview-sizer,
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: var(--mimir-content-width);
+  margin-inline: auto;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+/* First visible title */
+.markdown-preview-view h1:first-of-type {
+  position: relative;
+  margin-bottom: 2.2rem;
+  padding-bottom: 0.9rem;
+}
+
+.markdown-preview-view h1:first-of-type::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 78px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--mimir-gold),
+    var(--mimir-water),
+    transparent
+  );
+}
+
+/* =========================================================
+   4. TYPOGRAPHY / HEADINGS
+   ========================================================= */
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  color: var(--mimir-text);
+  letter-spacing: -0.015em;
+}
+
+.markdown-preview-view h1 {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  font-weight: 750;
+  line-height: 1.15;
+}
+
+.markdown-preview-view h2 {
+  margin-top: 2.8rem;
+  padding-bottom: 0.48rem;
+  border-bottom: 1px solid var(--mimir-border);
+  font-size: 1.55rem;
+  color: #f1eadf;
+}
+
+.markdown-preview-view h3 {
+  margin-top: 2.1rem;
+  font-size: 1.23rem;
+  color: var(--mimir-gold-bright);
+}
+
+.markdown-preview-view h4 {
+  color: var(--mimir-water-bright);
+}
+
+.markdown-preview-view p,
+.markdown-preview-view li {
+  color: var(--mimir-text-soft);
+}
+
+.markdown-preview-view strong {
+  color: #f2ecdf;
+}
+
+.markdown-preview-view em {
+  color: #d7d0c4;
+}
+
+/* =========================================================
+   5. LINKS
+   ========================================================= */
+
+.markdown-preview-view a,
+.markdown-preview-view .internal-link {
+  color: var(--mimir-water-bright);
+  text-decoration-color: rgba(121, 174, 176, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition:
+    color 140ms ease,
+    text-decoration-color 140ms ease;
+}
+
+.markdown-preview-view a:hover,
+.markdown-preview-view .internal-link:hover {
+  color: var(--mimir-gold-bright);
+  text-decoration-color: var(--mimir-gold);
+}
+
+/* =========================================================
+   6. BLOCKQUOTES & CALLOUTS
+   ========================================================= */
+
+.markdown-preview-view blockquote {
+  margin: 1.6rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--mimir-gold);
+  border-radius: 0 var(--mimir-radius-md) var(--mimir-radius-md) 0;
+  background:
+    linear-gradient(90deg, rgba(184, 154, 98, 0.10), transparent 70%),
+    var(--mimir-panel);
+  color: var(--mimir-text-soft);
+}
+
+.markdown-preview-view blockquote p {
+  color: inherit;
+}
+
+.callout {
+  border: 1px solid var(--mimir-border);
+  border-radius: var(--mimir-radius-md);
+  background: var(--mimir-panel);
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.callout-title {
+  color: var(--mimir-gold-bright);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.callout-content {
+  color: var(--mimir-text-soft);
+}
+
+/* Generic callouts inherit Mímir palette more consistently */
+.callout[data-callout="quote"] {
+  --callout-color: 184, 154, 98;
+}
+
+.callout[data-callout="info"],
+.callout[data-callout="note"],
+.callout[data-callout="tip"] {
+  --callout-color: 93, 143, 145;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"] {
+  --callout-color: 184, 138, 89;
+}
+
+/* =========================================================
+   7. INLINE CODE & CODE BLOCKS
+   ========================================================= */
+
+.markdown-preview-view code {
+  font-family:
+    "Cascadia Code",
+    "JetBrains Mono",
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+}
+
+.markdown-preview-view :not(pre) > code {
+  padding: 0.14em 0.42em;
+  border: 1px solid var(--mimir-code-border);
+  border-radius: 5px;
+  background: #171c1b;
+  color: #d7c28f;
+  font-size: 0.88em;
+}
+
+.markdown-preview-view pre {
+  margin: 1.5rem 0;
+  border: 1px solid var(--mimir-code-border);
+  border-radius: var(--mimir-radius-md);
+  background: var(--mimir-code-bg);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+.markdown-preview-view pre code {
+  color: #d6d0c5;
+  line-height: 1.6;
+}
+
+/* =========================================================
+   8. TABLES
+   ========================================================= */
+
+.markdown-preview-view table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--mimir-border);
+  border-radius: var(--mimir-radius-md);
+  background: var(--mimir-bg-soft);
+}
+
+.markdown-preview-view th {
+  padding: 0.75rem 0.9rem;
+  background: var(--mimir-panel-raised);
+  color: var(--mimir-gold-bright);
+  border-bottom: 1px solid var(--mimir-border-strong);
+  text-align: left;
+  font-weight: 700;
+}
+
+.markdown-preview-view td {
+  padding: 0.72rem 0.9rem;
+  color: var(--mimir-text-soft);
+  border-bottom: 1px solid var(--mimir-border);
+}
+
+.markdown-preview-view tr:last-child td {
+  border-bottom: 0;
+}
+
+.markdown-preview-view tbody tr:hover {
+  background: rgba(93, 143, 145, 0.045);
+}
+
+/* =========================================================
+   9. HORIZONTAL RULES / LISTS
+   ========================================================= */
+
+.markdown-preview-view hr {
+  border: 0;
+  height: 1px;
+  margin: 2.4rem 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--mimir-border-strong),
+    transparent
+  );
+}
+
+.markdown-preview-view ul > li::marker {
+  color: var(--mimir-water);
+}
+
+.markdown-preview-view ol > li::marker {
+  color: var(--mimir-gold);
+  font-weight: 700;
+}
+
+/* =========================================================
+   10. LEFT NAVIGATION / SITE BRAND
+   ========================================================= */
+
+.site-body-left-column {
+  background:
+    linear-gradient(180deg, rgba(93, 143, 145, 0.035), transparent 34%),
+    var(--mimir-bg-soft);
+  border-right: 1px solid var(--mimir-border);
+}
+
+.site-body-left-column-site-name {
+  color: var(--mimir-text);
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.site-body-left-column-site-name::after {
+  content: "Wisdom preserved through experience";
+  display: block;
+  max-width: 190px;
+  margin-top: 0.65rem;
+  color: var(--mimir-text-muted);
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+}
+
+.site-body-left-column .search-view-container {
+  margin-top: 0.9rem;
+}
+
+.site-body-left-column input[type="text"],
+.site-body-left-column .search-input-container input {
+  border: 1px solid var(--mimir-border);
+  border-radius: var(--mimir-radius-sm);
+  background: #121716;
+  color: var(--mimir-text);
+}
+
+.site-body-left-column .search-input-container input:focus {
+  border-color: var(--mimir-water);
+  box-shadow: 0 0 0 2px rgba(93, 143, 145, 0.12);
+}
+
+/* Navigation items */
+.nav-file-title,
+.nav-folder-title {
+  border-radius: 6px;
+  color: var(--mimir-text-soft);
+  transition:
+    background 120ms ease,
+    color 120ms ease;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  background: rgba(184, 154, 98, 0.07);
+  color: var(--mimir-text);
+}
+
+.nav-file-title.is-active {
+  background:
+    linear-gradient(90deg, rgba(93, 143, 145, 0.16), transparent 88%);
+  color: var(--mimir-gold-bright);
+}
+
+.nav-folder-title {
+  font-weight: 650;
+}
+
+.nav-folder-collapse-indicator {
+  color: var(--mimir-water);
+}
+
+/* =========================================================
+   11. RIGHT TABLE OF CONTENTS
+   ========================================================= */
+
+.site-body-right-column {
+  background: rgba(17, 21, 20, 0.72);
+  border-left: 1px solid var(--mimir-border);
+}
+
+.site-body-right-column .outline-view-outer {
+  color: var(--mimir-text-muted);
+}
+
+.site-body-right-column .outline-view-title,
+.site-body-right-column .site-body-right-column-title {
+  color: var(--mimir-gold-bright);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.outline-tree-item-self {
+  color: var(--mimir-text-muted);
+}
+
+.outline-tree-item-self:hover {
+  color: var(--mimir-text);
+}
+
+.outline-tree-item-self.is-active {
+  color: var(--mimir-water-bright);
+}
+
+/* =========================================================
+   12. TAGS
+   ========================================================= */
+
+.tag,
+a.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.48rem;
+  border: 1px solid rgba(184, 154, 98, 0.3);
+  border-radius: 999px;
+  background: rgba(184, 154, 98, 0.08);
+  color: var(--mimir-gold-bright);
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+
+.tag:hover,
+a.tag:hover {
+  border-color: rgba(121, 174, 176, 0.52);
+  background: rgba(93, 143, 145, 0.1);
+  color: var(--mimir-water-bright);
+}
+
+/* =========================================================
+   13. CHECKBOXES
+   ========================================================= */
+
+input[type="checkbox"] {
+  accent-color: var(--mimir-water);
+}
+
+/* =========================================================
+   14. IMAGES & EMBEDS
+   ========================================================= */
+
+.markdown-preview-view img {
+  border-radius: var(--mimir-radius-md);
+}
+
+.markdown-embed,
+.file-embed {
+  border: 1px solid var(--mimir-border);
+  border-radius: var(--mimir-radius-md);
+  background: var(--mimir-bg-soft);
+}
+
+/* =========================================================
+   15. SCROLLBARS
+   ========================================================= */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--mimir-border-strong) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: var(--mimir-border-strong);
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--mimir-gold-dim);
+  background-clip: padding-box;
+}
+
+/* =========================================================
+   16. HOME PAGE POLISH
+   ========================================================= */
+
+/* Makes the opening quote on landing pages feel intentional */
+.markdown-preview-view h1 + h1,
+.markdown-preview-view h1 + blockquote {
+  margin-top: 0.5rem;
+}
+
+/* Slightly stronger spacing for gateway-style pages */
+.markdown-preview-view h2 + p {
+  margin-top: 0.65rem;
+}
+
+/* =========================================================
+   17. RESPONSIVE BEHAVIOR
+   ========================================================= */
+
+@media (min-width: 1400px) {
+  :root {
+    --mimir-content-width: 940px;
+  }
+
+  .markdown-preview-sizer,
+  .markdown-preview-view .markdown-preview-sizer {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .markdown-preview-sizer,
+  .markdown-preview-view .markdown-preview-sizer {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .site-body-left-column-site-name::after {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --font-text-size: 15px;
+  }
+
+  .markdown-preview-view h1 {
+    font-size: 2rem;
+  }
+
+  .markdown-preview-view h2 {
+    font-size: 1.38rem;
+  }
+
+  .markdown-preview-sizer,
+  .markdown-preview-view .markdown-preview-sizer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
