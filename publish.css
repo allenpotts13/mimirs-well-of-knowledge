@@ -1,5 +1,5 @@
 /*
-Mímir's Well of Knowledge — Obsidian Publish Theme v1.1
+Mímir's Well of Knowledge — Obsidian Publish Theme v1.2
 Author: Allen Potts / OpenAI-assisted
 Purpose: Professional technical knowledge-base styling with restrained Norse / deep-well influence.
 
@@ -740,5 +740,124 @@ input[type="checkbox"] {
 
   .site-body-center-column {
     width: 100%;
+  }
+}
+
+
+/* =========================================================
+   19. PUBLISH LAYOUT OVERRIDE — v1.2
+   Obsidian Publish's right outline can visually overlay the
+   article pane. Reserve that space inside the center column.
+   ========================================================= */
+
+:root {
+  --mimir-outline-reserve: 330px;
+  --mimir-article-max: 840px;
+}
+
+/*
+  The Publish outline behaves more like an overlay than a normal
+  flex sibling on some desktop widths. Reserving space on the
+  center column prevents article content from rendering beneath it.
+*/
+@media (min-width: 1181px) {
+  .site-body-center-column {
+    box-sizing: border-box !important;
+    padding-right: var(--mimir-outline-reserve) !important;
+  }
+
+  .site-body-center-column .markdown-preview-view {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .site-body-center-column .markdown-preview-sizer,
+  .site-body-center-column .markdown-preview-view .markdown-preview-sizer {
+    box-sizing: border-box !important;
+    width: min(100%, var(--mimir-article-max)) !important;
+    max-width: var(--mimir-article-max) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  /*
+    Keep the outline in a predictable desktop lane.
+    These rules intentionally avoid changing its vertical behavior.
+  */
+  .site-body-right-column {
+    box-sizing: border-box !important;
+    width: 300px !important;
+    min-width: 300px !important;
+    max-width: 300px !important;
+    z-index: 5;
+  }
+
+  .site-body-right-column .outline-view-outer {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .site-body-right-column .outline-tree-item,
+  .site-body-right-column .outline-tree-item-self,
+  .site-body-right-column .outline-tree-item-inner {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  .site-body-right-column .outline-tree-item-inner {
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+  }
+}
+
+/*
+  Extra-wide displays can support a slightly wider article while
+  still preserving a clear gutter before the outline.
+*/
+@media (min-width: 1700px) {
+  :root {
+    --mimir-outline-reserve: 350px;
+    --mimir-article-max: 900px;
+  }
+}
+
+/*
+  Below desktop width, remove the reservation entirely. v1.1 already
+  hides the right outline at these widths.
+*/
+@media (max-width: 1180px) {
+  .site-body-center-column {
+    padding-right: 0 !important;
+  }
+}
+
+/* Guard rails for content that commonly causes horizontal overflow. */
+.site-body-center-column .markdown-preview-view,
+.site-body-center-column .markdown-preview-sizer,
+.site-body-center-column .markdown-preview-section {
+  min-width: 0 !important;
+}
+
+.site-body-center-column .markdown-preview-view img,
+.site-body-center-column .markdown-preview-view video,
+.site-body-center-column .markdown-preview-view iframe {
+  max-width: 100%;
+}
+
+.site-body-center-column .markdown-preview-view pre,
+.site-body-center-column .markdown-preview-view code,
+.site-body-center-column .markdown-preview-view table {
+  min-width: 0;
+}
+
+/* Slightly tighter heading scale prevents long Codex titles from
+   feeling cramped beside the outline on desktop. */
+@media (min-width: 1181px) and (max-width: 1699px) {
+  .markdown-preview-view h1 {
+    font-size: clamp(2rem, 2.35vw, 2.55rem);
   }
 }
