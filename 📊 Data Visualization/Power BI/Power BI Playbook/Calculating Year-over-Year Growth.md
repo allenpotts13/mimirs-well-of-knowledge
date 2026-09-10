@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -10,9 +10,10 @@ tags:
   - time-intelligence
 aliases:
   - YoY Growth
+publish: true
 ---
 
-# 🧩 Calculating Year-over-Year Growth
+# <span class="rune">ᚲ</span> Calculating Year-over-Year Growth
 
 > Compare this year's number to last year's same period, and express the difference as a percentage.
 

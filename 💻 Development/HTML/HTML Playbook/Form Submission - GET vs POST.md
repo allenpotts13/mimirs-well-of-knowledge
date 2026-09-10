@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,9 +13,10 @@ tags:
 aliases:
   - GET vs POST
   - form method attribute
+publish: true
 ---
 
-# 📚 Form Submission: GET vs POST
+# <span class="rune">ᛟ</span> Form Submission: GET vs POST
 
 > *`method="get"` puts your form data in the URL for the world (and the browser history) to see; `method="post"` puts it in the request body where it belongs for anything sensitive or state-changing.*
 

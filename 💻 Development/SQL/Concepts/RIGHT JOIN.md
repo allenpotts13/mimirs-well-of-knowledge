@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - SQL RIGHT JOIN
   - RIGHT OUTER JOIN
+publish: true
 ---
 
-# 📚 RIGHT JOIN
+# <span class="rune">ᛟ</span> RIGHT JOIN
 
 > Returns every row from the right table, plus matching rows from the left table — the mirror image of LEFT JOIN.
 

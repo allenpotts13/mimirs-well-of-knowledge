@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - CSS Specificity
   - Specificity Wars
   - Specificity Score
+publish: true
 ---
 
-# 📚 Understanding Specificity
+# <span class="rune">ᛟ</span> Understanding Specificity
 
 > *When two CSS rules target the same element and disagree, specificity is the scoring system the browser uses to decide which one wins.*
 

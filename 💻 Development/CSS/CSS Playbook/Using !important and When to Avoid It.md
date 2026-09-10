@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -13,9 +13,10 @@ tags:
 aliases:
   - "!important"
   - CSS important
+publish: true
 ---
 
-# 📚 Using !important and When to Avoid It
+# <span class="rune">ᛟ</span> Using !important and When to Avoid It
 
 > *`!important` doesn't win the specificity game — it walks off the board entirely, which is exactly why overusing it turns your stylesheet into an arms race nobody can win.*
 

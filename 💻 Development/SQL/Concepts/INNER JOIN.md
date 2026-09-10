@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-08-02
 updated: 2026-08-02
 technology: SQL
@@ -10,9 +10,11 @@ tags:
   - relational-database
 aliases:
   - SQL INNER JOIN
+publish: true
 ---
+
 ---
-# 📚 INNER JOIN
+# <span class="rune">ᛟ</span> INNER JOIN
 
 > Returns only rows that have matching values in both tables.
 

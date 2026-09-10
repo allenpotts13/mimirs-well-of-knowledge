@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -14,9 +14,10 @@ aliases:
   - Meta Tags
   - Open Graph Tags
   - Viewport Meta Tag
+publish: true
 ---
 
-# 📚 Meta Tags and Basic SEO
+# <span class="rune">ᛟ</span> Meta Tags and Basic SEO
 
 > *Nothing in `<meta>` tags is visible on the page itself — they're a set of small, invisible instructions telling browsers how to render it, search engines how to describe it, and social platforms how to preview it.*
 
@@ -137,5 +138,5 @@ I check three things first on almost any page audit, because they're cheap to ve
 ## 🔗 Related Notes
 
 - [[Semantic HTML and Why It Matters]] — meta tags are metadata *about* the page; semantics describe the content *within* it, and good SEO leans on both
-- [[Document Structure: doctype, html, head, and body]] — where in the document these tags live and why
+- [[Document Structure - doctype, html, head, and body]] — where in the document these tags live and why
 - [[Images and Responsive Images (srcset and picture)]] — the `og:image` you choose deserves the same care as any other image asset

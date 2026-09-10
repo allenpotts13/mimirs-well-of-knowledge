@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - "@container"
   - container-type
   - Element Queries
+publish: true
 ---
 
-# 📚 Container Queries
+# <span class="rune">ᛟ</span> Container Queries
 
 > *`@container` lets a component respond to the size of the box it's actually sitting in, not the size of the browser window — finally letting the same card component look right whether it's in a wide main column or a cramped sidebar.*
 
@@ -157,5 +158,5 @@ For years the honest answer to "can a component know its own rendered width" was
 ## 🔗 Related Notes
 
 - [[Responsive Design with Media Queries]] — the viewport-based counterpart container queries complement, not replace
-- [[CSS Units: px, em, rem, and vw/vh]] — container query units (`cqw`, `cqh`) extend this same family of relative sizing units
+- [[CSS Units - px, em, rem, %, and vw-vh]] — container query units (`cqw`, `cqh`) extend this same family of relative sizing units
 - [[Flexbox Layout Fundamentals]] and [[CSS Grid Layout Fundamentals]] — the layout systems most commonly reconfigured inside a `@container` block

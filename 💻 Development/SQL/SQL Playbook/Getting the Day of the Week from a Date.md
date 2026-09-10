@@ -11,9 +11,10 @@ tags:
   - dayname
 aliases:
   - DAYNAME function
+publish: false
 ---
 
-# 🧩 Getting the Day of the Week from a Date
+# <span class="rune">ᚲ</span> Getting the Day of the Week from a Date
 
 > *Turn a stored date into a readable weekday name.*
 

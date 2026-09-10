@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Total Salary of Employees
   - SUM Function
+publish: true
 ---
 
-# 🧩 Calculating a Total with SUM()
+# <span class="rune">ᚲ</span> Calculating a Total with SUM()
 
 > *Use `SUM()` to add the numeric values from multiple rows and return a single total.*
 

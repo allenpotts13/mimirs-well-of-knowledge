@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -14,9 +14,10 @@ aliases:
   - Employees Without a Manager
   - IS NULL
   - Finding NULL Values
+publish: true
 ---
 
-# 🧩 Finding Records With a Missing Relationship
+# <span class="rune">ᚲ</span> Finding Records With a Missing Relationship
 
 > *Use `IS NULL` to find rows where an optional relationship or value is missing.*
 

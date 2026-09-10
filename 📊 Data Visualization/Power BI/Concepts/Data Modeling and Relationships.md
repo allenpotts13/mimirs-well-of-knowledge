@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,9 +12,10 @@ tags:
 aliases:
   - Power BI Relationships
   - Cardinality
+publish: true
 ---
 
-# 📚 Data Modeling and Relationships
+# <span class="rune">ᛟ</span> Data Modeling and Relationships
 
 > How tables connect to each other in the data model determines whether filtering one table correctly affects another — get this wrong and every visual downstream is quietly lying.
 

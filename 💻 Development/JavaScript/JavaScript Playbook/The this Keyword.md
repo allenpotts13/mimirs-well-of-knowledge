@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -14,9 +14,10 @@ aliases:
   - this
   - What is this in JavaScript
   - Understanding this
+publish: true
 ---
 
-# 📚 The this Keyword
+# <span class="rune">ᛟ</span> The this Keyword
 
 > *`this` isn't decided by where a function is written — it's decided by how the function gets called.*
 

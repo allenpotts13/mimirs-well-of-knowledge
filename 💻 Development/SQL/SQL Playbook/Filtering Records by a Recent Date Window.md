@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Employees Hired in the Last 6 Months
   - DATE_SUB Filtering
+publish: true
 ---
 
-# 🧩 Filtering Records by a Recent Date Window
+# <span class="rune">ᚲ</span> Filtering Records by a Recent Date Window
 
 > *Use `DATE_SUB()` with `CURDATE()` to compute a calendar-accurate cutoff date, then filter rows that fall after it.*
 

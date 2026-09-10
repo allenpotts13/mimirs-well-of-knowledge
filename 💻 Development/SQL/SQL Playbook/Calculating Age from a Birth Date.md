@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
   - timestampdiff
 aliases:
   - Filtering by age
+publish: true
 ---
 
-# 🧩 Calculating Age from a Birth Date
+# <span class="rune">ᚲ</span> Calculating Age from a Birth Date
 
 > *Derive an age filter from a birth date column — and watch out for the naive version's drift.*
 

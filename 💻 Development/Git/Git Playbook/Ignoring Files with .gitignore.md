@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,9 +13,10 @@ aliases:
   - .gitignore
   - gitignore
   - Excluding Files from Git
+publish: true
 ---
 
-# 📚 Ignoring Files with .gitignore
+# <span class="rune">ᛟ</span> Ignoring Files with .gitignore
 
 > *A `.gitignore` file tells Git which untracked files to stop mentioning — it's a filter on `git status`'s attention, not a lock on files Git already knows about.*
 
@@ -152,5 +153,5 @@ The question I ask every time someone says ".gitignore isn't working" is: "was t
 ## 🔗 Related Notes
 
 - [[Understanding the Three Trees]] — .gitignore only governs what enters the working-directory-to-staging-area transition in the first place
-- [[Undoing Changes: checkout, restore, and reset]] — related but different: removing tracked-but-unwanted content from history
+- [[Undoing Changes - checkout, restore, and reset]] — related but different: removing tracked-but-unwanted content from history
 - [[Recovering Lost Commits with the Reflog]] — relevant if you accidentally commit something and need to understand what's recoverable vs. permanently in history

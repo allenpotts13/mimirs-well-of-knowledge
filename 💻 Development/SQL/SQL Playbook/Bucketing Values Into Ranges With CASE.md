@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -14,9 +14,10 @@ aliases:
   - Age Bracket Grouping
   - Salary Range Buckets
   - CASE WHEN Binning
+publish: true
 ---
 
-# 🧩 Bucketing Values Into Ranges With CASE
+# <span class="rune">ᚲ</span> Bucketing Values Into Ranges With CASE
 
 > *Use a `CASE` expression to turn a continuous numeric column into named categories, then `GROUP BY` those categories.*
 

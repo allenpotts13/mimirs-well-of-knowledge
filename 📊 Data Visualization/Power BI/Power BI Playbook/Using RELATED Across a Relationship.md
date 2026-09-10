@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
 aliases:
   - RELATED Function
   - RELATEDTABLE
+publish: true
 ---
 
-# 🧩 Using RELATED Across a Relationship
+# <span class="rune">ᚲ</span> Using RELATED Across a Relationship
 
 > Pull a value from the "one" side of a relationship into the "many" side — the DAX equivalent of a [[INNER JOIN|join]], but for a calculated column.
 

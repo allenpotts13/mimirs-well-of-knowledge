@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -14,9 +14,10 @@ tags:
 aliases:
   - Percentage of Total by Group
   - Department Percentage Breakdown
+publish: true
 ---
 
-# 🧩 Calculating Each Group's Percentage of the Total
+# <span class="rune">ᚲ</span> Calculating Each Group's Percentage of the Total
 
 > *Divide each group's count (or sum) by the grand total, multiplied by 100, to express each group as a share of the whole.*
 

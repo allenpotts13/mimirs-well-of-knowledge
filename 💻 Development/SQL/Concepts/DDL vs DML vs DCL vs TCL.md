@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -14,9 +14,10 @@ aliases:
   - DCL
   - TCL
   - SQL Statement Categories
+publish: true
 ---
 
-# 📚 DDL vs DML vs DCL vs TCL
+# <span class="rune">ᛟ</span> DDL vs DML vs DCL vs TCL
 
 > Every SQL statement falls into one of four categories, based on what kind of thing it changes — structure, data, permissions, or transaction state.
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,9 +14,10 @@ tags:
 aliases:
   - fetch()
   - The Fetch API
+publish: true
 ---
 
-# 📚 The Fetch API for HTTP Requests
+# <span class="rune">ᛟ</span> The Fetch API for HTTP Requests
 
 > *`fetch()` is the modern, Promise-based way to make HTTP requests from JavaScript — but it only rejects on a network failure, never on an HTTP error status, which trips up nearly everyone the first time.*
 

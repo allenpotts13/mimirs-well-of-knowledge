@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,9 +14,10 @@ aliases:
   - Loose Equality vs Strict Equality
   - Double Equals vs Triple Equals
   - Type Coercion
+publish: true
 ---
 
-# 📚 == vs === and Type Coercion
+# <span class="rune">ᛟ</span> == vs === and Type Coercion
 
 > *`==` (loose equality) converts both values to a common type before comparing them; `===` (strict equality) compares both value and type with no conversion at all.*
 

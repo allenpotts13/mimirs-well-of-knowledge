@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - Media Queries
   - Mobile-First CSS
   - Responsive CSS
+publish: true
 ---
 
-# 📚 Responsive Design with Media Queries
+# <span class="rune">ᛟ</span> Responsive Design with Media Queries
 
 > *Media queries let you apply CSS conditionally based on the viewport (or device) — the mechanism that makes one codebase adapt from a phone screen to a widescreen monitor instead of needing separate sites for each.*
 
@@ -174,5 +175,5 @@ Mobile-first isn't just a technical preference of mine, it's a forcing function:
 
 - [[Mobile-First vs Desktop-First Design]] — a deeper dive into the design-process side of this same decision, beyond just the CSS mechanics
 - [[Container Queries]] — the newer, complementary tool for when a component needs to respond to its container's size, not the viewport's
-- [[CSS Units: px, em, rem, %, and vw/vh]] — responsive layouts typically pair media queries with relative units so scaling stays proportional
+- [[CSS Units - px, em, rem, %, and vw-vh]] — responsive layouts typically pair media queries with relative units so scaling stays proportional
 - [[CSS Grid Layout Fundamentals]] — `auto-fill`/`minmax()` grids can reduce how many media queries a layout needs in the first place

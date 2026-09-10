@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -18,9 +18,10 @@ aliases:
   - Microtask Queue
   - Macrotask Queue
   - Task Queue
+publish: true
 ---
 
-# 📚 The Event Loop: Call Stack, Task Queue, and Microtasks
+# <span class="rune">ᛟ</span> The Event Loop: Call Stack, Task Queue, and Microtasks
 
 > *The event loop is the mechanism that lets a single-threaded language like JavaScript handle asynchronous work by juggling one call stack, one microtask queue, and one (macro)task queue — in that priority order, forever.*
 

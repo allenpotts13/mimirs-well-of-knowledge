@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -18,9 +18,10 @@ aliases:
   - git checkout
   - Unstaging a File
   - Discarding Changes
+publish: true
 ---
 
-# 📚 Undoing Changes: checkout, restore, and reset
+# <span class="rune">ᛟ</span> Undoing Changes: checkout, restore, and reset
 
 > *Undoing something in Git is never one operation — it's always a question of which of the three trees (working directory, staging area, repository) you actually want to rewind, and `restore` and `reset` exist precisely to let you answer that question precisely.*
 

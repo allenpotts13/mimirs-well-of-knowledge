@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,9 +12,10 @@ aliases:
   - Filter Context
   - Row Context
   - DAX Context
+publish: true
 ---
 
-# 📚 Row Context vs Filter Context
+# <span class="rune">ᛟ</span> Row Context vs Filter Context
 
 > The two "current environments" a DAX formula can be evaluated in — mixing them up is the source of nearly every confusing DAX result.
 

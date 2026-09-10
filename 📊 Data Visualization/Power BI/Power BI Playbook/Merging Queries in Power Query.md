@@ -1,6 +1,6 @@
 ---
 type: power-query-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
 aliases:
   - Power Query Merge
   - Merge Queries
+publish: true
 ---
 
-# 🧩 Merging Queries in Power Query
+# <span class="rune">ᚲ</span> Merging Queries in Power Query
 
 > Power Query's version of a [[INNER JOIN|join]] — combine columns from two queries based on matching key values, before the data ever reaches the model.
 

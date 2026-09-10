@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - CSS Cascade
   - Cascading Style Sheets
   - Inheritance in CSS
+publish: true
 ---
 
-# 📚 The Cascade and Inheritance
+# <span class="rune">ᛟ</span> The Cascade and Inheritance
 
 > *The cascade decides which conflicting rule wins for a given element; inheritance decides whether a property value flows down to that element's children in the first place — two related but distinct mechanisms that give CSS its name.*
 
@@ -135,7 +136,7 @@ article {
 - Inheritance is invisible in the CSS you're looking at — a value can come from three ancestors away, which makes tracing "where did this color come from" harder than tracing a direct rule.
 - Not all browsers fully agree on obscure cascade edge cases (like layer ordering in `@layer` or shadow DOM boundaries), though the core origin → specificity → source-order model is standard.
 - `revert` support and behavior nuances (especially with `@layer` and shadow-root boundaries) are more recent additions and worth double-checking in older browser support tables.
-- Relying too heavily on inheritance for layout-adjacent typography (e.g. `line-height`) can produce compounding surprises in deeply nested components — see the compounding gotcha discussed in [[CSS Units: px, em, rem, %, and vw/vh]].
+- Relying too heavily on inheritance for layout-adjacent typography (e.g. `line-height`) can produce compounding surprises in deeply nested components — see the compounding gotcha discussed in [[CSS Units - px, em, rem, %, and vw-vh]].
 
 ---
 

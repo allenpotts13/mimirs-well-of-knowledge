@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - SQL LEFT JOIN
   - LEFT OUTER JOIN
+publish: true
 ---
 
-# 📚 LEFT JOIN
+# <span class="rune">ᛟ</span> LEFT JOIN
 
 > Returns every row from the left table, plus matching rows from the right table — filling in NULL where nothing matches.
 

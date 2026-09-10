@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -12,9 +12,10 @@ tags:
 aliases:
   - git commit
   - Amending Commits
+publish: true
 ---
 
-# 📚 Committing Changes with git commit
+# <span class="rune">ᛟ</span> Committing Changes with git commit
 
 > *A commit is a permanent, named snapshot of whatever is currently in the staging area — the moment your work stops being "in progress" and becomes history.*
 
@@ -136,5 +137,5 @@ git log -1 --stat
 
 - [[Understanding the Three Trees]] — commit is the staging-area-to-repository step
 - [[Writing Good Commit Messages]] — how to write the message half of this command well
-- [[Undoing Changes: checkout, restore, and reset]] — for fixing commits further back than the most recent one
+- [[Undoing Changes - checkout, restore, and reset]] — for fixing commits further back than the most recent one
 - [[Force-Pushing Safely with --force-with-lease]] — what you need once an amended commit has to be pushed

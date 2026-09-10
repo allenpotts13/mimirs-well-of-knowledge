@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
   - filter
 aliases:
   - CALCULATE FILTER Pattern
+publish: true
 ---
 
-# 🧩 Filtering a Measure with CALCULATE and FILTER
+# <span class="rune">ᚲ</span> Filtering a Measure with CALCULATE and FILTER
 
 > Override or add to a report's existing filters with a specific, custom condition — the workhorse pattern behind most "compare this segment to that segment" measures.
 

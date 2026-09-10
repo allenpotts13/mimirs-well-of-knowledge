@@ -1,4 +1,9 @@
-# ⚡ SQL Cheat Sheet
+---
+publish: true
+status: published
+---
+
+# <span class="rune">ᛊ</span> SQL Cheat Sheet
 
 > Dense reference across standard SQL. Each section links back to the full [[SQL Codex|concept note]] for depth.
 

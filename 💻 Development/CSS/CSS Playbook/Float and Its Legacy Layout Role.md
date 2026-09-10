@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - float
   - clearfix
   - Clearing Floats
+publish: true
 ---
 
-# 📚 Float and Its Legacy Layout Role
+# <span class="rune">ᛟ</span> Float and Its Legacy Layout Role
 
 > *`float` was designed to let text wrap around an image like a magazine column, and for about fifteen years the CSS community bent that one narrow trick into an entire layout system — with predictably leaky results.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -15,9 +15,10 @@ aliases:
   - How to Center a Div
   - Centering a Div
   - Vertical and Horizontal Centering
+publish: true
 ---
 
-# 📚 Centering Elements in CSS
+# <span class="rune">ᛟ</span> Centering Elements in CSS
 
 > *"How do I center a div?" has at least four good answers, and picking the right one depends entirely on whether you need one axis or two, whether the element's size is known, and what else needs to happen around it.*
 
@@ -176,5 +177,5 @@ My honest default in 2026 is: reach for Grid's `place-items: center` first when 
 - [[Flexbox Layout Fundamentals]] — the mechanics behind `justify-content` and `align-items` used here
 - [[CSS Grid Layout Fundamentals]] — the mechanics behind `place-items` and grid alignment
 - [[The transform Property]] — how `translate(-50%, -50%)` actually works and why it's relative to the element's own size
-- [[Positioning: static, relative, absolute, fixed, and sticky]] — required background for the absolute-positioning centering trick
+- [[Positioning - static, relative, absolute, fixed, and sticky]] — required background for the absolute-positioning centering trick
 - [[The Box Model]] — several centering techniques depend on box-model layers (padding vs. margin auto)

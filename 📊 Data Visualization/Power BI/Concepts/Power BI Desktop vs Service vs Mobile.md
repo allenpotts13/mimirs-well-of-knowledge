@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -10,9 +10,10 @@ tags:
   - fundamentals
 aliases:
   - Power BI Apps
+publish: true
 ---
 
-# 📚 Power BI Desktop vs Service vs Mobile
+# <span class="rune">ᛟ</span> Power BI Desktop vs Service vs Mobile
 
 > Three different applications, each responsible for one stage of a report's life — building it, publishing it, and viewing it on the go.
 

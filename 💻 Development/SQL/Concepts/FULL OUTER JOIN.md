@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - SQL FULL OUTER JOIN
   - FULL JOIN
+publish: true
 ---
 
-# 📚 FULL OUTER JOIN
+# <span class="rune">ᛟ</span> FULL OUTER JOIN
 
 > Returns every row from both tables, matching where possible and filling in NULL wherever one side has nothing to match.
 

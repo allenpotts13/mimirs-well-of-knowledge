@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,9 +13,10 @@ aliases:
   - git reflog
   - Reflog
   - Recovering Deleted Commits
+publish: true
 ---
 
-# 📚 Recovering Lost Commits with the Reflog
+# <span class="rune">ᛟ</span> Recovering Lost Commits with the Reflog
 
 > *The reflog is Git's private, local-only journal of everywhere HEAD has pointed — which means a commit is almost never actually gone, just temporarily out of sight.*
 
@@ -143,5 +144,5 @@ The single most reassuring sentence I can offer a panicking developer is: "Git a
 ## 🔗 Related Notes
 
 - [[Understanding HEAD and Detached HEAD State]] — the reflog is fundamentally a log of HEAD's movements, so understanding HEAD makes reflog entries make sense
-- [[Undoing Changes: checkout, restore, and reset]] — reflog is the safety net for exactly the operations described there
+- [[Undoing Changes - checkout, restore, and reset]] — reflog is the safety net for exactly the operations described there
 - [[Interactive Rebase for Cleaning Up History]] — the most common source of "wait, where did my commits go" moments the reflog rescues you from

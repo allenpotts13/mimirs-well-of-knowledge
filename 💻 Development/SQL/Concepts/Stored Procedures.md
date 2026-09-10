@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - SPROC
   - Stored Procedure
+publish: true
 ---
 
-# 📚 Stored Procedures
+# <span class="rune">ᛟ</span> Stored Procedures
 
 > A named, precompiled block of SQL saved in the database and executed by calling its name — logic that lives with the data instead of in application code.
 

@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -10,9 +10,10 @@ tags:
   - cost-management
 aliases:
   - Cost Tool Choice
+publish: true
 ---
 
-# 🧩 Picking the Right Cost Management Tool
+# <span class="rune">ᚲ</span> Picking the Right Cost Management Tool
 
 > *Before you deploy, during, and after — Azure has a different tool for each moment, and the exam tests whether you know which moment you're in.*
 

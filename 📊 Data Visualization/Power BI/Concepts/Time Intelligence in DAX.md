@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,9 +12,10 @@ tags:
 aliases:
   - DATESYTD
   - SAMEPERIODLASTYEAR
+publish: true
 ---
 
-# 📚 Time Intelligence in DAX
+# <span class="rune">ᛟ</span> Time Intelligence in DAX
 
 > A family of built-in DAX functions that handle date-based comparisons — year-to-date, prior period, rolling averages — without hand-writing the date math.
 

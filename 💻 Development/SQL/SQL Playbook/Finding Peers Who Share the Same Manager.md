@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
   - hierarchical-data
 aliases:
   - Employees under the same manager
+publish: true
 ---
 
-# 🧩 Finding Peers Who Share the Same Manager
+# <span class="rune">ᚲ</span> Finding Peers Who Share the Same Manager
 
 > *Group employees by shared manager using a self-referencing subquery on manager_id.*
 

@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-02
 updated: 2026-08-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Second Highest Salary
   - Second Largest Value
+publish: true
 ---
 
-# 🧩 Finding the Second Highest Value
+# <span class="rune">ᚲ</span> Finding the Second Highest Value
 
 >*Retrieve the second highest distinct value from a dataset without using sorting.*
 

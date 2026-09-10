@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -15,9 +15,10 @@ aliases:
   - Branching Strategies
   - Trunk-Based Development
   - Git Flow
+publish: true
 ---
 
-# 📚 Common Git Workflows: Feature Branch, Trunk-Based, and Git Flow
+# <span class="rune">ᛟ</span> Common Git Workflows: Feature Branch, Trunk-Based, and Git Flow
 
 > *A Git workflow is a team's agreed-upon convention for how branches get created, merged, and released — Git itself doesn't enforce any of them, which is exactly why picking one deliberately matters.*
 

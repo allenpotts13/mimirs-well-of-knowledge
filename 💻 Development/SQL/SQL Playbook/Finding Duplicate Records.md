@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-02
 updated: 2026-08-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Finding Duplicate Records
   - Identifying Duplicate Values
+publish: true
 ---
 
-# 🧩 Finding Duplicate Records
+# <span class="rune">ᚲ</span> Finding Duplicate Records
 
 > *Identify values or combinations of values that occur more than once in a table.*
 

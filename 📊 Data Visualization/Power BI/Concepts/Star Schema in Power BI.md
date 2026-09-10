@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
   - star-schema
 aliases:
   - Fact and Dimension Tables
+publish: true
 ---
 
-# 📚 Star Schema in Power BI
+# <span class="rune">ᛟ</span> Star Schema in Power BI
 
 > One fact table surrounded by dimension tables — the layout Power BI's engine is built to perform best on, and the layout DAX is easiest to reason about in.
 

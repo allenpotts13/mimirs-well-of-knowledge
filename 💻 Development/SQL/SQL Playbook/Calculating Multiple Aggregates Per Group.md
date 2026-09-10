@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Multiple Aggregates in One Query
   - Group-Wise Min and Max
+publish: true
 ---
 
-# 🧩 Calculating Multiple Aggregates Per Group
+# <span class="rune">ᚲ</span> Calculating Multiple Aggregates Per Group
 
 > *Compute several aggregate functions together in the same grouped query, instead of running a separate query per metric.*
 

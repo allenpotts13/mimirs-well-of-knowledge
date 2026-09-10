@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
   - running-total
 aliases:
   - Cumulative Total
+publish: true
 ---
 
-# 🧩 Creating a Running Total
+# <span class="rune">ᚲ</span> Creating a Running Total
 
 > Accumulate a measure over time — each point on the chart shows everything up to and including that date, not just that date's own value.
 

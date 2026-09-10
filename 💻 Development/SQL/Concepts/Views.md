@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - SQL View
   - Materialized View
+publish: true
 ---
 
-# 📚 Views
+# <span class="rune">ᛟ</span> Views
 
 > A saved query that behaves like a table — the underlying SQL runs fresh every time it's queried.
 

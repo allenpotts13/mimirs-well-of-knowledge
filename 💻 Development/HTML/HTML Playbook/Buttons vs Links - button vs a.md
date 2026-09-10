@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -14,9 +14,10 @@ aliases:
   - "Buttons vs Links: button vs a"
   - button vs a
   - When to Use a Link vs a Button
+publish: true
 ---
 
-# 📚 Buttons vs Links: button vs a
+# <span class="rune">ᛟ</span> Buttons vs Links: button vs a
 
 > *`<a href>` takes the user somewhere; `<button>` does something — mixing the two up quietly breaks keyboard navigation, screen readers, and "open in new tab" for everyone who relies on them.*
 
@@ -140,7 +141,7 @@ The trap is `<a onclick="doThing()">` with no real `href`, or `href="#"`/`href="
 
 - Using `<a href="#">` or `<a href="javascript:void(0)">` as a general-purpose clickable element instead of `<button>`.
 - Forgetting `type="button"` on a `<button>` inside a `<form>` that isn't meant to submit, causing an accidental form submission.
-- Styling a `<div>` or `<span>` with `onclick` instead of using either element — losing keyboard focusability and semantics entirely (see [[div and span: Generic Containers and When to Avoid Them]]).
+- Styling a `<div>` or `<span>` with `onclick` instead of using either element — losing keyboard focusability and semantics entirely (see [[div and span - Generic Containers and When to Avoid Them]]).
 - Using a `<button>` with JavaScript to navigate (`onclick="location.href='/page'"`) instead of a plain `<a href="/page">`, which breaks middle-click, right-click "open in new tab," and crawler indexing.
 - Disabling a link visually with CSS instead of removing/replacing its `href`, leaving it still focusable and clickable via keyboard despite looking "disabled."
 
@@ -163,6 +164,6 @@ Every time I've been tempted to reach for `href="#"`, it's because I was thinkin
 ## 🔗 Related Notes
 
 - [[Semantic HTML and Why It Matters]] — the general principle this is a specific, extremely common instance of
-- [[div and span: Generic Containers and When to Avoid Them]] — the even more broken version of this mistake
-- [[Accessibility Basics: alt Text, Labels, and ARIA]] — why native focusability and roles matter to real users
+- [[div and span - Generic Containers and When to Avoid Them]] — the even more broken version of this mistake
+- [[Accessibility Basics - alt Text, Labels, and ARIA]] — why native focusability and roles matter to real users
 - [[Forms and Form Validation]] — where `<button type="submit">` actually lives and does its job

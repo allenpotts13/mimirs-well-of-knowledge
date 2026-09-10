@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - "@font-face"
   - Web Fonts
   - font-display
+publish: true
 ---
 
-# 📚 Custom Fonts with @font-face
+# <span class="rune">ᛟ</span> Custom Fonts with @font-face
 
 > *`@font-face` teaches the browser about a font it doesn't already have installed, and `font-display` decides what happens to your text during the awkward gap before that font file finishes downloading.*
 
@@ -160,6 +161,6 @@ The `font-display` decision is one of the few places in CSS where you're explici
 
 ## 🔗 Related Notes
 
-- [[CSS Units: px, em, rem, and vw/vh]] — font sizing units work alongside custom fonts to build a full typographic scale
+- [[CSS Units - px, em, rem, %, and vw-vh]] — font sizing units work alongside custom fonts to build a full typographic scale
 - [[CSS Variables (Custom Properties)]] — commonly used to define a project's font-family stack once and reuse it consistently
 - [[Responsive Design with Media Queries]] — font sizes and loading strategy sometimes vary by breakpoint (e.g. lighter font loading on smaller/mobile viewports)

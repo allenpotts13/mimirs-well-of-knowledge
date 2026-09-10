@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,9 +14,10 @@ tags:
 aliases:
   - Debounce vs Throttle
   - Rate Limiting Function Calls
+publish: true
 ---
 
-# 📚 Debouncing and Throttling
+# <span class="rune">ᛟ</span> Debouncing and Throttling
 
 > *Debouncing waits for a burst of activity to go quiet before acting once; throttling lets activity through, but only ever at a fixed maximum rate — two different answers to the same problem of a function being called far too often.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -13,9 +13,10 @@ aliases:
   - 2NF
   - 3NF
   - Database Normalization
+publish: true
 ---
 
-# 📚 Normalization
+# <span class="rune">ᛟ</span> Normalization
 
 > Organizing tables so each piece of data lives in exactly one place, eliminating redundancy and the update bugs it causes.
 

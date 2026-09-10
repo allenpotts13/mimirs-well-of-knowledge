@@ -1,6 +1,6 @@
 ---
 type: power-query-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -10,9 +10,10 @@ tags:
   - conditional-logic
 aliases:
   - Power Query Conditional Column
+publish: true
 ---
 
-# 🧩 Adding a Conditional Column in Power Query
+# <span class="rune">ᚲ</span> Adding a Conditional Column in Power Query
 
 > Bucket or label rows based on a condition, at the data-prep stage — before the model, before DAX, using a point-and-click UI.
 

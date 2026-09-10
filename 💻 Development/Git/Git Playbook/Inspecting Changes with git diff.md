@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -15,9 +15,10 @@ aliases:
   - git diff
   - git diff --staged
   - Comparing Commits
+publish: true
 ---
 
-# 📚 Inspecting Changes with git diff
+# <span class="rune">ᛟ</span> Inspecting Changes with git diff
 
 > *`git diff` always compares two of Git's trees against each other — which two depends entirely on the flags you give it, and knowing that turns a confusing "why is diff showing nothing" moment into an obvious answer.*
 

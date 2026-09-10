@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,9 +13,10 @@ aliases:
   - Merge Conflicts
   - Conflict Markers
   - git merge --abort
+publish: true
 ---
 
-# 📚 Resolving Merge Conflicts
+# <span class="rune">ᛟ</span> Resolving Merge Conflicts
 
 > *A merge conflict isn't Git failing — it's Git honestly admitting that two people changed the same lines and it refuses to guess which version you actually want.*
 

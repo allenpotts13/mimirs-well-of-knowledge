@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - "::before and ::after"
   - Single Colon vs Double Colon
   - CSS Pseudo Selectors
+publish: true
 ---
 
-# 📚 Pseudo-Classes and Pseudo-Elements
+# <span class="rune">ᛟ</span> Pseudo-Classes and Pseudo-Elements
 
 > *Pseudo-classes (`:hover`) select a real element based on a state it's in; pseudo-elements (`::before`) select a piece of an element that doesn't exist in the DOM at all — one colon vs. two colons marks that difference.*
 
@@ -191,6 +192,6 @@ The colon count is a genuinely good mnemonic once it clicks: one colon means "th
 ## 🔗 Related Notes
 
 - [[Understanding Specificity]] — pseudo-classes count toward specificity the same as a class selector; pseudo-elements count like a type selector
-- [[Selectors Beyond the Basics: Combinators and Attribute Selectors]] — pseudo-classes and pseudo-elements are often combined with combinators for precise targeting
+- [[Selectors Beyond the Basics - Combinators and Attribute Selectors]] — pseudo-classes and pseudo-elements are often combined with combinators for precise targeting
 - [[The Box Model]] — a generated `::before`/`::after` box follows the exact same box-model rules as a real element
 - [[Float and Its Legacy Layout Role]] — the classic `::after` clearfix hack exists specifically to solve a float-related layout problem

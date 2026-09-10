@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -12,9 +12,10 @@ tags:
   - policy
 aliases:
   - Governance Tool Choice
+publish: true
 ---
 
-# 🧩 Azure RBAC vs Azure Policy vs Resource Locks
+# <span class="rune">ᚲ</span> Azure RBAC vs Azure Policy vs Resource Locks
 
 > *Three governance tools that all sound like "control what happens in Azure," but each controls a different question.*
 

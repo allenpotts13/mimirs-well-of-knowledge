@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -14,9 +14,10 @@ tags:
 aliases:
   - Department With the Most Employees
   - Highest Group Count
+publish: true
 ---
 
-# 🧩 Finding the Group With the Highest Count
+# <span class="rune">ᚲ</span> Finding the Group With the Highest Count
 
 > *Group rows by a category, count the members of each group, sort the counts from highest to lowest, and return the largest result.*
 

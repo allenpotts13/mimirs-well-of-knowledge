@@ -1,6 +1,6 @@
 ---
 type: cheat-sheet
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -9,9 +9,10 @@ tags:
   - cheat-sheet
 aliases:
   - DP-900 Quick Reference
+publish: true
 ---
 
-# ⚡ DP-900 Cheat Sheet
+# <span class="rune">ᛊ</span> DP-900 Cheat Sheet
 
 > *Last-mile reference. If you can fill in every row of this from memory, you're ready.*
 

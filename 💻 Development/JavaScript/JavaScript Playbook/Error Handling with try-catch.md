@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Error Handling with try/catch
   - try/catch/finally
+publish: true
 ---
 
-# 📚 Error Handling with try/catch
+# <span class="rune">ᛟ</span> Error Handling with try/catch
 
 > *`try`/`catch` lets you attempt a risky piece of code and gracefully handle whatever goes wrong, instead of letting the whole program crash.*
 

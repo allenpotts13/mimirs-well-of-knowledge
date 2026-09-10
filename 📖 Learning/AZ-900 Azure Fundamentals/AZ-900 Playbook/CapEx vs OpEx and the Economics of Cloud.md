@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -11,9 +11,10 @@ tags:
   - cost
 aliases:
   - CapEx vs OpEx
+publish: true
 ---
 
-# 🧩 CapEx vs OpEx and the Economics of Cloud
+# <span class="rune">ᚲ</span> CapEx vs OpEx and the Economics of Cloud
 
 > *The financial argument for cloud adoption, boiled down to one contrast the exam tests directly.*
 

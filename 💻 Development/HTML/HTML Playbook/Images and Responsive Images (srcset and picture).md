@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -14,9 +14,10 @@ aliases:
   - Responsive Images
   - srcset and sizes
   - picture element
+publish: true
 ---
 
-# 📚 Images and Responsive Images (srcset and picture)
+# <span class="rune">ᛟ</span> Images and Responsive Images (srcset and picture)
 
 > *A single `<img>` tag can only ever serve one file — `srcset`, `sizes`, and `<picture>` exist to let the browser pick the right file, or the right crop, for the device actually looking at it.*
 
@@ -153,5 +154,5 @@ The question I ask myself before writing `srcset` or `<picture>` is simple: *is 
 ## 🔗 Related Notes
 
 - [[Semantic HTML and Why It Matters]] — the same "meaning over appearance" principle applies to `alt` text
-- [[Accessibility Basics: alt Text, Labels, and ARIA]] — deeper treatment of writing good alternative text
-- [[Embedding Media: audio, video, and iframe]] — `loading="lazy"` applies to images too, and pairs naturally with responsive images
+- [[Accessibility Basics - alt Text, Labels, and ARIA]] — deeper treatment of writing good alternative text
+- [[Embedding Media - audio, video, and iframe]] — `loading="lazy"` applies to images too, and pairs naturally with responsive images

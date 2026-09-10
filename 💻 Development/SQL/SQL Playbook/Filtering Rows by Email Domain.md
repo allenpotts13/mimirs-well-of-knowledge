@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
   - email
 aliases:
   - Filtering by email suffix
+publish: true
 ---
 
-# 🧩 Filtering Rows by Email Domain
+# <span class="rune">ᚲ</span> Filtering Rows by Email Domain
 
 > *Use LIKE with a leading wildcard to match everyone on a particular email domain.*
 

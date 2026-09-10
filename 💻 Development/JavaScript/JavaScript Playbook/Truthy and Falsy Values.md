@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,9 +14,10 @@ aliases:
   - Falsy Values
   - Truthy Values
   - Boolean Coercion
+publish: true
 ---
 
-# 📚 Truthy and Falsy Values
+# <span class="rune">ᛟ</span> Truthy and Falsy Values
 
 > *Every JavaScript value is either "truthy" or "falsy" — it behaves like `true` or `false` when JavaScript needs to treat it as a boolean, such as in an `if` condition.*
 

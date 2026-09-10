@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,9 +14,10 @@ aliases:
   - git merge
   - Fast-Forward Merge
   - Three-Way Merge
+publish: true
 ---
 
-# 📚 Merging Branches
+# <span class="rune">ᛟ</span> Merging Branches
 
 > *Merging is how two diverging lines of history get woven back into one — sometimes by simply sliding a pointer forward, sometimes by creating a brand-new commit that remembers both parents.*
 

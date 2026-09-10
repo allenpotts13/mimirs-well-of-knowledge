@@ -12,3 +12,8 @@ Thumbs.db
 
 # Optional local backups
 Mimir-Publish-Backup-*/
+
+# Mímir Publish maintenance
+apply-mimir-publish-*.ps1
+Mimir-Publish-*.log
+Mimir-Publish-Backup-*/

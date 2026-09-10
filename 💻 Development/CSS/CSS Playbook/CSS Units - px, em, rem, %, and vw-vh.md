@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -17,9 +17,10 @@ aliases:
   - em vs rem
   - Relative Units in CSS
   - Viewport Units
+publish: true
 ---
 
-# 📚 CSS Units: px, em, rem, %, and vw/vh
+# <span class="rune">ᛟ</span> CSS Units: px, em, rem, %, and vw/vh
 
 > *CSS gives you both absolute units (fixed, predictable, context-blind) and relative units (scale with something else) — and picking the right one for the right property is what separates a layout that scales gracefully from one that quietly breaks the moment a user changes their font size.*
 

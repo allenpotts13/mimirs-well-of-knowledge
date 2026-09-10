@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -15,9 +15,10 @@ aliases:
   - Second Highest Salary Per Department
   - Top N Per Group
   - DENSE_RANK with PARTITION BY
+publish: true
 ---
 
-# 🧩 Ranking the Top N Rows Within Each Group
+# <span class="rune">ᚲ</span> Ranking the Top N Rows Within Each Group
 
 > *Use `DENSE_RANK() OVER (PARTITION BY ... ORDER BY ...)` to rank rows independently inside each group, then filter on the rank.*
 

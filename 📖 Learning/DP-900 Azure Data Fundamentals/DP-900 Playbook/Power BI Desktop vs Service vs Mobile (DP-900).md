@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -10,9 +10,10 @@ tags:
   - power-bi
 aliases:
   - Power BI Apps
+publish: true
 ---
 
-# 🧩 Power BI Desktop vs Service vs Mobile (DP-900)
+# <span class="rune">ᚲ</span> Power BI Desktop vs Service vs Mobile (DP-900)
 
 > *Same product family, three apps with non-overlapping jobs — the dashboard question is the classic trap.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
 aliases:
   - RLS
   - Row-Level Security
+publish: true
 ---
 
-# 📚 Row-Level Security (RLS)
+# <span class="rune">ᛟ</span> Row-Level Security (RLS)
 
 > Restricts which rows a user sees when they open a report — the same report, the same visuals, different data depending on who's looking.
 

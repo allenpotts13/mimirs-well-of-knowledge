@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Employee Count by Department
   - COUNT by Department
+publish: true
 ---
 
-# 🧩 Counting Employees in Each Department
+# <span class="rune">ᚲ</span> Counting Employees in Each Department
 
 > *Use `GROUP BY` with `COUNT()` to determine how many records belong to each category.*
 

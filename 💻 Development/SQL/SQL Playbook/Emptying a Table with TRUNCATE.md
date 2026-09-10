@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -11,9 +11,10 @@ tags:
   - data-cleaning
 aliases:
   - Removing all rows from a table
+publish: true
 ---
 
-# 🧩 Emptying a Table with TRUNCATE
+# <span class="rune">ᚲ</span> Emptying a Table with TRUNCATE
 
 > *Remove every row from a table in one fast, unlogged sweep while keeping the table structure intact.*
 

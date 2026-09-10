@@ -1,4 +1,9 @@
-# ⚡ Power BI Cheat Sheet
+---
+publish: true
+status: published
+---
+
+# <span class="rune">ᛊ</span> Power BI Cheat Sheet
 
 > Dense reference across Power BI, DAX, and Power Query. Each section links back to the full [[Power BI Codex|concept note]] for depth.
 

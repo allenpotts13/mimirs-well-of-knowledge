@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -17,9 +17,10 @@ aliases:
   - git pull
   - git push
   - Upstream Tracking
+publish: true
 ---
 
-# 📚 Working with Remotes: fetch, pull, and push
+# <span class="rune">ᛟ</span> Working with Remotes: fetch, pull, and push
 
 > *`git fetch` safely downloads what's new without touching anything of yours; `git pull` does that same download and then immediately merges (or rebases) it into your current branch — conflating the two is the single most common source of "why did my branch just change" surprise.*
 
@@ -128,7 +129,7 @@ git remote -v
 ## ⚠️ Limitations
 
 - `git pull`'s default merge behavior can create a lot of small, low-information merge commits on an actively-developed branch if you pull frequently.
-- `pull --rebase` rewrites your local commits' hashes (since rebase replays them), which is fine locally but the same caution about shared history from [[Undoing Changes: checkout, restore, and reset]] and [[Reverting a Commit vs Resetting]] applies if those commits were already pushed elsewhere.
+- `pull --rebase` rewrites your local commits' hashes (since rebase replays them), which is fine locally but the same caution about shared history from [[Undoing Changes - checkout, restore, and reset]] and [[Reverting a Commit vs Resetting]] applies if those commits were already pushed elsewhere.
 - `push` will simply refuse if the remote has diverged — it doesn't automatically merge or rebase for you, which is a feature, but can be a rough edge for beginners who don't know what to do next.
 - Remote-tracking branches (`origin/main`) are only ever as fresh as your last `fetch`/`pull` — they don't update live.
 
@@ -162,4 +163,4 @@ I default to `git fetch` and looking before I `pull` on anything that matters �
 - [[Force-Pushing Safely with --force-with-lease]] — what to do when a plain push is rejected and you're certain an overwrite is correct
 - [[Rebasing vs Merging]] — the deeper tradeoffs behind `pull`'s merge-vs-rebase choice
 - [[Understanding HEAD and Detached HEAD State]] — relevant when checking out a remote branch or commit directly to look around
-- [[Common Git Workflows: Feature Branch, Trunk-Based, and Git Flow]] — how fetch/pull/push patterns differ across team workflows
+- [[Common Git Workflows - Feature Branch, Trunk-Based, and Git Flow]] — how fetch/pull/push patterns differ across team workflows

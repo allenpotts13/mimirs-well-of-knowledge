@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,9 +12,10 @@ tags:
 aliases:
   - Percent of Total
   - Percent of Parent
+publish: true
 ---
 
-# 🧩 Creating a Percentage of Total Measure
+# <span class="rune">ᚲ</span> Creating a Percentage of Total Measure
 
 > Show what share of the grand total each row represents — one of the most requested measures in any report, and a clean showcase of what `ALL()` is for.
 

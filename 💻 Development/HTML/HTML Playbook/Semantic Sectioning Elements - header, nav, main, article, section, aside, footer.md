@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: HTML
@@ -15,9 +15,10 @@ aliases:
   - header nav main article section aside footer
   - HTML5 Sectioning Elements
   - Landmark Elements
+publish: true
 ---
 
-# 📚 Semantic Sectioning Elements: header, nav, main, article, section, aside, footer
+# <span class="rune">ᛟ</span> Semantic Sectioning Elements: header, nav, main, article, section, aside, footer
 
 > *These seven elements give a page's major regions real meaning — "this is the navigation," "this is the one unique main content," "this stands alone" — instead of everything being an anonymous `<div>`.*
 
@@ -148,6 +149,6 @@ My test for `<section>` versus `<div>` is simple: **if I gave this block its own
 ## 🔗 Related Notes
 
 - [[Semantic HTML and Why It Matters]] — the general principle these seven elements are a specific vocabulary for
-- [[div and span: Generic Containers and When to Avoid Them]] — the deliberate, correct choice when no sectioning element actually fits
+- [[div and span - Generic Containers and When to Avoid Them]] — the deliberate, correct choice when no sectioning element actually fits
 - [[Headings and Document Outline]] — `<section>`'s heading requirement ties directly into a page's overall heading structure
-- [[Accessibility Basics: alt Text, Labels, and ARIA]] — landmark navigation is one of the biggest accessibility wins these elements provide for free
+- [[Accessibility Basics - alt Text, Labels, and ARIA]] — landmark navigation is one of the biggest accessibility wins these elements provide for free

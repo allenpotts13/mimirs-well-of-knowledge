@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - SQL CROSS JOIN
   - Cartesian Product
+publish: true
 ---
 
-# 📚 CROSS JOIN
+# <span class="rune">ᛟ</span> CROSS JOIN
 
 > Pairs every row in one table with every row in another — no matching condition, just every possible combination.
 

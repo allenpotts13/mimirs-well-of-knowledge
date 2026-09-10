@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -10,9 +10,10 @@ tags:
   - ranking
 aliases:
   - RANKX
+publish: true
 ---
 
-# 🧩 Ranking Values with RANKX
+# <span class="rune">ᚲ</span> Ranking Values with RANKX
 
 > Assign each row a rank relative to the rest of the table — the DAX equivalent of a SQL window function ranking.
 

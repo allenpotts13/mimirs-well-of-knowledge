@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,9 +13,10 @@ aliases:
   - git blame
   - Blame
   - Line-by-Line History
+publish: true
 ---
 
-# 📚 Tracing Changes with git blame
+# <span class="rune">ᛟ</span> Tracing Changes with git blame
 
 > *`git blame` annotates every line of a file with the commit and author that last touched it — turning "who wrote this weird code and why" into an answerable question.*
 

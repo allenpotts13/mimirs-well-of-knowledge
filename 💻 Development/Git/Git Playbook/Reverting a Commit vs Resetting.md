@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,9 +13,10 @@ tags:
 aliases:
   - git revert
   - Undoing a Pushed Commit
+publish: true
 ---
 
-# 📚 Reverting a Commit vs Resetting
+# <span class="rune">ᛟ</span> Reverting a Commit vs Resetting
 
 > *`git revert` undoes a commit by adding a new one that cancels it out; `git reset` undoes a commit by pretending it never existed — and once history is shared with anyone else, that difference is the whole ballgame.*
 
@@ -23,7 +24,7 @@ aliases:
 
 ## 🎯 Purpose
 
-Sooner or later you'll need to undo a commit that's already been pushed — a bug slipped into `main`, a bad merge went out, someone force-pushed something regrettable. The instinct many beginners reach for is `git reset --hard`, because that's the "undo" command they already know from [[Undoing Changes: checkout, restore, and reset]]. On a shared branch, that instinct is exactly wrong.
+Sooner or later you'll need to undo a commit that's already been pushed — a bug slipped into `main`, a bad merge went out, someone force-pushed something regrettable. The instinct many beginners reach for is `git reset --hard`, because that's the "undo" command they already know from [[Undoing Changes - checkout, restore, and reset]]. On a shared branch, that instinct is exactly wrong.
 
 `git revert` exists for this precise situation: it undoes the *effect* of a commit without erasing the commit itself from history, so it's safe to use on branches other people have already pulled. Knowing when to reach for `revert` instead of `reset` is one of the clearest signals of Git maturity on a team.
 
@@ -145,7 +146,7 @@ I ask myself one question before undoing anything on a branch: *has anyone else'
 
 ## 🔗 Related Notes
 
-- [[Undoing Changes: checkout, restore, and reset]] — the local, pre-push undo toolkit this note contrasts against
+- [[Undoing Changes - checkout, restore, and reset]] — the local, pre-push undo toolkit this note contrasts against
 - [[Understanding the Three Trees]] — background for how `reset` moves the repository pointer
 - [[Merging Branches]] — needed context for reverting merge commits with `-m`
 - [[Force-Pushing Safely with --force-with-lease]] — what happens when `reset` on a shared branch forces a push anyway

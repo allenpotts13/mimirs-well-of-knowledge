@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -10,9 +10,10 @@ tags:
   - compute
 aliases:
   - Azure Compute Decision
+publish: true
 ---
 
-# 🧩 Choosing the Right Azure Compute Service
+# <span class="rune">ᚲ</span> Choosing the Right Azure Compute Service
 
 > *Six compute services, one spectrum: how much of the stack do you want to manage versus hand off?*
 

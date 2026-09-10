@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Employees Who Out-Earn Their Boss
   - Overpaid Subordinates
+publish: true
 ---
 
-# 🧩 Finding Employees Who Earn More Than Their Manager
+# <span class="rune">ᚲ</span> Finding Employees Who Earn More Than Their Manager
 
 > *Use a self-join to place each employee next to their manager, then compare their salaries directly.*
 

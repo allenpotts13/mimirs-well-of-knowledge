@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,9 +12,10 @@ tags:
 aliases:
   - Calculated Column
   - Measure
+publish: true
 ---
 
-# 📚 Calculated Columns vs Measures
+# <span class="rune">ᛟ</span> Calculated Columns vs Measures
 
 > Both are built with DAX, but one is computed once and stored per row; the other is computed on the fly, per visual, in response to whatever's currently filtered.
 

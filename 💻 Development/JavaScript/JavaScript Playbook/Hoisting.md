@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -14,9 +14,10 @@ aliases:
   - Hoisting in JavaScript
   - Temporal Dead Zone
   - TDZ
+publish: true
 ---
 
-# 📚 Hoisting
+# <span class="rune">ᛟ</span> Hoisting
 
 > *Hoisting is JavaScript setting up all the names in a scope before running a single line of it — but "setting up" doesn't mean "ready to use."*
 

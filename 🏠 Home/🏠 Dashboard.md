@@ -1,4 +1,9 @@
-# 🧠 Mimir
+---
+publish: false
+status: private
+---
+
+# <span class="rune">ᛗ</span> Mimir
 
 "Don't collect information. Build knowledge."
 

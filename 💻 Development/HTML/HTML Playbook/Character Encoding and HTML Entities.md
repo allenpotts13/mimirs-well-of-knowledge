@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -14,9 +14,10 @@ aliases:
   - UTF-8 in HTML
   - HTML Entities
   - Mojibake
+publish: true
 ---
 
-# 📚 Character Encoding and HTML Entities
+# <span class="rune">ᛟ</span> Character Encoding and HTML Entities
 
 > *A browser can only render text correctly if it agrees with the server about which bytes mean which characters — declare `UTF-8` first, and use entities for characters HTML would otherwise misread as markup.*
 
@@ -147,6 +148,6 @@ I treat `<meta charset="UTF-8">` as non-negotiable, first-line-of-`<head>` muscl
 
 ## 🔗 Related Notes
 
-- [[Document Structure: doctype, html, head, and body]] — where exactly the charset meta tag belongs in the document skeleton
+- [[Document Structure - doctype, html, head, and body]] — where exactly the charset meta tag belongs in the document skeleton
 - [[Semantic HTML and Why It Matters]] — the broader habit of being explicit rather than relying on browser guesswork
 - [[Meta Tags and Basic SEO]] — the other `<meta>` tags that live alongside charset in `<head>`

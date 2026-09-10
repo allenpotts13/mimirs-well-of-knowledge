@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -12,9 +12,10 @@ tags:
 aliases:
   - Primary Key
   - PK
+publish: true
 ---
 
-# 📚 Primary Keys
+# <span class="rune">ᛟ</span> Primary Keys
 
 > The column (or columns) that uniquely identifies every row in a table.
 

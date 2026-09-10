@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
   - performance
 aliases:
   - Query Fold
+publish: true
 ---
 
-# 📚 Query Folding
+# <span class="rune">ᛟ</span> Query Folding
 
 > Power Query pushing transformation steps down to the source system to run there, instead of pulling raw data into Power BI first and transforming it locally.
 

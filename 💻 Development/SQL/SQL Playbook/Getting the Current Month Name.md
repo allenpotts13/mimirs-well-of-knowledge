@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -11,9 +11,10 @@ tags:
   - monthname
 aliases:
   - MONTHNAME function
+publish: true
 ---
 
-# 🧩 Getting the Current Month Name
+# <span class="rune">ᚲ</span> Getting the Current Month Name
 
 > *Read today's month as a word instead of a number.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,9 +12,10 @@ tags:
 aliases:
   - Power BI Visual Types
   - Chart Selection
+publish: true
 ---
 
-# 📚 Choosing the Right Visual
+# <span class="rune">ᛟ</span> Choosing the Right Visual
 
 > The question being asked determines the chart — not the other way around. Pick the shape that matches what the data needs to communicate.
 

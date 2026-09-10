@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,9 +14,10 @@ aliases:
   - git branch
   - git switch
   - Creating Branches
+publish: true
 ---
 
-# 📚 Branching with git branch and git switch
+# <span class="rune">ᛟ</span> Branching with git branch and git switch
 
 > *A branch is nothing more than a movable sticky note pointing at one commit — creating one is instant and nearly free, because it never copies a single file.*
 
@@ -147,4 +148,4 @@ The single biggest unlock for new Git users is realizing that branching costs no
 - [[Understanding the Three Trees]] — how `switch` interacts with your working directory once HEAD moves
 - [[Understanding HEAD and Detached HEAD State]] — what happens when HEAD points at a commit instead of a branch
 - [[Merging Branches]] — bringing two branch pointers' histories back together
-- [[Common Git Workflows: Feature Branch, Trunk-Based, and Git Flow]] — branching strategies built on top of this primitive
+- [[Common Git Workflows - Feature Branch, Trunk-Based, and Git Flow]] — branching strategies built on top of this primitive

@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -14,9 +14,10 @@ tags:
 aliases:
   - Highest Salary Per Department
   - Maximum Salary by Department
+publish: true
 ---
 
-# 🧩 Finding the Highest Salary in Each Department
+# <span class="rune">ᚲ</span> Finding the Highest Salary in Each Department
 
 > *Use a correlated subquery to compare each employee's salary against the maximum salary for that employee's department.*
 

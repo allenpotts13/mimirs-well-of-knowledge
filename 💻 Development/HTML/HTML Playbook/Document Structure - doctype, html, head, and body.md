@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,9 +13,10 @@ aliases:
   - "Document Structure: doctype, html, head, and body"
   - HTML Boilerplate
   - DOCTYPE and html lang
+publish: true
 ---
 
-# 📚 Document Structure: doctype, html, head, and body
+# <span class="rune">ᛟ</span> Document Structure: doctype, html, head, and body
 
 > *Every HTML document is built from four load-bearing pieces — `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` — and skipping or misusing any one of them quietly changes how the page behaves.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -13,9 +13,10 @@ aliases:
   - Foreign Key
   - FK
   - Referential Integrity
+publish: true
 ---
 
-# 📚 Foreign Keys
+# <span class="rune">ᛟ</span> Foreign Keys
 
 > A column that references another table's primary key, forming the relationship between two tables.
 

@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -12,9 +12,10 @@ tags:
   - data-factory
 aliases:
   - Analytics Service Overlap
+publish: true
 ---
 
-# 🧩 Data Factory vs Stream Analytics vs Synapse
+# <span class="rune">ᚲ</span> Data Factory vs Stream Analytics vs Synapse
 
 > *Three services that all touch "analytics" but each own a distinct piece of the pipeline.*
 

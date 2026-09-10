@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,9 +14,10 @@ aliases:
   - git rebase
   - Rebase vs Merge
   - The Golden Rule of Rebasing
+publish: true
 ---
 
-# 📚 Rebasing vs Merging
+# <span class="rune">ᛟ</span> Rebasing vs Merging
 
 > *Merge tells the truth about how history actually happened; rebase tells a cleaner, more convenient lie — and picking between them is really about which one you value more for a given branch.*
 

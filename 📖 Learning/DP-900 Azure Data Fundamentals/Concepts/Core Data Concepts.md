@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -13,9 +13,10 @@ tags:
 aliases:
   - OLTP vs OLAP
   - Data Workloads
+publish: true
 ---
 
-# 📚 Core Data Concepts
+# <span class="rune">ᛟ</span> Core Data Concepts
 
 > *The vocabulary layer everything else in DP-900 is built on: what kind of data is this, what's being done with it, and whose job is that?*
 

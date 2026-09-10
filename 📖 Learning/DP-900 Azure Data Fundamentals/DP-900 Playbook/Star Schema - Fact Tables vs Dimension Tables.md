@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -11,9 +11,10 @@ tags:
   - star-schema
 aliases:
   - Fact vs Dimension
+publish: true
 ---
 
-# 🧩 Star Schema - Fact Tables vs Dimension Tables
+# <span class="rune">ᚲ</span> Star Schema - Fact Tables vs Dimension Tables
 
 > *Every data warehouse question boils down to: is this column a number to measure, or context to describe it by?*
 

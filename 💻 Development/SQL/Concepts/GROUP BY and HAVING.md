@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - GROUP BY
   - HAVING
+publish: true
 ---
 
-# 📚 GROUP BY and HAVING
+# <span class="rune">ᛟ</span> GROUP BY and HAVING
 
 > GROUP BY collapses rows into per-group summaries; HAVING filters those groups after they're calculated.
 

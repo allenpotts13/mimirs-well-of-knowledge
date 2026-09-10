@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,9 +13,10 @@ tags:
 aliases:
   - HTML5 Form Validation
   - Built-in Validation
+publish: true
 ---
 
-# 📚 Forms and Form Validation
+# <span class="rune">ᛟ</span> Forms and Form Validation
 
 > *Browsers can enforce required fields, patterns, and ranges before a form ever submits — but that built-in validation is a UX courtesy for honest users, never a security boundary against dishonest ones.*
 

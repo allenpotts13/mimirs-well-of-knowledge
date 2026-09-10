@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - overflow-x
   - overflow-y
   - Scrollable Containers
+publish: true
 ---
 
-# 📚 Overflow and Scrolling Behavior
+# <span class="rune">ᛟ</span> Overflow and Scrolling Behavior
 
 > *`overflow` decides what happens when content is too big for its box — spill out, get clipped, or scroll — and picking anything other than `visible` quietly changes how the box behaves toward its contents, not just how it looks.*
 
@@ -180,4 +181,4 @@ The formatting-context side effect is the part that surprises people who've only
 - [[Float and Its Legacy Layout Role]] — the exact float-collapse problem that `overflow: hidden` was historically used to work around
 - [[The Box Model]] — overflow behavior is about what happens when content exceeds the content box's dimensions
 - [[z-index and Stacking Contexts]] — an element clipped by an ancestor's `overflow: hidden` can look like a z-index bug but isn't one
-- [[Positioning: static, relative, absolute, fixed, and sticky]] — absolutely positioned children are also subject to an ancestor's `overflow: hidden` clipping
+- [[Positioning - static, relative, absolute, fixed, and sticky]] — absolutely positioned children are also subject to an ancestor's `overflow: hidden` clipping

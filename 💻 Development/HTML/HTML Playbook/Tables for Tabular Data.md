@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -12,9 +12,10 @@ tags:
 aliases:
   - HTML Tables
   - thead tbody tfoot
+publish: true
 ---
 
-# 📚 Tables for Tabular Data
+# <span class="rune">ᛟ</span> Tables for Tabular Data
 
 > *A table is for data that actually has rows and columns — a grid of related values — never a tool for arranging a page's visual layout.*
 

@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -14,9 +14,10 @@ aliases:
   - Top 5 Employees by Salary
   - Highest Salaries
   - Top N Records
+publish: true
 ---
 
-# 🧩 Retrieving the Top N Highest Values
+# <span class="rune">ᚲ</span> Retrieving the Top N Highest Values
 
 > *Sort records from highest to lowest by a target value and return only the first N rows.*
 

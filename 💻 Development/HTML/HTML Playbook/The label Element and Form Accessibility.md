@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -12,9 +12,10 @@ tags:
 aliases:
   - label element
   - Form Label Accessibility
+publish: true
 ---
 
-# 📚 The label Element and Form Accessibility
+# <span class="rune">ᛟ</span> The label Element and Form Accessibility
 
 > *`<label>` isn't just text next to an input — properly associated, it becomes part of the input's clickable target and the exact words a screen reader announces when that field receives focus.*
 
@@ -165,5 +166,5 @@ I treat "does this input have a real label?" as a five-second sanity check I run
 ## 🔗 Related Notes
 
 - [[Forms and Form Validation]] — the container this element lives inside and works alongside
-- [[Accessibility Basics: alt Text, Labels, and ARIA]] — labels as one pillar of the broader accessibility picture
+- [[Accessibility Basics - alt Text, Labels, and ARIA]] — labels as one pillar of the broader accessibility picture
 - [[Input Types and Attributes]] — the inputs labels are meant to describe

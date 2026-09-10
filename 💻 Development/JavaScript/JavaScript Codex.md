@@ -1,4 +1,9 @@
-# 🟨 JavaScript
+---
+publish: true
+status: published
+---
+
+# <span class="rune">ᚾ</span> JavaScript
 
 > "The language runs everywhere, but the event loop is why it behaves the way it does everywhere."
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - COUNT SUM AVG MIN MAX
   - Aggregate Function
+publish: true
 ---
 
-# 📚 Aggregate Functions
+# <span class="rune">ᛟ</span> Aggregate Functions
 
 > Collapse many rows into a single summary value — the building blocks behind every total, average, and count.
 

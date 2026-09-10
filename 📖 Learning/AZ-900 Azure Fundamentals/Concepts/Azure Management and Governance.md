@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -14,9 +14,10 @@ aliases:
   - Azure Cost Management
   - Azure Policy
   - Azure Governance Tools
+publish: true
 ---
 
-# 📚 Azure Management and Governance
+# <span class="rune">ᛟ</span> Azure Management and Governance
 
 > *Once things are running, this is how you keep the bill predictable, the rules enforced, and the health visible.*
 

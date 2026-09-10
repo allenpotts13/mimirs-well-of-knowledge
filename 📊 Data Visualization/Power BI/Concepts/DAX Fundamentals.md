@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -10,9 +10,10 @@ tags:
   - dax
 aliases:
   - Data Analysis Expressions
+publish: true
 ---
 
-# 📚 DAX Fundamentals
+# <span class="rune">ᛟ</span> DAX Fundamentals
 
 > The formula language behind every measure and calculated column in Power BI — closer to Excel formulas than to SQL, but with its own distinct rules.
 

@@ -1,6 +1,6 @@
 ---
 type: cheat-sheet
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -9,9 +9,10 @@ tags:
   - cheat-sheet
 aliases:
   - AZ-900 Quick Reference
+publish: true
 ---
 
-# ⚡ AZ-900 Cheat Sheet
+# <span class="rune">ᛊ</span> AZ-900 Cheat Sheet
 
 > *Last-mile reference. If you can fill in every row of this from memory, you're ready.*
 

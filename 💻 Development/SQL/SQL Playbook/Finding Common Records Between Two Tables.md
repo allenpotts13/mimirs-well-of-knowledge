@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-11
 updated: 2026-08-11
 technology: SQL
@@ -14,9 +14,10 @@ aliases:
   - Common Records Between Tables
   - Finding Matching Rows
   - INTERSECT
+publish: true
 ---
 
-# 🧩 Finding Common Records Between Two Tables
+# <span class="rune">ᚲ</span> Finding Common Records Between Two Tables
 
 > *Use the `INTERSECT` set operator to return rows that exist in the results of both queries.*
 

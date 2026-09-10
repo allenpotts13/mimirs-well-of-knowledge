@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,9 +13,10 @@ tags:
 aliases:
   - input type attribute
   - HTML Input Types
+publish: true
 ---
 
-# 📚 Input Types and Attributes
+# <span class="rune">ᛟ</span> Input Types and Attributes
 
 > *The `type` attribute on `<input>` isn't just a styling hint — it changes the mobile keyboard shown, unlocks built-in validation, and tells assistive technology what kind of data it's looking at, all from a single word.*
 

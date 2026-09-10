@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Anchor Tag Best Practices
   - a href
+publish: true
 ---
 
-# 📚 Links and Navigation Best Practices
+# <span class="rune">ᛟ</span> Links and Navigation Best Practices
 
 > *A link's text has to make sense on its own, out of context, because that's often exactly how it gets encountered — and where a link sends you, and how much it exposes about where you came from, are both choices you're making whether you realize it or not.*
 

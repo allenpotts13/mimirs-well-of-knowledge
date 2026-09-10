@@ -1,0 +1,1086 @@
+/*
+Mímir's Well of Knowledge — Obsidian Publish Theme v1.6
+Author: Allen Potts / OpenAI-assisted
+Purpose: Professional technical knowledge-base styling with restrained Norse / deep-well influence.
+
+Place this file at the ROOT of the Obsidian vault:
+    /publish.css
+
+Then publish it through Obsidian Publish.
+*/
+
+/* Cinzel: carved-inscription feel for H1/H2 only (see section 4).
+   Noto Sans Runic: guarantees the Elder Futhark rune accents (section 19)
+   render as real glyphs everywhere instead of risking a tofu box on
+   systems without a runic-capable font installed. */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Noto+Sans+Runic&display=swap');
+
+/* =========================================================
+   1. DESIGN TOKENS
+   ========================================================= */
+
+:root {
+  /* Core palette */
+  --mimir-bg: #111514;
+  --mimir-bg-soft: #171c1b;
+  --mimir-panel: #1c2220;
+  --mimir-panel-raised: #232a27;
+  --mimir-border: #313936;
+  --mimir-border-strong: #49534e;
+
+  --mimir-text: #eee8dc;
+  --mimir-text-soft: #c9c2b6;
+  --mimir-text-muted: #938e85;
+
+  --mimir-gold: #b89a62;
+  --mimir-gold-bright: #d2b77c;
+  --mimir-gold-dim: #786744;
+
+  --mimir-water: #5d8f91;
+  --mimir-water-bright: #79aeb0;
+  --mimir-water-deep: #284e51;
+
+  --mimir-code-bg: #0d1110;
+  --mimir-code-border: #29302d;
+  --mimir-code-inline-bg: #171c1b;
+  --mimir-code-text: #d7c28f;
+
+  --mimir-heading-strong: #f1eadf;
+  --mimir-text-faint: #77756f;
+  --mimir-link-unresolved: #b47f72;
+  --mimir-code-normal: #d9d2c6;
+  --mimir-input-bg: #121716;
+  --mimir-selection-bg: rgba(184, 154, 98, 0.28);
+  --mimir-selection-text: #fffaf0;
+
+  --mimir-radius-sm: 6px;
+  --mimir-radius-md: 10px;
+  --mimir-radius-lg: 14px;
+
+  --mimir-content-width: 900px;
+  --mimir-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+  --mimir-overlay-panel: rgba(17, 21, 20, 0.72);
+  --mimir-ripple-rgb: 210, 183, 124;
+  --mimir-ripple-alpha-1: 0.13;
+  --mimir-ripple-alpha-2: 0.07;
+  --mimir-rune-opacity: 0.09;
+
+  /* Obsidian Publish variables */
+  --background-primary: var(--mimir-bg);
+  --background-primary-alt: var(--mimir-bg-soft);
+  --background-secondary: var(--mimir-bg-soft);
+  --background-secondary-alt: var(--mimir-panel);
+
+  --text-normal: var(--mimir-text);
+  --text-muted: var(--mimir-text-muted);
+  --text-faint: var(--mimir-text-faint);
+
+  --interactive-accent: var(--mimir-gold);
+  --interactive-accent-hover: var(--mimir-gold-bright);
+
+  --link-color: var(--mimir-water-bright);
+  --link-color-hover: var(--mimir-gold-bright);
+  --link-unresolved-color: var(--mimir-link-unresolved);
+
+  --divider-color: var(--mimir-border);
+  --blockquote-border-color: var(--mimir-gold-dim);
+
+  --code-background: var(--mimir-code-bg);
+  --code-normal: var(--mimir-code-normal);
+
+  --font-text-size: 16px;
+  --line-height-normal: 1.7;
+}
+
+/* =========================================================
+   1B. LIGHT MODE PALETTE
+   Everything downstream reads through the --mimir-* tokens above,
+   so redefining just those tokens here re-themes the whole site
+   for Publish's light/dark toggle (body.theme-light /
+   body.theme-dark). Without this block the toggle barely changes
+   anything, and a few headings/code text were hardcoded to
+   near-white literals that go invisible on a light background.
+   ========================================================= */
+
+body.theme-light {
+  --mimir-bg: #f8f5ee;
+  --mimir-bg-soft: #f1ece1;
+  --mimir-panel: #ffffff;
+  --mimir-panel-raised: #f3ede0;
+  --mimir-border: #ddd3c0;
+  --mimir-border-strong: #c3b79e;
+
+  --mimir-text: #2a2620;
+  --mimir-text-soft: #4a4337;
+  --mimir-text-muted: #7c7365;
+
+  --mimir-gold: #93711f;
+  --mimir-gold-bright: #7a5c19;
+  --mimir-gold-dim: #c9b183;
+
+  --mimir-water: #2f6567;
+  --mimir-water-bright: #1f4d4f;
+  --mimir-water-deep: #cfe6e6;
+
+  --mimir-code-bg: #f1ede1;
+  --mimir-code-border: #ddd3c0;
+  --mimir-code-inline-bg: #efe8d8;
+  --mimir-code-text: #7a5c19;
+
+  --mimir-heading-strong: #1f1c17;
+  --mimir-text-faint: #948a78;
+  --mimir-link-unresolved: #9a4e3c;
+  --mimir-code-normal: #3a352c;
+  --mimir-input-bg: #ffffff;
+  --mimir-selection-bg: rgba(147, 113, 31, 0.18);
+  --mimir-selection-text: #201c14;
+
+  --mimir-shadow: 0 10px 28px rgba(60, 50, 30, 0.1);
+  --mimir-overlay-panel: rgba(248, 245, 238, 0.86);
+  --mimir-ripple-rgb: 120, 90, 40;
+  --mimir-ripple-alpha-1: 0.16;
+  --mimir-ripple-alpha-2: 0.09;
+  --mimir-rune-opacity: 0.07;
+}
+
+/* =========================================================
+   2. PAGE FOUNDATION
+   ========================================================= */
+
+html,
+body {
+  background: var(--mimir-bg);
+}
+
+/* The ripple lives on a fixed pseudo-layer behind everything, not on
+   body's own background — that's deliberate. It lets us do two things
+   a single `background` shorthand on body couldn't:
+   1. mask-image gives it a real falloff from one point, so it reads as
+      ripples dying out rather than a pattern tiled uniformly forever
+      (the "stamped" look).
+   2. It can sit BEHIND the article's own opaque background (below),
+      so the pattern only shows in the margins/gutters around the
+      reading column — never directly under moving text, which is
+      what made it distracting while scrolling.
+   The linear-gradient tints the rings gold-to-teal instead of a flat
+   single tone. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(160deg, rgba(93, 143, 145, 0.12), transparent 45%, rgba(184, 154, 98, 0.10) 100%),
+    repeating-radial-gradient(
+      circle at 52% -12%,
+      rgba(var(--mimir-ripple-rgb), var(--mimir-ripple-alpha-1)) 0px,
+      rgba(var(--mimir-ripple-rgb), var(--mimir-ripple-alpha-1)) 1.5px,
+      transparent 1.5px,
+      transparent 42px
+    ),
+    repeating-radial-gradient(
+      circle at 52% -12%,
+      rgba(var(--mimir-ripple-rgb), var(--mimir-ripple-alpha-2)) 0px,
+      rgba(var(--mimir-ripple-rgb), var(--mimir-ripple-alpha-2)) 1px,
+      transparent 1px,
+      transparent 97px
+    );
+  background-blend-mode: soft-light, normal, normal;
+  mask-image: radial-gradient(circle at 52% -10%, black 0%, black 25%, transparent 70%);
+  -webkit-mask-image: radial-gradient(circle at 52% -10%, black 0%, black 25%, transparent 70%);
+}
+
+body {
+  color: var(--mimir-text);
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+::selection {
+  background: var(--mimir-selection-bg);
+  color: var(--mimir-selection-text);
+}
+
+/* =========================================================
+   3. MAIN CONTENT
+   ========================================================= */
+
+.publish-renderer .markdown-preview-view,
+.markdown-preview-view {
+  line-height: 1.7;
+}
+
+.markdown-preview-sizer,
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: var(--mimir-content-width);
+  margin-inline: auto;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  /* Opaque so the fixed ripple layer behind the page never shows
+     through under actual text — it only reads in the margins/gutters
+     around this column. See body::before in section 2. */
+  background: var(--mimir-bg);
+}
+
+/* The home hero photo only renders in dark mode (section 19 — the
+   photo doesn't work against light mode's dark-on-light text), so
+   this transparency only needs to apply there too; light mode keeps
+   the normal opaque reading surface like every other page. */
+body.theme-dark .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) .markdown-preview-sizer {
+  background: transparent;
+}
+
+/* First visible title */
+.markdown-preview-view h1:first-of-type {
+  position: relative;
+  margin-bottom: 2.2rem;
+  padding-bottom: 0.9rem;
+}
+
+.markdown-preview-view h1:first-of-type::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 78px;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--mimir-gold),
+    var(--mimir-water),
+    transparent
+  );
+}
+
+/* Ansuz — Odin's rune, tied to wisdom and speech, and the reason he
+   drank from Mímir's well in the first place. Only shown when a page's
+   title doesn't already carry its own category rune (see .rune below,
+   used in ~240 note titles) — otherwise the two would stack. */
+.markdown-preview-view h1:first-of-type:not(:has(.rune))::before {
+  content: "ᚨ";
+  display: inline-block;
+  margin-right: 0.28em;
+  font-family: "Noto Sans Runic", serif;
+  font-size: 0.68em;
+  color: var(--mimir-gold);
+  opacity: 0.75;
+  vertical-align: 0.03em;
+}
+
+/* Category runes swapped in for the emoji that used to lead ~240 note
+   titles (📚 Codex-type notes, 🧩 Concept notes, and a handful of
+   one-offs) — see the vault-wide swap script from this session for
+   the full emoji → rune mapping. */
+.markdown-preview-view h1 .rune {
+  display: inline-block;
+  font-family: "Noto Sans Runic", serif;
+  color: var(--mimir-gold);
+  opacity: 0.85;
+}
+
+/* =========================================================
+   4. TYPOGRAPHY / HEADINGS
+   ========================================================= */
+
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  color: var(--mimir-text);
+  letter-spacing: -0.015em;
+}
+
+/* Carved-inscription feel on the two headings readers see most often;
+   h3–h6 stay on the body font so dense technical pages don't turn
+   into a wall of display type. */
+.markdown-preview-view h1,
+.markdown-preview-view h2 {
+  font-family: "Cinzel", Georgia, "Times New Roman", serif;
+  letter-spacing: 0.01em;
+}
+
+.markdown-preview-view h1 {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  font-weight: 750;
+  line-height: 1.15;
+}
+
+.markdown-preview-view h2 {
+  margin-top: 2.8rem;
+  padding-bottom: 0.48rem;
+  border-bottom: 1px solid var(--mimir-border);
+  font-size: 1.55rem;
+  color: var(--mimir-heading-strong);
+}
+
+.markdown-preview-view h3 {
+  margin-top: 2.1rem;
+  font-size: 1.23rem;
+  color: var(--mimir-gold-bright);
+}
+
+.markdown-preview-view h4 {
+  color: var(--mimir-water-bright);
+}
+
+.markdown-preview-view p,
+.markdown-preview-view li {
+  color: var(--mimir-text-soft);
+}
+
+.markdown-preview-view strong {
+  color: var(--mimir-heading-strong);
+}
+
+.markdown-preview-view em {
+  color: var(--mimir-text-soft);
+}
+
+/* =========================================================
+   5. LINKS
+   ========================================================= */
+
+.markdown-preview-view a,
+.markdown-preview-view .internal-link {
+  color: var(--mimir-water-bright);
+  text-decoration-color: rgba(121, 174, 176, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition:
+    color 140ms ease,
+    text-decoration-color 140ms ease;
+}
+
+.markdown-preview-view a:hover,
+.markdown-preview-view .internal-link:hover {
+  color: var(--mimir-gold-bright);
+  text-decoration-color: var(--mimir-gold);
+}
+
+/* =========================================================
+   6. BLOCKQUOTES & CALLOUTS
+   ========================================================= */
+
+.markdown-preview-view blockquote {
+  position: relative;
+  margin: 1.6rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--mimir-gold);
+  border-radius: 0 var(--mimir-radius-md) var(--mimir-radius-md) 0;
+  background:
+    linear-gradient(90deg, rgba(184, 154, 98, 0.10), transparent 70%),
+    var(--mimir-panel);
+  color: var(--mimir-text-soft);
+  overflow: hidden;
+}
+
+.markdown-preview-view blockquote p {
+  color: inherit;
+}
+
+/* Othala — heritage and inherited wisdom, watermarked barely above the
+   threshold of noticing. It's meant to be felt on the page, not read. */
+.markdown-preview-view blockquote::before {
+  content: "ᛟ";
+  position: absolute;
+  top: -0.35rem;
+  right: 0.6rem;
+  font-family: "Noto Sans Runic", serif;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--mimir-gold);
+  opacity: var(--mimir-rune-opacity);
+  pointer-events: none;
+}
+
+.callout {
+  border: 1px solid var(--mimir-border);
+  border-radius: var(--mimir-radius-md);
+  background: var(--mimir-panel);
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.callout-title {
+  color: var(--mimir-gold-bright);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.callout-content {
+  color: var(--mimir-text-soft);
+}
+
+/* Generic callouts inherit Mímir palette more consistently */
+.callout[data-callout="quote"] {
+  --callout-color: 184, 154, 98;
+}
+
+.callout[data-callout="info"],
+.callout[data-callout="note"],
+.callout[data-callout="tip"] {
+  --callout-color: 93, 143, 145;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"] {
+  --callout-color: 184, 138, 89;
+}
+
+/* =========================================================
+   7. INLINE CODE & CODE BLOCKS
+   ========================================================= */
+
+.markdown-preview-view code {
+  font-family:
+    "Cascadia Code",
+    "JetBrains Mono",
+    "SFMono-Regular",
+    Consolas,
+    "Liberation Mono",
+    monospace;
+}
+
+.markdown-preview-view :not(pre) > code {
+  padding: 0.14em 0.42em;
+  border: 1px solid var(--mimir-code-border);
+  border-radius: 5px;
+  background: var(--mimir-code-inline-bg);
+  color: var(--mimir-code-text);
+  font-size: 0.88em;
+}
+
+.markdown-preview-view pre {
+  margin: 1.5rem 0;
+  border: 1px solid var(--mimir-code-border);
+  border-radius: var(--mimir-radius-md);
+  background: var(--mimir-code-bg);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+.markdown-preview-view pre code {
+  color: var(--mimir-text-soft);
+  line-height: 1.6;
+}
+
+/* =========================================================
+   8. TABLES
+   ========================================================= */
+
+.markdown-preview-view table {
+  width: 100%;
+  margin: 1.5rem 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border: 1px solid var(--mimir-border);
+  border-radius: var(--mimir-radius-md);
+  background: var(--mimir-bg-soft);
+}
+
+.markdown-preview-view th {
+  padding: 0.75rem 0.9rem;
+  background: var(--mimir-panel-raised);
+  color: var(--mimir-gold-bright);
+  border-bottom: 1px solid var(--mimir-border-strong);
+  text-align: left;
+  font-weight: 700;
+}
+
+.markdown-preview-view td {
+  padding: 0.72rem 0.9rem;
+  color: var(--mimir-text-soft);
+  border-bottom: 1px solid var(--mimir-border);
+}
+
+.markdown-preview-view tr:last-child td {
+  border-bottom: 0;
+}
+
+.markdown-preview-view tbody tr:hover {
+  background: rgba(93, 143, 145, 0.045);
+}
+
+/* =========================================================
+   9. HORIZONTAL RULES / LISTS
+   ========================================================= */
+
+.markdown-preview-view hr {
+  border: 0;
+  height: 1px;
+  margin: 2.4rem 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--mimir-border-strong),
+    transparent
+  );
+}
+
+.markdown-preview-view ul > li::marker {
+  color: var(--mimir-water);
+}
+
+.markdown-preview-view ol > li::marker {
+  color: var(--mimir-gold);
+  font-weight: 700;
+}
+
+/* =========================================================
+   10. LEFT NAVIGATION / SITE BRAND
+   ========================================================= */
+
+.site-body-left-column {
+  background:
+    linear-gradient(180deg, rgba(93, 143, 145, 0.035), transparent 34%),
+    var(--mimir-bg-soft);
+  border-right: 1px solid var(--mimir-border);
+}
+
+.site-body-left-column-site-name {
+  color: var(--mimir-text);
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.site-body-left-column-site-name::after {
+  content: "Wisdom preserved through experience";
+  display: block;
+  max-width: 190px;
+  margin-top: 0.65rem;
+  color: var(--mimir-text-muted);
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: 0.02em;
+}
+
+.site-body-left-column .search-view-container {
+  margin-top: 0.9rem;
+}
+
+.site-body-left-column input[type="text"],
+.site-body-left-column .search-input-container input {
+  border: 1px solid var(--mimir-border);
+  border-radius: var(--mimir-radius-sm);
+  background: var(--mimir-input-bg);
+  color: var(--mimir-text);
+}
+
+.site-body-left-column .search-input-container input:focus {
+  border-color: var(--mimir-water);
+  box-shadow: 0 0 0 2px rgba(93, 143, 145, 0.12);
+}
+
+/* Navigation items */
+.nav-file-title,
+.nav-folder-title {
+  border-radius: 6px;
+  color: var(--mimir-text-soft);
+  transition:
+    background 120ms ease,
+    color 120ms ease;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  background: rgba(184, 154, 98, 0.07);
+  color: var(--mimir-text);
+}
+
+.nav-file-title.is-active {
+  background:
+    linear-gradient(90deg, rgba(93, 143, 145, 0.16), transparent 88%);
+  color: var(--mimir-gold-bright);
+}
+
+.nav-folder-title {
+  font-weight: 650;
+}
+
+.nav-folder-collapse-indicator {
+  color: var(--mimir-water);
+}
+
+/* =========================================================
+   11. RIGHT TABLE OF CONTENTS
+   ========================================================= */
+
+.site-body-right-column {
+  background: var(--mimir-overlay-panel);
+  border-left: 1px solid var(--mimir-border);
+}
+
+.site-body-right-column .outline-view-outer {
+  color: var(--mimir-text-muted);
+}
+
+.site-body-right-column .outline-view-title,
+.site-body-right-column .site-body-right-column-title {
+  color: var(--mimir-gold-bright);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.outline-tree-item-self {
+  color: var(--mimir-text-muted);
+}
+
+.outline-tree-item-self:hover {
+  color: var(--mimir-text);
+}
+
+.outline-tree-item-self.is-active {
+  color: var(--mimir-water-bright);
+}
+
+/* =========================================================
+   12. TAGS
+   ========================================================= */
+
+.tag,
+a.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.48rem;
+  border: 1px solid rgba(184, 154, 98, 0.3);
+  border-radius: 999px;
+  background: rgba(184, 154, 98, 0.08);
+  color: var(--mimir-gold-bright);
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+
+.tag:hover,
+a.tag:hover {
+  border-color: rgba(121, 174, 176, 0.52);
+  background: rgba(93, 143, 145, 0.1);
+  color: var(--mimir-water-bright);
+}
+
+/* =========================================================
+   13. CHECKBOXES
+   ========================================================= */
+
+input[type="checkbox"] {
+  accent-color: var(--mimir-water);
+}
+
+/* =========================================================
+   14. IMAGES & EMBEDS
+   ========================================================= */
+
+.markdown-preview-view img {
+  border-radius: var(--mimir-radius-md);
+}
+
+.markdown-embed,
+.file-embed {
+  border: 1px solid var(--mimir-border);
+  border-radius: var(--mimir-radius-md);
+  background: var(--mimir-bg-soft);
+}
+
+/* =========================================================
+   15. SCROLLBARS
+   ========================================================= */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--mimir-border-strong) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: var(--mimir-border-strong);
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--mimir-gold-dim);
+  background-clip: padding-box;
+}
+
+/* =========================================================
+   16. HOME PAGE POLISH
+   ========================================================= */
+
+/* Makes the opening quote on landing pages feel intentional */
+.markdown-preview-view h1 + h1,
+.markdown-preview-view h1 + blockquote {
+  margin-top: 0.5rem;
+}
+
+/* The hero image is embedded (![[...]]) purely so Obsidian Publish
+   serves the file as an asset — it's not meant to appear inline in
+   the reading flow. Targets Obsidian's own native embed wrapper
+   directly (no custom div — wrapping the embed in raw HTML with
+   blank lines around it gets split into separate sibling elements by
+   Obsidian's markdown parser, which was the earlier bug here). The
+   real display happens in section 19 via the published URL as a
+   proper background. */
+.internal-embed[src="mimirs-well-background.jpg"] {
+  display: none;
+}
+
+/* Slightly stronger spacing for gateway-style pages */
+.markdown-preview-view h2 + p {
+  margin-top: 0.65rem;
+}
+
+/* =========================================================
+   17. RESPONSIVE BEHAVIOR
+   ========================================================= */
+
+@media (min-width: 1400px) {
+  :root {
+    --mimir-content-width: 940px;
+  }
+
+  .markdown-preview-sizer,
+  .markdown-preview-view .markdown-preview-sizer {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .markdown-preview-sizer,
+  .markdown-preview-view .markdown-preview-sizer {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .site-body-left-column-site-name::after {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --font-text-size: 15px;
+  }
+
+  .markdown-preview-view h1 {
+    font-size: 2rem;
+  }
+
+  .markdown-preview-view h2 {
+    font-size: 1.38rem;
+  }
+
+  .markdown-preview-sizer,
+  .markdown-preview-view .markdown-preview-sizer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+
+/* =========================================================
+   18. LAYOUT GEOMETRY — v1.5
+   Console-verified against the live page's computed layout
+   (getComputedStyle + getBoundingClientRect on each column).
+
+   Two real findings from that inspection, not guesses:
+
+   1. Obsidian Publish renders `.site-body-right-column` (the TOC)
+      as `position: absolute`, anchored so its right edge lines up
+      with the ARTICLE's own right edge — not the center column's
+      outer edge. That means reserving space with padding on the
+      center column can never work: the TOC's anchor point moves
+      inward together with the padding, so it always ends up glued
+      to the last ~300px of whatever the article's current edge is.
+      v1.1–v1.4 all tried some version of the padding-reserve
+      approach; none of them could have worked, by construction.
+
+   2. `.site-body-left-column`'s width was NOT the 270px this file
+      requested — Publish's own CSS was winning that fight and
+      rendering it at ~599px, starving the center column.
+
+   Fix: stop fighting the overlay. Force the right column into
+   normal flex flow (position: relative) so the browser's flexbox
+   engine allocates its space the same way it does for the left
+   nav — which makes overlap structurally impossible, not just
+   unlikely — and use !important on both side columns since plain-
+   specificity rules were losing to Publish's own CSS.
+   ========================================================= */
+
+:root {
+  --mimir-left-column-width: 270px;
+  --mimir-right-column-width: 285px;
+  --mimir-article-max: 900px;
+}
+
+/* Keep the navigation comfortably narrow without crushing labels. */
+.site-body-left-column {
+  width: var(--mimir-left-column-width) !important;
+  min-width: var(--mimir-left-column-width) !important;
+  max-width: var(--mimir-left-column-width) !important;
+  flex: 0 0 var(--mimir-left-column-width) !important;
+}
+
+/* The middle pane must be allowed to shrink inside the remaining width.
+   min-width: 0 is especially important in flex layouts. */
+.site-body-center-column {
+  min-width: 0;
+  flex: 1 1 auto;
+  box-sizing: border-box;
+}
+
+/* Pull the TOC out of absolute-overlay mode and into normal flex flow.
+   With real flex siblings, the browser guarantees the center column
+   never renders underneath it — no reserve math required. */
+.site-body-right-column {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  width: var(--mimir-right-column-width) !important;
+  min-width: var(--mimir-right-column-width) !important;
+  max-width: var(--mimir-right-column-width) !important;
+  flex: 0 0 var(--mimir-right-column-width) !important;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* Long headings, links, code-like text, and TOC items should wrap instead
+   of extending beneath adjacent columns. */
+.site-body-center-column .markdown-preview-view h1,
+.site-body-center-column .markdown-preview-view h2,
+.site-body-center-column .markdown-preview-view h3,
+.site-body-center-column .markdown-preview-view h4,
+.site-body-center-column .markdown-preview-view p,
+.site-body-center-column .markdown-preview-view li,
+.site-body-center-column .markdown-preview-view a,
+.site-body-right-column .outline-tree-item-self,
+.site-body-right-column .outline-tree-item-inner {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* Keep preformatted content inside the article pane. */
+.site-body-center-column pre,
+.site-body-center-column table {
+  max-width: 100%;
+}
+
+.site-body-center-column pre {
+  overflow-x: auto;
+}
+
+.site-body-center-column .markdown-preview-view table {
+  display: block;
+  overflow-x: auto;
+}
+
+/* TOC spacing and readability */
+.site-body-right-column .outline-view-outer {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.site-body-right-column .outline-tree-item-self {
+  line-height: 1.35;
+}
+
+.site-body-right-column .outline-tree-item-inner {
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+
+/* Center the article inside whatever room flexbox actually gave the
+   center column. No fixed margin-left here — margin-inline: auto is
+   the only thing that reliably centers a box. */
+@media (min-width: 1181px) {
+  .site-body-center-column .markdown-preview-sizer,
+  .site-body-center-column .markdown-preview-view .markdown-preview-sizer {
+    box-sizing: border-box;
+    width: min(100%, var(--mimir-article-max));
+    max-width: var(--mimir-article-max);
+    margin-inline: auto;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+  }
+}
+
+@media (min-width: 1700px) {
+  :root {
+    --mimir-right-column-width: 300px;
+    --mimir-article-max: 1040px;
+  }
+}
+
+@media (min-width: 2200px) {
+  :root {
+    --mimir-right-column-width: 320px;
+    --mimir-article-max: 1160px;
+  }
+}
+
+/* Slightly tighter heading scale prevents long titles from feeling
+   cramped beside the outline on desktop. */
+@media (min-width: 1181px) and (max-width: 1699px) {
+  .markdown-preview-view h1 {
+    font-size: clamp(2rem, 2.35vw, 2.55rem);
+  }
+}
+
+/* Below desktop width, hide the TOC and let the article use the pane. */
+@media (max-width: 1180px) {
+  .site-body-right-column {
+    display: none !important;
+  }
+
+  .site-body-center-column .markdown-preview-sizer,
+  .site-body-center-column .markdown-preview-view .markdown-preview-sizer {
+    box-sizing: border-box;
+    width: min(100%, 860px);
+    max-width: min(100%, 860px);
+    margin-inline: auto;
+  }
+}
+
+/* Mobile/tablet: let Obsidian's native drawer behavior take over. */
+@media (max-width: 750px) {
+  .site-body-left-column {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    flex: initial !important;
+  }
+
+  .site-body-center-column {
+    width: 100%;
+  }
+}
+
+/* Guard rails for content that commonly causes horizontal overflow. */
+.site-body-center-column .markdown-preview-view,
+.site-body-center-column .markdown-preview-sizer,
+.site-body-center-column .markdown-preview-section {
+  min-width: 0;
+}
+
+.site-body-center-column .markdown-preview-view img,
+.site-body-center-column .markdown-preview-view video,
+.site-body-center-column .markdown-preview-view iframe {
+  max-width: 100%;
+}
+
+.site-body-center-column .markdown-preview-view pre,
+.site-body-center-column .markdown-preview-view code,
+.site-body-center-column .markdown-preview-view table {
+  min-width: 0;
+}
+
+/* =========================================================
+   19. HOME PAGE HERO
+   Scoped via :has(.internal-embed[src="..."]) — the note embeds
+   mimirs-well-background.jpg once, so "the view containing that
+   embed" reliably means "the home page" without needing a separate
+   marker. This replaces an earlier attempt using frontmatter
+   `cssclass: mimir-home`, which turned out not to be supported by
+   Obsidian Publish's renderer at all (confirmed by inspecting the
+   live DOM — the class never appeared anywhere on the page), so
+   every rule scoped to it was silently dead. Everything else on the
+   site stays at the calmer, site-wide intensity so the motif never
+   fights the reading experience on regular content pages.
+   ========================================================= */
+
+/* The hero photo is a night scene — it never becomes "light," so it
+   fundamentally conflicts with light mode's dark-text-on-light-bg
+   design (confirmed by seeing it: dark ink text over a dark photo is
+   unreadable, and the blockquote's white card looks like a mismatched
+   popup floating on the art). Rather than force a "dark island" onto
+   an otherwise light page, the photo only shows in dark mode; light
+   mode falls back to a plain page like every other note. */
+body.theme-dark .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) {
+  position: relative;
+  z-index: 0;
+}
+
+/* Lives on an absolutely positioned ::before band across just the top
+   of the page, not the whole scrolling height, so it reads as a
+   banner rather than a texture tiled behind the "Enter the Well"
+   lists further down. z-index: 0 on the view element (above) gives
+   this its own contained stacking context, so the ::before's
+   z-index: -1 only reaches behind THIS page's own content — it can't
+   interfere with the sitewide ripple layer (body::before) or anything
+   else. The gradient fades the photo into var(--mimir-bg) at the
+   bottom edge so the transition into regular content is seamless, and
+   darkens the top so the title/quote text stays readable over it. */
+body.theme-dark .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"])::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 640px;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(10, 14, 13, 0.32) 0%,
+      rgba(10, 14, 13, 0.62) 60%,
+      var(--mimir-bg) 97%
+    ),
+    url("https://publish-01.obsidian.md/access/92cc5df93e022a6c2f088c90a12ae5ac/_site-assets/mimirs-well-background.jpg");
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 750px) {
+  body.theme-dark .markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"])::before {
+    height: 380px;
+    background-position: center 22%;
+  }
+}
+
+/* Let the title's accent line span the full measure here instead of
+   the small 78px mark used on regular content pages. */
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) h1:first-of-type::after {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--mimir-gold),
+    var(--mimir-water) 45%,
+    transparent 90%
+  );
+}
+
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) h1:first-of-type::before {
+  font-size: 0.85em;
+  opacity: 0.9;
+}
+
+/* The opening epigraph gets a soft gold halo, like a page an old
+   book naturally falls open to. */
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) blockquote {
+  box-shadow: 0 0 46px 6px rgba(184, 154, 98, 0.12);
+}
+
+.markdown-preview-view:has(.internal-embed[src="mimirs-well-background.jpg"]) blockquote::before {
+  font-size: 4.2rem;
+  opacity: calc(var(--mimir-rune-opacity) + 0.05);
+}

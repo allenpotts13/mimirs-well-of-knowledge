@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Employees With More Than 5 Years of Service
   - DATEDIFF Filtering
+publish: true
 ---
 
-# 🧩 Filtering Employees by Length of Tenure
+# <span class="rune">ᚲ</span> Filtering Employees by Length of Tenure
 
 > *Use `DATEDIFF()` to measure the number of days between a stored date and today, then filter on that duration.*
 

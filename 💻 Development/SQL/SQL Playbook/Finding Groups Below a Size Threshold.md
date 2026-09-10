@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Departments With Fewer Than N Employees
   - Small Group Filtering
+publish: true
 ---
 
-# 🧩 Finding Groups Below a Size Threshold
+# <span class="rune">ᚲ</span> Finding Groups Below a Size Threshold
 
 > *First identify which groups satisfy a size condition with `GROUP BY ... HAVING`, then pull back every individual row that belongs to those groups.*
 

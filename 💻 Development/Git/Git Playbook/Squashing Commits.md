@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,9 +13,10 @@ aliases:
   - Squash Commits
   - git merge --squash
   - Combining Commits
+publish: true
 ---
 
-# 📚 Squashing Commits
+# <span class="rune">ᛟ</span> Squashing Commits
 
 > *Squashing takes several commits and folds them into one — trading the messy, real-time story of how you got somewhere for a single, clean statement of what actually changed.*
 

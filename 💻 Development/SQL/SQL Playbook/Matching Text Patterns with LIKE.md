@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
   - string-matching
 aliases:
   - Ends-with pattern matching
+publish: true
 ---
 
-# 🧩 Matching Text Patterns with LIKE
+# <span class="rune">ᚲ</span> Matching Text Patterns with LIKE
 
 > *Match text by shape using LIKE's wildcard characters.*
 

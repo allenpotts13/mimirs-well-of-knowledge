@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -12,9 +12,10 @@ tags:
 aliases:
   - ACID
   - BEGIN COMMIT ROLLBACK
+publish: true
 ---
 
-# 📚 Transactions
+# <span class="rune">ᛟ</span> Transactions
 
 > Groups multiple statements into a single all-or-nothing unit of work.
 

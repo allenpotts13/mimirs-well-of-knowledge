@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -13,9 +13,10 @@ aliases:
   - Power BI Bookmarks
   - Drill-Through
   - Drillthrough
+publish: true
 ---
 
-# 📚 Bookmarks and Drill-Through
+# <span class="rune">ᛟ</span> Bookmarks and Drill-Through
 
 > Two different tools for report navigation — one snapshots a view's current state, the other jumps to a filtered detail page based on what was clicked.
 

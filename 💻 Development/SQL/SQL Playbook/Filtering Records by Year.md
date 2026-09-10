@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Employees Who Joined in 2020
   - Filtering Dates by Year
+publish: true
 ---
 
-# 🧩 Filtering Records by Year
+# <span class="rune">ᚲ</span> Filtering Records by Year
 
 > *Return records whose date falls within a specific calendar year.*
 

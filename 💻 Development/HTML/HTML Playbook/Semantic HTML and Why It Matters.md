@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Semantic Markup
   - Why Semantic HTML Matters
+publish: true
 ---
 
-# 📚 Semantic HTML and Why It Matters
+# <span class="rune">ᛟ</span> Semantic HTML and Why It Matters
 
 > *Choosing an element for what it means, not just how it looks, is what lets browsers, screen readers, and search engines understand your page instead of just rendering it.*
 
@@ -140,7 +141,7 @@ My rule of thumb when choosing a tag: **ask what the content *is*, not what it s
 
 ## 🔗 Related Notes
 
-- [[Accessibility Basics: alt Text, Labels, and ARIA]] — semantic HTML is the foundation ARIA is meant to supplement, not replace
-- [[Semantic Sectioning Elements: header, nav, main, article, section, aside, footer]] — the specific vocabulary for page structure
-- [[Buttons vs Links: button vs a]] — the most common semantic-choice mistake in everyday markup
-- [[div and span: Generic Containers and When to Avoid Them]] — the deliberate, correct use of the two non-semantic elements
+- [[Accessibility Basics - alt Text, Labels, and ARIA]] — semantic HTML is the foundation ARIA is meant to supplement, not replace
+- [[Semantic Sectioning Elements - header, nav, main, article, section, aside, footer]] — the specific vocabulary for page structure
+- [[Buttons vs Links - button vs a]] — the most common semantic-choice mistake in everyday markup
+- [[div and span - Generic Containers and When to Avoid Them]] — the deliberate, correct use of the two non-semantic elements

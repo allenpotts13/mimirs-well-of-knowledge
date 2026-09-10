@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
   - sql-server
 aliases:
   - FOR XML AUTO
+publish: true
 ---
 
-# 🧩 Exporting Query Results as XML
+# <span class="rune">ᚲ</span> Exporting Query Results as XML
 
 > *Shape a result set directly into XML using SQL Server's FOR XML clause.*
 

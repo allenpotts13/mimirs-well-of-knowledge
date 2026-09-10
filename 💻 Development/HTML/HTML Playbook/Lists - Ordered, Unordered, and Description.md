@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -12,9 +12,10 @@ tags:
 aliases:
   - ol ul dl
   - Description Lists
+publish: true
 ---
 
-# 📚 Lists: Ordered, Unordered, and Description
+# <span class="rune">ᛟ</span> Lists: Ordered, Unordered, and Description
 
 > *Choosing between `<ol>` and `<ul>` is a decision about meaning — whether sequence matters — not about which bullet style you'd prefer to look at.*
 

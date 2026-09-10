@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - Three-Valued Logic
   - IS NULL
+publish: true
 ---
 
-# 📚 NULL and Three-Valued Logic
+# <span class="rune">ᛟ</span> NULL and Three-Valued Logic
 
 > NULL means "unknown," not "empty" or "zero" — and that single distinction breaks a lot of intuitive-looking SQL.
 

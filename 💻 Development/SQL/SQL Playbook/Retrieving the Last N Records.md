@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -14,9 +14,10 @@ aliases:
   - Last 10 Records
   - Most Recent Records
   - Retrieving Recent Rows
+publish: true
 ---
 
-# 🧩 Retrieving the Last N Records
+# <span class="rune">ᚲ</span> Retrieving the Last N Records
 
 > *Sort records by a column that defines sequence or recency and limit the result to the desired number of rows.*
 

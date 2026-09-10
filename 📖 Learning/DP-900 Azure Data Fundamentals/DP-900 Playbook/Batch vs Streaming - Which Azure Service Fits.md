@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -12,9 +12,10 @@ tags:
   - data-factory
 aliases:
   - Batch vs Streaming
+publish: true
 ---
 
-# 🧩 Batch vs Streaming - Which Azure Service Fits
+# <span class="rune">ᚲ</span> Batch vs Streaming - Which Azure Service Fits
 
 > *Latency requirement in the scenario tells you which family of services to reach for.*
 

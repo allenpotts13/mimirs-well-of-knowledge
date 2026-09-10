@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -12,9 +12,10 @@ aliases:
   - NOT NULL
   - UNIQUE Constraint
   - CHECK Constraint
+publish: true
 ---
 
-# 📚 Constraints
+# <span class="rune">ᛟ</span> Constraints
 
 > Rules attached to a column or table that the database enforces on every insert and update, no exceptions.
 

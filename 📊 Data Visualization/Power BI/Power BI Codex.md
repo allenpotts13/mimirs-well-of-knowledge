@@ -1,4 +1,9 @@
-# 📊 Power BI
+---
+publish: true
+status: published
+---
+
+# <span class="rune">ᛞ</span> Power BI
 
 > "The chart is the last five percent. The model underneath it is the other ninety-five."
 

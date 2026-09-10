@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -15,9 +15,10 @@ aliases:
   - Microsoft Entra ID
   - Azure RBAC
   - Zero Trust
+publish: true
 ---
 
-# 📚 Identity, Access, and Security
+# <span class="rune">ᛟ</span> Identity, Access, and Security
 
 > *Knowing who someone is (authentication), deciding what they're allowed to touch (authorization), and assuming every request is hostile until proven otherwise (Zero Trust).*
 

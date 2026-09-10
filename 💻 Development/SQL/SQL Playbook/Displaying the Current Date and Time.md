@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-02
 updated: 2026-08-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
 aliases:
   - Current Timestamp
   - Getting the Current Date and Time
+publish: true
 ---
 
-# 🧩 Displaying the Current Date and Time
+# <span class="rune">ᚲ</span> Displaying the Current Date and Time
 
 > *Return the database system's current date and time.*
 

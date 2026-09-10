@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -13,9 +13,10 @@ aliases:
   - Employees by Manager
   - Direct Reports
   - Find Employees by Manager
+publish: true
 ---
 
-# 🧩 Find All Employees Who Report to a Specific Manager
+# <span class="rune">ᚲ</span> Find All Employees Who Report to a Specific Manager
 
 > *A reusable SQL solution for finding employees who report directly to a specific manager.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,9 +13,10 @@ aliases:
   - force-with-lease
   - Safe Force Push
   - git push --force-with-lease
+publish: true
 ---
 
-# 📚 Force-Pushing Safely with --force-with-lease
+# <span class="rune">ᛟ</span> Force-Pushing Safely with --force-with-lease
 
 > *`--force-with-lease` force-pushes only if the remote branch still looks the way it did the last time you fetched it — turning a blind overwrite into a checked one.*
 
@@ -138,5 +139,5 @@ I think of `--force-with-lease` as Git asking "are you sure nothing changed sinc
 ## 🔗 Related Notes
 
 - [[Interactive Rebase for Cleaning Up History]] — the most common legitimate reason you'll need to force-push at all
-- [[Working with Remotes: fetch, pull, and push]] — the fetch/push mechanics that the lease check relies on
+- [[Working with Remotes - fetch, pull, and push]] — the fetch/push mechanics that the lease check relies on
 - [[Rebasing vs Merging]] — background on why rebasing rewrites history and merging doesn't

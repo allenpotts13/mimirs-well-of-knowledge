@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,9 +12,10 @@ tags:
 aliases:
   - VAR RETURN
   - DAX Variables
+publish: true
 ---
 
-# 🧩 Simplifying DAX with Variables
+# <span class="rune">ᚲ</span> Simplifying DAX with Variables
 
 > Name intermediate results instead of repeating the same subexpression — the single easiest habit to make complex DAX readable and faster.
 

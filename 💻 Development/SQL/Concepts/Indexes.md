@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: SQL
@@ -11,9 +11,10 @@ tags:
 aliases:
   - Database Indexes
   - B-Tree Index
+publish: true
 ---
 
-# 📚 Indexes
+# <span class="rune">ᛟ</span> Indexes
 
 > A lookup structure that lets the database jump straight to matching rows instead of scanning the whole table.
 

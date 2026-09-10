@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -15,9 +15,10 @@ aliases:
   - Finding Inactive Groups
   - Departments With No Recent Hires
   - Detecting Stale Groups
+publish: true
 ---
 
-# 🧩 Finding Groups With No Recent Activity
+# <span class="rune">ᚲ</span> Finding Groups With No Recent Activity
 
 > *Use `MAX()` on a date column with `HAVING` to find groups whose most recent activity is older than a cutoff.*
 

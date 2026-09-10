@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Self-Join Pattern
   - Comparing a Row to Its Related Row
+publish: true
 ---
 
-# 🧩 Comparing Related Rows With a Self-Join
+# <span class="rune">ᚲ</span> Comparing Related Rows With a Self-Join
 
 > *Join a table to itself, aliased as two different roles, to compare each row against another related row in the same table.*
 

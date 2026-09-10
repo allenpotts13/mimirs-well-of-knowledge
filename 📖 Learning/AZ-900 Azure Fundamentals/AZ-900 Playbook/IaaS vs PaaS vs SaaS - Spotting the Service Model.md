@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -11,9 +11,10 @@ tags:
   - service-models
 aliases:
   - Service Model Recognition
+publish: true
 ---
 
-# 🧩 IaaS vs PaaS vs SaaS - Spotting the Service Model
+# <span class="rune">ᚲ</span> IaaS vs PaaS vs SaaS - Spotting the Service Model
 
 > *What are you responsible for managing in this scenario? That's the whole question.*
 

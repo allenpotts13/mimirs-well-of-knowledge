@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
   - right
 aliases:
   - LEFT and RIGHT string functions
+publish: true
 ---
 
-# 🧩 Comparing the First and Last Character of a String
+# <span class="rune">ᚲ</span> Comparing the First and Last Character of a String
 
 > *Pull single characters off either end of a string with LEFT() and RIGHT() to compare them.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -13,9 +13,10 @@ aliases:
   - Submodules
   - git submodule
   - Nested Repositories
+publish: true
 ---
 
-# 📚 Git Submodules
+# <span class="rune">ᛟ</span> Git Submodules
 
 > *A submodule embeds another Git repository inside your repository, pinned to one exact commit — not a branch, not "latest" — so your project's history always knows precisely which version of that dependency it was built against.*
 
@@ -145,5 +146,5 @@ Submodules are one of the few Git features where I actively recommend pausing to
 
 ## 🔗 Related Notes
 
-- [[Working with Remotes: fetch, pull, and push]] — submodules have their own independent remotes that need the same fetch/pull discipline
+- [[Working with Remotes - fetch, pull, and push]] — submodules have their own independent remotes that need the same fetch/pull discipline
 - [[Understanding the Three Trees]] — helpful background for understanding what a gitlink actually is in the parent repo's tree

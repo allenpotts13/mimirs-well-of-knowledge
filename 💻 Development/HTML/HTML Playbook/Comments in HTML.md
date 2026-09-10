@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: HTML
@@ -12,9 +12,10 @@ tags:
 aliases:
   - HTML Comment Syntax
   - "<!-- -->"
+publish: true
 ---
 
-# 📚 Comments in HTML
+# <span class="rune">ᛟ</span> Comments in HTML
 
 > *`<!-- -->` hides text from the rendered page, but not from anyone who views the source — comments are for notes to fellow developers, never for secrets.*
 

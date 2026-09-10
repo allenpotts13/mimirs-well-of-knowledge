@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -12,9 +12,10 @@ tags:
 aliases:
   - Power Query
   - M Language
+publish: true
 ---
 
-# 📚 Power Query (M) Basics
+# <span class="rune">ᛟ</span> Power Query (M) Basics
 
 > Power BI's ETL layer — clean, reshape, and combine data before it ever reaches the data model, using a point-and-click editor that writes M code behind the scenes.
 

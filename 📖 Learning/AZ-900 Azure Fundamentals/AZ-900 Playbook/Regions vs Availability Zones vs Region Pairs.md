@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -12,9 +12,10 @@ tags:
   - resilience
 aliases:
   - Azure Physical Structure
+publish: true
 ---
 
-# 🧩 Regions vs Availability Zones vs Region Pairs
+# <span class="rune">ᚲ</span> Regions vs Availability Zones vs Region Pairs
 
 > *Three different scopes of "spread things out so one failure doesn't take everything down" — the exam wants the right scope for the right threat.*
 

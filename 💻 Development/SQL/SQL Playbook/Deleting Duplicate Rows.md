@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-11
 updated: 2026-08-11
 technology: SQL
@@ -14,9 +14,10 @@ tags:
 aliases:
   - Delete Duplicate Records
   - Removing Duplicate Rows
+publish: true
 ---
 
-# 🧩 Deleting Duplicate Rows
+# <span class="rune">ᚲ</span> Deleting Duplicate Rows
 
 > *Identify duplicate records with `ROW_NUMBER()` and remove the unwanted copies while preserving one record from each duplicate group.*
 

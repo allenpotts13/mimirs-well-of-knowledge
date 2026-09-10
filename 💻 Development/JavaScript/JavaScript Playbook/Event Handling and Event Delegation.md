@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -15,9 +15,10 @@ aliases:
   - addEventListener
   - Event Bubbling
   - Event Capturing
+publish: true
 ---
 
-# 📚 Event Handling and Event Delegation
+# <span class="rune">ᛟ</span> Event Handling and Event Delegation
 
 > *Event handling is how JavaScript responds to things happening on a page, and event delegation is a technique that lets one listener on a parent element handle events for all of its children — including ones that don't exist yet.*
 

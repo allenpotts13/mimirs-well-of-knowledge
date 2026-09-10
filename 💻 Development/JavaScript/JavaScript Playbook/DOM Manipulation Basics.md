@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: JavaScript
@@ -14,9 +14,10 @@ aliases:
   - DOM
   - Document Object Model
   - querySelector
+publish: true
 ---
 
-# 📚 DOM Manipulation Basics
+# <span class="rune">ᛟ</span> DOM Manipulation Basics
 
 > *The DOM is the live, in-memory tree representation of a webpage's HTML that JavaScript can read and rewrite, and DOM manipulation is the set of methods used to do that.*
 

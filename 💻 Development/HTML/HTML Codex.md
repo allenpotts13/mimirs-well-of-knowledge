@@ -1,4 +1,9 @@
-# 📄 HTML
+---
+publish: true
+status: published
+---
+
+# <span class="rune">ᛁ</span> HTML
 
 > "Semantic markup is a message to every future reader of the DOM — including screen readers and search engines."
 

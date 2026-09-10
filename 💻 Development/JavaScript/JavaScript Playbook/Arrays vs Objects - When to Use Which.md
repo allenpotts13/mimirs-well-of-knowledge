@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,9 +14,10 @@ aliases:
   - "Arrays vs Objects: When to Use Which"
   - Choosing Between Arrays and Objects
   - Data Structure Selection
+publish: true
 ---
 
-# 📚 Arrays vs Objects: When to Use Which
+# <span class="rune">ᛟ</span> Arrays vs Objects: When to Use Which
 
 > *Arrays are ordered, indexed collections built for lists where position matters; objects are keyed collections built for data where named properties matter more than position.*
 

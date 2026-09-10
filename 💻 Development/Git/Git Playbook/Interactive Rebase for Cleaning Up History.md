@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,9 +14,10 @@ aliases:
   - git rebase -i
   - Interactive Rebase
   - Squash and Fixup
+publish: true
 ---
 
-# 📚 Interactive Rebase for Cleaning Up History
+# <span class="rune">ᛟ</span> Interactive Rebase for Cleaning Up History
 
 > *Interactive rebase is a scripted rewrite of your own recent commits — a chance to edit the story of your work before anyone else has to read it.*
 

@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -11,9 +11,10 @@ tags:
   - where
   - data-cleaning
 aliases:
+publish: true
 ---
 
-# 🧩 Delete All Employees from a Department
+# <span class="rune">ᚲ</span> Delete All Employees from a Department
 
 > *A reusable SQL solution for deleting all employees belonging to a specific department.*
 

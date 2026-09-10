@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - CSS Grid
   - display grid
   - Grid Layout
+publish: true
 ---
 
-# 📚 CSS Grid Layout Fundamentals
+# <span class="rune">ᛟ</span> CSS Grid Layout Fundamentals
 
 > *CSS Grid is a two-dimensional layout system that lets you define rows and columns at the same time and place items precisely into that structure — the tool flexbox was never designed to be.*
 
@@ -166,4 +167,4 @@ My rule of thumb after years of both: if you're laying out a *page* or a *compon
 - [[Flexbox Layout Fundamentals]] — the one-dimensional counterpart; grid and flexbox are complementary, not competing, tools
 - [[The Box Model]] — grid items still obey normal box-model sizing rules within their assigned track
 - [[Responsive Design with Media Queries]] — `auto-fill`/`minmax()` grids often reduce how many media queries a responsive layout needs
-- [[CSS Units: px, em, rem, %, and vw/vh]] — the `fr` unit is grid-specific and behaves differently from any of these, worth contrasting directly
+- [[CSS Units - px, em, rem, %, and vw-vh]] — the `fr` unit is grid-specific and behaves differently from any of these, worth contrasting directly

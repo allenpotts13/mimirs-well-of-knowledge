@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
 aliases:
   - IS NULL
   - Finding missing values
+publish: true
 ---
 
-# 🧩 Filtering Rows With a NULL Column
+# <span class="rune">ᚲ</span> Filtering Rows With a NULL Column
 
 > *Test for missing values the only way SQL actually allows: IS NULL.*
 

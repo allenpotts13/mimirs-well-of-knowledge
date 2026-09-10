@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -12,9 +12,10 @@ tags:
 aliases:
   - CONCAT function
   - Building a formatted string column
+publish: true
 ---
 
-# 🧩 Combining Columns Into One String with CONCAT
+# <span class="rune">ᚲ</span> Combining Columns Into One String with CONCAT
 
 > *Stitch multiple columns and literal text together into one readable string.*
 

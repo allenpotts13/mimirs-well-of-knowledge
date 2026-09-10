@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
   - aggregation
 aliases:
   - Basic SUM Measure
+publish: true
 ---
 
-# 🧩 Creating a Basic Measure with SUM
+# <span class="rune">ᚲ</span> Creating a Basic Measure with SUM
 
 > The first measure almost everyone writes, and the template every other aggregation measure builds on.
 

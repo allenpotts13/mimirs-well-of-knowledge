@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -13,9 +13,10 @@ tags:
 aliases:
   - NoSQL on Azure
   - Cosmos DB
+publish: true
 ---
 
-# 📚 Non-Relational Data on Azure
+# <span class="rune">ᛟ</span> Non-Relational Data on Azure
 
 > *Four NoSQL shapes, one multi-model database that speaks all of them, and a storage account with four different personalities.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-06
 technology: JavaScript
@@ -14,9 +14,10 @@ aliases:
   - "JSON: Parsing and Stringifying"
   - JSON.parse
   - JSON.stringify
+publish: true
 ---
 
-# 📚 JSON: Parsing and Stringifying
+# <span class="rune">ᛟ</span> JSON: Parsing and Stringifying
 
 > *`JSON.stringify()` turns a JavaScript value into a JSON text string; `JSON.parse()` turns a JSON text string back into a JavaScript value — and the two are not always perfect mirror images of each other.*
 

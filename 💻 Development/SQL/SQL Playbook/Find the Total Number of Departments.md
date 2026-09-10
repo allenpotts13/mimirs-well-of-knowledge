@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -12,9 +12,10 @@ tags:
 aliases:
   - Count Departments
   - Number of Departments
+publish: true
 ---
 
-# 🧩 Find the Total Number of Departments
+# <span class="rune">ᚲ</span> Find the Total Number of Departments
 
 > *A reusable SQL solution for counting unique departments represented in a table.*
 

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,9 +14,10 @@ tags:
 aliases:
   - Detached HEAD
   - What is HEAD in Git
+publish: true
 ---
 
-# 📚 Understanding HEAD and Detached HEAD State
+# <span class="rune">ᛟ</span> Understanding HEAD and Detached HEAD State
 
 > *HEAD is just a pointer to "where you currently are" in the commit graph — normally it points at a branch name, which points at a commit, but you can also point it straight at a commit, and that one change explains an entire category of "wait, where did my commits go?" panic.*
 
@@ -166,4 +167,4 @@ The single habit that makes detached HEAD stop being scary: the instant you make
 - [[Recovering Lost Commits with the Reflog]] — the safety net if you already switched away and lost track of a detached-HEAD commit
 - [[Understanding the Three Trees]] — background on commits and pointers that this note builds on
 - [[Branching with git branch and git switch]] — the normal, attached-HEAD branching workflow this note contrasts against
-- [[Undoing Changes: checkout, restore, and reset]] — `checkout`'s dual role (branches vs files) is part of why detached HEAD confuses people coming from older Git habits
+- [[Undoing Changes - checkout, restore, and reset]] — `checkout`'s dual role (branches vs files) is part of why detached HEAD confuses people coming from older Git habits

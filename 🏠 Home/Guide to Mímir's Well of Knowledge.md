@@ -1,3 +1,8 @@
+---
+publish: false
+status: private
+---
+
 # Guide to Mímir's Well of Knowledge
 
 > *"Wisdom is earned through experience. Knowledge is preserved through discipline."*

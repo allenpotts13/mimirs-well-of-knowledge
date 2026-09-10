@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Is This Table Empty
   - EXISTS Existence Check
+publish: true
 ---
 
-# 🧩 Checking Whether a Table Is Empty
+# <span class="rune">ᚲ</span> Checking Whether a Table Is Empty
 
 > *Use `EXISTS` to ask "is there at least one row?" instead of counting every row to find out.*
 

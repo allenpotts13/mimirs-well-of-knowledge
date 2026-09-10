@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - CSS Reset
   - normalize.css
   - Modern CSS Reset
+publish: true
 ---
 
-# 📚 CSS Reset vs Normalize
+# <span class="rune">ᛟ</span> CSS Reset vs Normalize
 
 > *Every browser ships its own opinionated default stylesheet, and before you write a single line of your own CSS you have to decide whether to strip those defaults to zero (reset) or just make them consistent (normalize).*
 

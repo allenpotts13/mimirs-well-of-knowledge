@@ -1,6 +1,6 @@
 ---
 type: exam-scenario
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -12,9 +12,10 @@ tags:
   - core-concepts
 aliases:
   - OLTP vs OLAP Recognition
+publish: true
 ---
 
-# 🧩 Spotting OLTP vs OLAP in a Scenario
+# <span class="rune">ᚲ</span> Spotting OLTP vs OLAP in a Scenario
 
 > *The most repeated pattern-match on the exam, dressed up in a dozen different wordings.*
 

@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Conditional UPDATE with CASE
   - Give Different Raises by Department
+publish: true
 ---
 
-# 🧩 Updating Values Conditionally with CASE
+# <span class="rune">ᚲ</span> Updating Values Conditionally with CASE
 
 > *Use a `CASE` expression inside `UPDATE ... SET` to apply different values to different rows in a single statement.*
 

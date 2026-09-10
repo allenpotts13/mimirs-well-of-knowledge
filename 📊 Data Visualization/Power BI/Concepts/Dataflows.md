@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
   - architecture
 aliases:
   - Power BI Dataflow
+publish: true
 ---
 
-# 📚 Dataflows
+# <span class="rune">ᛟ</span> Dataflows
 
 > Power Query transformations, moved out of individual reports and into a shared, reusable, cloud-hosted layer that many datasets can pull from.
 

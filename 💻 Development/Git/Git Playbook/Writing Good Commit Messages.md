@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: Git
@@ -14,9 +14,10 @@ aliases:
   - Commit Message Conventions
   - Conventional Commits
   - The 50/72 Rule
+publish: true
 ---
 
-# 📚 Writing Good Commit Messages
+# <span class="rune">ᛟ</span> Writing Good Commit Messages
 
 > *A commit message is a letter to the next person who has to understand why this change happened — and that person is usually you, six months from now, with no memory of today.*
 

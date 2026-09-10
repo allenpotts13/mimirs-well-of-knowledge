@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-02
 updated: 2026-09-02
 technology: CSS
@@ -14,9 +14,10 @@ aliases:
   - CSS Transitions
   - CSS Animations
   - "@keyframes"
+publish: true
 ---
 
-# 📚 Transitions and Animations
+# <span class="rune">ᛟ</span> Transitions and Animations
 
 > *`transition` smoothly animates a property change that's already triggered by something else (like `:hover`), while `@keyframes` + `animation` define a self-running, multi-step animation with no trigger needed at all.*
 
@@ -186,4 +187,4 @@ The question I ask myself before writing any animation is simple: "does this nee
 - [[The transform Property]] — the property most commonly paired with both transition and animation for performant motion
 - [[z-index and Stacking Contexts]] — animating opacity/transform creates a stacking context, worth knowing before layering animated elements
 - [[Pseudo-Classes and Pseudo-Elements]] — `:hover` and `:focus` are the most common transition triggers
-- [[Positioning: static, relative, absolute, fixed, and sticky]] — animating top/left requires positioning context and is the expensive path this note warns against
+- [[Positioning - static, relative, absolute, fixed, and sticky]] — animating top/left requires positioning context and is the expensive path this note warns against

@@ -1,6 +1,6 @@
 ---
 type: concept
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -10,9 +10,10 @@ tags:
   - dax
 aliases:
   - CALCULATE
+publish: true
 ---
 
-# 📚 The CALCULATE Function
+# <span class="rune">ᛟ</span> The CALCULATE Function
 
 > The single most powerful — and most important — function in DAX: it changes the filter context an expression is evaluated in.
 

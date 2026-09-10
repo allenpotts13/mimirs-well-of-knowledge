@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-12
 updated: 2026-08-12
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Names Starting With A
   - LIKE Prefix Search
+publish: true
 ---
 
-# 🧩 Finding Values That Start With a Pattern
+# <span class="rune">ᚲ</span> Finding Values That Start With a Pattern
 
 > *Use `LIKE` with the `%` wildcard to return text values that begin with a specified sequence.*
 

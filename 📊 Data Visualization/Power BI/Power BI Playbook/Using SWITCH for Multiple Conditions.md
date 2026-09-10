@@ -1,6 +1,6 @@
 ---
 type: dax-pattern
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Power BI
@@ -11,9 +11,10 @@ tags:
 aliases:
   - SWITCH
   - DAX CASE
+publish: true
 ---
 
-# 🧩 Using SWITCH for Multiple Conditions
+# <span class="rune">ᚲ</span> Using SWITCH for Multiple Conditions
 
 > DAX's cleaner alternative to a long chain of nested IF() statements — the equivalent of SQL's [[Bucketing Values Into Ranges With CASE|CASE expression]].
 

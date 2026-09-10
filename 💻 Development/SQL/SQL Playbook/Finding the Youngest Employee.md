@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Youngest Employee
   - Most Recent Birth Date
+publish: true
 ---
 
-# 🧩 Finding the Youngest Employee
+# <span class="rune">ᚲ</span> Finding the Youngest Employee
 
 > *Sort birth dates from most recent to oldest and return the first record.*
 

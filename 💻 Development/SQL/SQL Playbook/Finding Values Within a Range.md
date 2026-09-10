@@ -1,6 +1,6 @@
 ---
 type: query-pattern
-status: active
+status: published
 created: 2026-08-13
 updated: 2026-08-13
 technology: SQL
@@ -13,9 +13,10 @@ tags:
 aliases:
   - Salary Between Two Values
   - Range Filtering
+publish: true
 ---
 
-# 🧩 Finding Values Within a Range
+# <span class="rune">ᚲ</span> Finding Values Within a Range
 
 > *Use `BETWEEN` to filter values that fall within an inclusive lower and upper boundary.*
 

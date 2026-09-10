@@ -1,6 +1,6 @@
 ---
 type: study-plan
-status: active
+status: published
 created: 2026-09-10
 updated: 2026-09-10
 technology: Azure
@@ -9,9 +9,10 @@ tags:
   - study-plan
 aliases:
   - DP-900 Exam Info
+publish: true
 ---
 
-# 🗓 DP-900 Study Plan and Exam Info
+# <span class="rune">ᛃ</span> DP-900 Study Plan and Exam Info
 
 ---
 
