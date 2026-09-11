@@ -3,6 +3,7 @@ publish: true
 status: published
 type: landing
 permalink: home/the-well
+description: "Mímir's Well of Knowledge is my living technical knowledge base for development, data, cloud, and continuous learning."
 ---
 
 ![[mimirs-well-background.jpg]]

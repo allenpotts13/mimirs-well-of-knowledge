@@ -2,6 +2,7 @@
 publish: true
 status: published
 permalink: power-bi
+description: "Power BI data modeling, DAX, and Power Query — concepts paired with a task-oriented playbook of real measure patterns."
 ---
 
 # <span class="rune">ᛞ</span> Power BI

@@ -13,6 +13,7 @@ aliases:
   - AZ-900
 publish: true
 permalink: az-900-azure-fundamentals/az-900-codex
+description: "Study notes for Microsoft's AZ-900 Azure Fundamentals exam — cloud concepts, core architecture, identity, and governance."
 ---
 
 # <span class="rune">ᚱ</span> AZ-900: Microsoft Certified Azure Fundamentals

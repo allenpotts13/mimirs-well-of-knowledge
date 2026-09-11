@@ -2,6 +2,7 @@
 publish: true
 status: published
 permalink: javascript
+description: "JavaScript fundamentals, data structures, closures, async patterns, and DOM manipulation — the language beyond the basics."
 ---
 
 # <span class="rune">ᚾ</span> JavaScript
