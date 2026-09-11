@@ -2,6 +2,7 @@
 publish: true
 status: published
 permalink: git
+description: "Git workflows, branching and merging, rewriting history, and collaboration patterns — practical notes, not just theory."
 ---
 
 # <span class="rune">ᚦ</span> Git

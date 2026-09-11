@@ -3,6 +3,7 @@ publish: true
 status: published
 type: guide
 permalink: home/about-the-well
+description: "The philosophy behind Mímir's Well — why every note exists to preserve understanding, not just information, and how the vault is organized."
 ---
 
 # About the Well

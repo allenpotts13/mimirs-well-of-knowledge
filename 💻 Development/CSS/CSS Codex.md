@@ -2,6 +2,7 @@
 publish: true
 status: published
 permalink: css
+description: "CSS fundamentals, layout, responsive design, visual effects, and naming conventions — one focused note per concept."
 ---
 
 # <span class="rune">ᚹ</span> CSS

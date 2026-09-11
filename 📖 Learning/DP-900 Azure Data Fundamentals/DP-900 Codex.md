@@ -13,6 +13,7 @@ aliases:
   - DP-900
 publish: true
 permalink: dp-900-azure-data-fundamentals/dp-900-codex
+description: "Study notes for Microsoft's DP-900 Azure Data Fundamentals exam — relational and non-relational data, plus analytics workloads."
 ---
 
 # <span class="rune">ᚱ</span> DP-900: Azure Data Fundamentals

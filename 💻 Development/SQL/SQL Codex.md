@@ -2,6 +2,7 @@
 publish: true
 status: published
 permalink: sql
+description: "SQL concepts and a large library of task-oriented query patterns — joins, aggregation, ranking, and real troubleshooting scenarios."
 ---
 
 # <span class="rune">ᚢ</span> SQL

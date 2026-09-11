@@ -2,6 +2,7 @@
 publish: true
 status: published
 permalink: html
+description: "Semantic HTML, document structure, forms, media, and accessibility — the building blocks of markup done right."
 ---
 
 # <span class="rune">ᛁ</span> HTML

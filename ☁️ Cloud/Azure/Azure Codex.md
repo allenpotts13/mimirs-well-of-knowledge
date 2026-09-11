@@ -2,6 +2,7 @@
 publish: true
 status: published
 permalink: azure
+description: "Azure fundamentals and certification notes — AZ-900 and DP-900 exam prep, linked into the broader cloud knowledge base."
 ---
 
 # <span class="rune">ᚱ</span> Azure
