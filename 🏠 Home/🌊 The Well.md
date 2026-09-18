@@ -43,10 +43,14 @@ Explore cloud concepts and the Microsoft Azure ecosystem.
 - [[Azure Codex|Azure]]
 
 ### 📖 Learning Paths
-Structured study material built while preparing for Microsoft certifications.
+Structured study material built while preparing for industry certifications.
 
 - [[AZ-900 Codex|AZ-900 — Azure Fundamentals]]
 - [[DP-900 Codex|DP-900 — Azure Data Fundamentals]]
+- [[A+ Core 1 Codex|CompTIA A+ Core 1 (220-1201)]]
+- [[A+ Core 2 Codex|CompTIA A+ Core 2 (220-1202)]]
+- [[Network+ Codex|CompTIA Network+ (N10-009)]]
+- [[Security+ Codex|CompTIA Security+ (SY0-701)]]
 
 ### ⚡ Quick Reference
 Use the [[📚 Index|Knowledge Index]] to browse the wider collection of concepts, patterns, cheat sheets, and reference material.
