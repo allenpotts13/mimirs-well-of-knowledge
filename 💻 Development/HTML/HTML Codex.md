@@ -65,3 +65,9 @@ description: "Semantic HTML, document structure, forms, media, and accessibility
 ## ⚡ Reference
 
 - [[Common HTML elements]]
+
+---
+
+## ⚡ Cheat Sheet
+
+- [[HTML Cheat Sheet]] — dense one-page reference, organized by topic

@@ -31,6 +31,9 @@ Build a stronger foundation in programming, databases, source control, and web d
 - [[JavaScript Codex|JavaScript]]
 - [[HTML Codex|HTML]]
 - [[CSS Codex|CSS]]
+- [[PowerShell Codex|PowerShell]]
+- [[Java Codex|Java]]
+- [[Python Codex|Python]]
 
 ### 📊 Data & Visualization
 Explore data modeling, analytics, DAX, Power Query, and effective visualization.

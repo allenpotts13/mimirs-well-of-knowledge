@@ -57,3 +57,9 @@ description: "Git workflows, branching and merging, rewriting history, and colla
 
 - [[Common Git Workflows - Feature Branch, Trunk-Based, and Git Flow]]
 - [[Writing Good Commit Messages]]
+
+---
+
+## ⚡ Cheat Sheet
+
+- [[Git Cheat Sheet]] — dense one-page reference, organized by topic

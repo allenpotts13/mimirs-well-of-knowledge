@@ -58,3 +58,9 @@ description: "JavaScript fundamentals, data structures, closures, async patterns
 - [[Event Handling and Event Delegation]]
 - [[Debouncing and Throttling]]
 - [[Local Storage vs Session Storage]]
+
+---
+
+## ⚡ Cheat Sheet
+
+- [[JavaScript Cheat Sheet]] — dense one-page reference, organized by topic

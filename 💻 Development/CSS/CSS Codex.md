@@ -60,7 +60,13 @@ description: "CSS fundamentals, layout, responsive design, visual effects, and n
 
 ---
 
-## ⚡ Reference
+## 📎 Reference
 
 - [[Common CSS properties]]
 - [[CSS Colors]]
+
+---
+
+## ⚡ Cheat Sheet
+
+- [[CSS Cheat Sheet]] — dense one-page reference, organized by topic

@@ -13,6 +13,9 @@ permalink: home/index
 - [[JavaScript Codex]] — language fundamentals, async, DOM, browser APIs
 - [[CSS Codex]] — box model, layout, responsive design, conventions
 - [[HTML Codex]] — document structure, semantics, forms, accessibility
+- [[PowerShell Codex]] — language fundamentals, AD/networking/Windows cmdlets, troubleshooting playbook
+- [[Java Codex]] — language fundamentals, OOP, Collections Framework, generics, modern Java, JVM internals, concurrency
+- [[Python Codex]] — language fundamentals, OOP, Pythonic idioms, error handling, modules, standard library essentials
 
 ## Data Visualization
 
@@ -41,6 +44,13 @@ permalink: home/index
 
 - [[SQL Cheat Sheet]]
 - [[PostgreSQL Cheat Sheet]]
+- [[Git Cheat Sheet]]
+- [[JavaScript Cheat Sheet]]
+- [[HTML Cheat Sheet]]
+- [[CSS Cheat Sheet]]
+- [[PowerShell Cheat Sheet]]
+- [[Java Cheat Sheet]]
+- [[Python Cheat Sheet]]
 - [[Power BI Cheat Sheet]]
 - [[AZ-900 Cheat Sheet]]
 - [[DP-900 Cheat Sheet]]
