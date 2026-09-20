@@ -79,6 +79,12 @@ description: "Python fundamentals, OOP, Pythonic idioms, error handling, modules
 
 ---
 
+## 📊 Data Analyst Reference
+
+- [[Python Data Analyst Reference]] — the 30 pandas functions every data analyst should know
+
+---
+
 ## 🔗 Related Notes
 
 - [[Java Codex]]

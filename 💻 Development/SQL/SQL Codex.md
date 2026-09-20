@@ -152,6 +152,12 @@ Task-oriented, one pattern per note. This is the bulk of the SQL knowledge base.
 
 ---
 
+## 📊 Data Analyst Reference
+
+- [[SQL Data Analyst Reference]]
+
+---
+
 ## 🚀 Related Projects
 
 - Inventory App

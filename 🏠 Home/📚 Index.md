@@ -13,7 +13,6 @@ permalink: home/index
 - [[JavaScript Codex]] — language fundamentals, async, DOM, browser APIs
 - [[CSS Codex]] — box model, layout, responsive design, conventions
 - [[HTML Codex]] — document structure, semantics, forms, accessibility
-- [[PowerShell Codex]] — language fundamentals, AD/networking/Windows cmdlets, troubleshooting playbook
 - [[Java Codex]] — language fundamentals, OOP, Collections Framework, generics, modern Java, JVM internals, concurrency
 - [[Python Codex]] — language fundamentals, OOP, Pythonic idioms, error handling, modules, standard library essentials
 
@@ -25,11 +24,17 @@ permalink: home/index
 
 - [[Azure Codex]] — Azure certification study guides (AZ-900, DP-900)
 
+## Microsoft
+
+- [[Excel Codex]] — the 30 formulas and functions every data analyst should know
+
 ## Infrastructure
 
 ## Projects
 
 ## Troubleshooting
+
+- [[PowerShell Codex]] — language fundamentals, AD/networking/Windows cmdlets, troubleshooting playbook
 
 ## Learning
 
@@ -58,3 +63,10 @@ permalink: home/index
 - [[A+ Core 2 Cheat Sheet]]
 - [[Network+ Cheat Sheet]]
 - [[Security+ Cheat Sheet]]
+
+## Data Analyst Quick Reference
+
+- [[Excel Data Analyst Reference]]
+- [[SQL Data Analyst Reference]]
+- [[Power BI Data Analyst Reference]]
+- [[Python Data Analyst Reference]]

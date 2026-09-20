@@ -82,6 +82,12 @@ Task-oriented, one pattern per note.
 
 ---
 
+## 📊 Data Analyst Reference
+
+- [[Power BI Data Analyst Reference]]
+
+---
+
 ## 🔗 Related Notes
 
 - [[DP-900 Codex]] — the certification angle on Power BI, condensed for exam scenarios

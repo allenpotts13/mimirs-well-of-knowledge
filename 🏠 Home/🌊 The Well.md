@@ -31,7 +31,6 @@ Build a stronger foundation in programming, databases, source control, and web d
 - [[JavaScript Codex|JavaScript]]
 - [[HTML Codex|HTML]]
 - [[CSS Codex|CSS]]
-- [[PowerShell Codex|PowerShell]]
 - [[Java Codex|Java]]
 - [[Python Codex|Python]]
 
@@ -44,6 +43,16 @@ Explore data modeling, analytics, DAX, Power Query, and effective visualization.
 Explore cloud concepts and the Microsoft Azure ecosystem.
 
 - [[Azure Codex|Azure]]
+
+### 🪟 Microsoft
+Reference material for everyday Microsoft tools and applications.
+
+- [[Excel Codex|Excel]]
+
+### 🚑 Troubleshooting
+Task-oriented scripting and diagnostics for real-world support and operations work.
+
+- [[PowerShell Codex|PowerShell]]
 
 ### 📖 Learning Paths
 Structured study material built while preparing for industry certifications.
