@@ -33,6 +33,7 @@ Build a stronger foundation in programming, databases, source control, and web d
 - [[CSS Codex|CSS]]
 - [[Java Codex|Java]]
 - [[Python Codex|Python]]
+- [[C++ Codex|C++]]
 
 ### 📊 Data & Visualization
 Explore data modeling, analytics, DAX, Power Query, and effective visualization.

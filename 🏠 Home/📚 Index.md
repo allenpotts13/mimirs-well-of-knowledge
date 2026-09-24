@@ -14,6 +14,7 @@ permalink: home/index
 - [[CSS Codex]] — box model, layout, responsive design, conventions
 - [[HTML Codex]] — document structure, semantics, forms, accessibility
 - [[Java Codex]] — language fundamentals, OOP, Collections Framework, generics, modern Java, JVM internals, concurrency
+- [[C++ Codex]] — pointers, manual memory management, the compilation model, RAII, smart pointers, templates, the STL
 - [[Python Codex]] — language fundamentals, OOP, Pythonic idioms, error handling, modules, standard library essentials
 
 ## Data Visualization
@@ -56,6 +57,7 @@ permalink: home/index
 - [[PowerShell Cheat Sheet]]
 - [[Java Cheat Sheet]]
 - [[Python Cheat Sheet]]
+- [[C++ Cheat Sheet]]
 - [[Power BI Cheat Sheet]]
 - [[AZ-900 Cheat Sheet]]
 - [[DP-900 Cheat Sheet]]
